@@ -1,10 +1,10 @@
 # Norsk Data Software Archive
 
-[![CI](https://github.com/HackerCorpLabs/norskdata-software-archive/actions/workflows/validate.yml/badge.svg)](https://github.com/HackerCorpLabs/norskdata-software-archive/actions/workflows/validate.yml)
+[![CI](https://github.com/RetroCoreLabs/norskdata-software-archive/actions/workflows/validate.yml/badge.svg)](https://github.com/RetroCoreLabs/norskdata-software-archive/actions/workflows/validate.yml)
 
 A preservation project for software from [Norsk Data](https://en.wikipedia.org/wiki/Norsk_Data), a Norwegian minicomputer manufacturer (1967--1998). This archive catalogs and preserves floppy disk images, with full NDFS filesystem metadata, from the NORD and ND series of minicomputers.
 
-**Live site**: [labs.hackercorp.no/norskdata-software-archive](http://labs.hackercorp.no/norskdata-software-archive/)
+**Live site**: [retrocorelabs.github.io/norskdata-software-archive](https://retrocorelabs.github.io/norskdata-software-archive/)
 
 ## What this is
 
@@ -12,7 +12,7 @@ A preservation project for software from [Norsk Data](https://en.wikipedia.org/w
 - A searchable web catalog with NDFS filesystem browsing, BPUN checksum validation, and label photo viewing
 - Import tools for adding new disk images with automatic product matching
 - Readers for the other formats these disks turn out to hold: MS-DOS (FAT12/16), SINTRAN BACKUP-SYSTEM volumes, WINCH-TO-FLOPP directory backups and tar
-- An MCP server for LLM integration with the [nd100x emulator](https://github.com/HackerCorpLabs/nd100x)
+- An MCP server for LLM integration with the [nd100x emulator](https://github.com/RetroCoreLabs/nd100x)
 
 ## Architecture
 
@@ -29,7 +29,7 @@ GitHub repo (this)              Internet Archive
 
 - **YAML per floppy is the source of truth.** Each `.img.gz` has a `.yaml` file next to it with all metadata. `catalog/floppies.json`, `catalog/products.json`, `catalog/index.json` and `site/` are all **generated** from the YAML -- never edited by hand. `site/` is gitignored (CI rebuilds it on every push).
 - **Content-addressed storage.** Each image lives in `images/{md5}/` -- the folder is named by the full MD5 hash of the raw image. Folders never change, even when metadata is updated.
-- **NDFS parsing.** Every image is parsed using the [norskdata-ndfs](https://github.com/HackerCorpLabs/norskdata-ndfs) library to extract volume name, boot format, user listings, and file listings.
+- **NDFS parsing.** Every image is parsed using the [norskdata-ndfs](https://github.com/RetroCoreLabs/norskdata-ndfs) library to extract volume name, boot format, user listings, and file listings.
 - **Floppy images in git.** Images <=1.3 MB are stored compressed in the repo. Larger artifacts (HDD images, tapes) go to Internet Archive.
 
 ---
@@ -102,7 +102,7 @@ cJSON *files = ndfs ? cJSON_GetObjectItem(ndfs, "files") : NULL;     /* nested *
 ## Quick Start
 
 ```bash
-git clone https://github.com/HackerCorpLabs/norskdata-software-archive.git
+git clone https://github.com/RetroCoreLabs/norskdata-software-archive.git
 cd norskdata-software-archive
 make setup
 make import
@@ -392,7 +392,7 @@ It is **read-only**: it never imports, edits, or commits anything. Use the web U
 
 - **Discovery** -- "Find all floppies that contain a file named `SINTRAN`", "list every disk for product ND-210337", "which products have the most images?"
 - **Inspection without downloading** -- read a floppy's NDFS file listing, boot format, volume name, contributor, and BPUN validation status straight from the catalog.
-- **Locating the actual image** -- get the local path or Internet Archive URL so it (or you) can fetch the `.img.gz` for use with an emulator such as [nd100x](https://github.com/HackerCorpLabs/nd100x).
+- **Locating the actual image** -- get the local path or Internet Archive URL so it (or you) can fetch the `.img.gz` for use with an emulator such as [nd100x](https://github.com/RetroCoreLabs/nd100x).
 - **Research questions over the whole archive** -- cross-reference products, versions, languages, and file contents that would be tedious to grep by hand.
 
 It is **not** for adding or modifying images -- there are no write tools. Importing and product mapping stay in the web UI.
@@ -540,11 +540,11 @@ site/                       GitHub Pages static site (generated, gitignored)
 
 | Project | Description |
 |---------|-------------|
-| [norskdata-docs-archive](https://github.com/HackerCorpLabs/norskdata-docs-archive) | ND documentation preservation (PDFs, manuals, OCR text) |
-| [NDInsight](https://github.com/HackerCorpLabs/NDInsight) | Curated research: OS install guides, hardware analysis, numbering reference |
-| [norskdata-ndfs](https://github.com/HackerCorpLabs/norskdata-ndfs) | NDFS filesystem library (TypeScript, Python, C) |
-| [nd100x](https://github.com/HackerCorpLabs/nd100x) | ND-100 minicomputer emulator |
-| [nd-120](https://github.com/HackerCorpLabs/nd-120) | ND-120 CPU FPGA recreation |
+| [norskdata-docs-archive](https://github.com/RetroCoreLabs/norskdata-docs-archive) | ND documentation preservation (PDFs, manuals, OCR text) |
+| [NDInsight](https://github.com/RetroCoreLabs/NDInsight) | Curated research: OS install guides, hardware analysis, numbering reference |
+| [norskdata-ndfs](https://github.com/RetroCoreLabs/norskdata-ndfs) | NDFS filesystem library (TypeScript, Python, C) |
+| [nd100x](https://github.com/RetroCoreLabs/nd100x) | ND-100 minicomputer emulator |
+| [nd-120](https://github.com/RetroCoreLabs/nd-120) | ND-120 CPU FPGA recreation |
 
 ## Further Documentation
 
