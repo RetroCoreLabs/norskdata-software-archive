@@ -212,7 +212,7 @@ ndfs:
     - name: COMPLETE-CHESS:SYMB
       type: SYMB
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: DEMO
       dateCreated: 1987923029
       lastDateRead: 2532378397

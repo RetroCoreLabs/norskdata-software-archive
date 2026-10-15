@@ -17,7 +17,7 @@ ndfs:
     - name: KJG:SYMB
       type: SYMB
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: BALDER
       dateCreated: 2151985759
       lastDateRead: 2151985764
@@ -41,7 +41,7 @@ ndfs:
     - name: STEPPE-T1A:SYMB
       type: SYMB
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: BALDER
       dateCreated: 2151985772
       lastDateRead: 2151985772

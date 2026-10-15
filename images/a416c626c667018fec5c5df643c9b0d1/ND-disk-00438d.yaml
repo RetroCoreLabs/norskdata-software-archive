@@ -41,7 +41,7 @@ ndfs:
     - name: MOMSBER-HD:BRF
       type: BRF
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: BYGG
       dateCreated: 2151983639
       lastDateRead: 2152637224
@@ -317,7 +317,7 @@ ndfs:
     - name: MULTTAB-LY:SYMB
       type: SYMB
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: BYGG
       dateCreated: 2151983799
       lastDateRead: 2152637358
@@ -329,7 +329,7 @@ ndfs:
     - name: MULTTAB:BRF
       type: BRF
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: BYGG
       dateCreated: 2151983802
       lastDateRead: 2152637362

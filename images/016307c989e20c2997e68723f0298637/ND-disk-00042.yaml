@@ -94,7 +94,7 @@ ndfs:
     - name: LINKAGE-LOAD-H02:LINK
       type: LINK
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2563185933
       lastDateRead: 2563306170

@@ -30,7 +30,7 @@ ndfs:
     - name: PED:PROG
       type: PROG
       pages: 29
-      bytes: 4294967296
+      bytes: 0
       userName: SYSTEM
       dateCreated: 2493172411
       lastDateRead: 2782480676

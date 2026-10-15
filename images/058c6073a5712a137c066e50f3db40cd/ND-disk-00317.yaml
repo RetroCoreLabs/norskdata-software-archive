@@ -77,7 +77,7 @@ ndfs:
     - name: DELFI-MANUAL:SYMB
       type: SYMB
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: SYSTEM
       dateCreated: 2465792337
       lastDateRead: null

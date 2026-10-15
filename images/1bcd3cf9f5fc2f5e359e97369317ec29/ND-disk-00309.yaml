@@ -65,7 +65,7 @@ ndfs:
     - name: SLAEKT-FORSKNING:PERS
       type: PERS
       pages: 10
-      bytes: 4294967296
+      bytes: 0
       userName: SYSTEM
       dateCreated: 2192122980
       lastDateRead: 2515221775

@@ -34,7 +34,7 @@ ndfs:
     - name: SCRATCH-SEG-01:LINK
       type: LINK
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2587139556
       lastDateRead: 2587139557
@@ -70,7 +70,7 @@ ndfs:
     - name: LED-B03:LINK
       type: LINK
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2587139576
       lastDateRead: 2650994855

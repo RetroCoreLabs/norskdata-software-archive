@@ -89,7 +89,7 @@ ndfs:
     - name: RUMFIL-5-LU:DATA
       type: DATA
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: LEGEND
       dateCreated: 2441409567
       lastDateRead: 2502737315
@@ -101,7 +101,7 @@ ndfs:
     - name: RUMFIL-6-LU:DATA
       type: DATA
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: LEGEND
       dateCreated: 2441409575
       lastDateRead: 2456633544
@@ -113,7 +113,7 @@ ndfs:
     - name: RUMFIL-7-LU:DATA
       type: DATA
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: LEGEND
       dateCreated: 2441409579
       lastDateRead: 2456633545

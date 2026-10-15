@@ -17,7 +17,7 @@ ndfs:
     - name: INFO-GAMES:TEXT
       type: TEXT
       pages: 17
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2317126970
       lastDateRead: 3033224048

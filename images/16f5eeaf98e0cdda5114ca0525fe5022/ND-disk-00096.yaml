@@ -34,7 +34,7 @@ ndfs:
     - name: SCRATCH-SEG-01:LINK
       type: LINK
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2507471064
       lastDateRead: 2507471066
