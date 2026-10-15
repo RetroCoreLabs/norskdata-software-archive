@@ -29,7 +29,7 @@ ndfs:
     - name: TVADIM-LO:BRF
       type: BRF
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2389100327
       lastDateRead: null

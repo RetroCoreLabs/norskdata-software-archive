@@ -17,7 +17,7 @@ ndfs:
     - name: FEL-SIDA:BYT
       type: BYT
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: DNF
       dateCreated: 2386754907
       lastDateRead: 2623074036

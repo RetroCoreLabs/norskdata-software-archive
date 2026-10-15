@@ -166,7 +166,7 @@ ndfs:
     - name: SEGMENT-35:SEGM
       type: SEGM
       pages: 32
-      bytes: 4294967296
+      bytes: 0
       userName: SYSTEM
       dateCreated: 2385158959
       lastDateRead: null
@@ -310,7 +310,7 @@ ndfs:
     - name: FLOPPY-1
       type: ""
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: SYSTEM
       dateCreated: 2385159009
       lastDateRead: null
@@ -322,7 +322,7 @@ ndfs:
     - name: TERMINAL
       type: ""
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: SYSTEM
       dateCreated: 2385159011
       lastDateRead: null
@@ -334,7 +334,7 @@ ndfs:
     - name: SCRATCH01:DATA
       type: DATA
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: SCRATCH
       dateCreated: 2385159015
       lastDateRead: 2385157709

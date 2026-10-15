@@ -173,7 +173,7 @@ ndfs:
     - name: ERROR-PAGE:DATA
       type: DATA
       pages: 1
-      bytes: 4294967296
+      bytes: 0
       userName: SYSTEM
       dateCreated: 2045961408
       lastDateRead: 2394107370

@@ -166,7 +166,7 @@ ndfs:
     - name: ADA-LILO-A00:PSEG
       type: PSEG
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2373908304
       lastDateRead: 2375608882
@@ -178,7 +178,7 @@ ndfs:
     - name: ADA-LILO-A00:DSEG
       type: DSEG
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2373908305
       lastDateRead: 2375608883
@@ -190,7 +190,7 @@ ndfs:
     - name: ADA-LILO-A00:LINK
       type: LINK
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2373908306
       lastDateRead: 2375608883

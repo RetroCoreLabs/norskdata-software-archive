@@ -355,7 +355,7 @@ ndfs:
     - name: 0-CRUNCHER:SYMB
       type: SYMB
       pages: 5
-      bytes: 4294967296
+      bytes: 0
       userName: HULTEN
       dateCreated: 2564878452
       lastDateRead: 2865710073

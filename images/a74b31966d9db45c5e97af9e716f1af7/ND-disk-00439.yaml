@@ -161,7 +161,7 @@ ndfs:
     - name: SETUSER:PROG
       type: PROG
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: SYSTEM
       dateCreated: 2527248738
       lastDateRead: 2838763411

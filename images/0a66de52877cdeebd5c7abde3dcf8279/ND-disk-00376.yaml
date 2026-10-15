@@ -317,7 +317,7 @@ ndfs:
     - name: OB1-SLASK-FL:DATA
       type: DATA
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: LAW
       dateCreated: 2326072542
       lastDateRead: null

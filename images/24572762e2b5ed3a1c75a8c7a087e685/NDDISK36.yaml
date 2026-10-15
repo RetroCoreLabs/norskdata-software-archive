@@ -42,7 +42,7 @@ ndfs:
     - name: DIRECTORY:TEST
       type: TEST
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2292781639
       lastDateRead: 2281702699

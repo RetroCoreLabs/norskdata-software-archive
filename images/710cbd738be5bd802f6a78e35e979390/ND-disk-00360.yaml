@@ -127,7 +127,7 @@ ndfs:
     - name: REPORT-ERROR-PA:DATA
       type: DATA
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: DNF
       dateCreated: 2507589251
       lastDateRead: null
@@ -187,7 +187,7 @@ ndfs:
     - name: MEDLEMMAR-PBL:DATA
       type: DATA
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: STYRELSE-DNF
       dateCreated: 2624904077
       lastDateRead: null

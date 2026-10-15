@@ -322,7 +322,7 @@ ndfs:
     - name: AVD-SELGER-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462359
       lastDateRead: null
@@ -334,7 +334,7 @@ ndfs:
     - name: AVDELINGER-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462360
       lastDateRead: null
@@ -346,7 +346,7 @@ ndfs:
     - name: CONCEPTMENY-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462360
       lastDateRead: null
@@ -358,7 +358,7 @@ ndfs:
     - name: DEF-BRUKER-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462360
       lastDateRead: null
@@ -370,7 +370,7 @@ ndfs:
     - name: KUNDER-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462361
       lastDateRead: null
@@ -382,7 +382,7 @@ ndfs:
     - name: LONNTABELL-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462361
       lastDateRead: null
@@ -394,7 +394,7 @@ ndfs:
     - name: LOPENR-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462363
       lastDateRead: null
@@ -406,7 +406,7 @@ ndfs:
     - name: PRODUKT-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462363
       lastDateRead: null
@@ -430,7 +430,7 @@ ndfs:
     - name: SELGER-KUND-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462364
       lastDateRead: null
@@ -442,7 +442,7 @@ ndfs:
     - name: SELGERE-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510745325
       lastDateRead: null
@@ -454,7 +454,7 @@ ndfs:
     - name: UNIQUE-II-S-C-NO:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462365
       lastDateRead: null
@@ -466,7 +466,7 @@ ndfs:
     - name: ZOOM-AVD-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462366
       lastDateRead: null
@@ -478,7 +478,7 @@ ndfs:
     - name: ZOOM-KUNDE-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462366
       lastDateRead: null
@@ -490,7 +490,7 @@ ndfs:
     - name: ZOOM-LONN-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462366
       lastDateRead: null
@@ -502,7 +502,7 @@ ndfs:
     - name: ZOOM-PROD-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2510462367
       lastDateRead: null
@@ -526,7 +526,7 @@ ndfs:
     - name: SALG-NO-C:UCOM
       type: UCOM
       pages: 0
-      bytes: 4294967296
+      bytes: 0
       userName: FLOPPY-USER
       dateCreated: 2513744620
       lastDateRead: 2521090934
