@@ -4,6 +4,14 @@
 
 ### Primary: Internet Archive
 
+> **Status 15-OCT-2026: not started.** Nothing has been uploaded to Internet
+> Archive. Every image lives in git under `images/{md5}/`. The `ia-sync`,
+> `ia-verify` and `ia-upload` commands are stubs that print a message and do
+> nothing, `catalog/SHA256SUMS.txt` is empty, and the IA Verify GitHub Action
+> runs only when started by hand. Planning of the IA layout and sync starts
+> when the collection is complete. The text below describes the intended
+> design, not the current state.
+
 All binary artifacts (floppy images, HDD images, ROMs, tapes, firmware) are stored on the [Internet Archive](https://archive.org/).
 
 - IA mirrors data across multiple data centers

@@ -35,7 +35,7 @@ cd tools && npm run watch      # tsc --watch
 cd tools && node dist/cli.js <subcommand>   # run any CLI command directly
 ```
 
-There is **no test suite and no linter** — `make check` (the `check` CLI subcommand) is the validation gate. CI enforces it: `.github/workflows/validate.yml` builds the NDFS submodule, builds the tools, and runs `make check` on every push and PR to `main`. `.github/workflows/pages.yml` regenerates `site/` from source and deploys it; `.github/workflows/ia-verify.yml` checks Internet Archive checksums. CLI subcommands: `import`, `import-folder`, `search`, `check`, `check-deps`, `identify` (alias `detect`), `ia-sync`/`ia-verify`/`ia-upload`, `build-static-site`, `rebuild-catalog`, `migrate-products`, `extract-legacy`, `mcp`.
+There is **no test suite and no linter** — `make check` (the `check` CLI subcommand) is the validation gate. CI enforces it: `.github/workflows/validate.yml` builds the NDFS submodule, builds the tools, and runs `make check` on every push and PR to `main`. `.github/workflows/pages.yml` regenerates `site/` from source and deploys it; `.github/workflows/ia-verify.yml` is manual-only and disabled in practice: nothing is on Internet Archive yet and the `ia-verify` command is a stub (see `BACKUP.md`). CLI subcommands: `import`, `import-folder`, `search`, `check`, `check-deps`, `identify` (alias `detect`), `ia-sync`/`ia-verify`/`ia-upload`, `build-static-site`, `rebuild-catalog`, `migrate-products`, `extract-legacy`, `mcp`.
 
 Two proof scripts under `tools/scripts/` are the closest thing to tests, and they assert the "one persist path" rule below:
 

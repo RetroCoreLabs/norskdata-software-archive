@@ -260,8 +260,9 @@ server.tool(
       result.localPath = join(root, entry.storage.git.imagePath);
     }
 
-    // Internet Archive URL
-    if (entry.storage?.internetArchive?.itemId) {
+    // Internet Archive URL - only once the item has really been uploaded;
+    // every entry carries a generated itemId long before any upload happens.
+    if (entry.storage?.internetArchive?.itemId && entry.storage.internetArchive.syncStatus === 'uploaded') {
       const itemId = entry.storage.internetArchive.itemId;
       result.iaUrl = `https://archive.org/details/${itemId}`;
     }

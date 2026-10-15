@@ -1,8 +1,10 @@
 name: IA Verify
 
+# Manual only. The weekly schedule was removed on 15-OCT-2026: nothing has been
+# uploaded to Internet Archive yet and the ia-verify CLI command is a stub, so a
+# scheduled run has nothing to check. Put the schedule back when the IA sync is
+# planned and implemented.
 on:
-  schedule:
-    - cron: '0 0 * * 0'  # Every Sunday at 00:00 UTC
   workflow_dispatch:       # Allow manual trigger
 
 jobs:

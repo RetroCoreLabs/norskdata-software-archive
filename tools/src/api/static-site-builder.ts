@@ -2823,7 +2823,7 @@ function getAppJS(): string {
         if (e.storageClass === 'floppy-in-git') {
           html += '<dt>Stored in</dt><dd><code class="nd-copyable">Repository (compressed)</code></dd>';
         }
-        if (e.storage.internetArchive && e.storage.internetArchive.itemId) {
+        if (e.storage.internetArchive && e.storage.internetArchive.itemId && e.storage.internetArchive.syncStatus === 'uploaded') {
           html += '<dt>Internet Archive</dt><dd><a href="https://archive.org/details/' + esc(e.storage.internetArchive.itemId) + '" target="_blank" rel="noopener"><code class="nd-copyable">' + esc(e.storage.internetArchive.itemId) + '</code></a></dd>';
         }
         html += '</dl>';
