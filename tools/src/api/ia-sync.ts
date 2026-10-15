@@ -51,7 +51,7 @@ export function markSynced(catalog: Catalog, id: string): boolean {
   if (!entry) return false;
 
   if (!entry.storage) {
-    entry.storage = { internetArchive: null, legacyAzure: null };
+    entry.storage = { internetArchive: null };
   }
 
   if (!entry.storage.internetArchive) {
@@ -127,7 +127,6 @@ export async function syncToIa(
     if (entry.storage?.git?.imagePath) {
       console.log(`  Git path:     ${entry.storage.git.imagePath}`);
     }
-    console.log(`  Source:       ${entry.storage?.legacyAzure ?? '(no source URL)'}`);
     return;
   }
 

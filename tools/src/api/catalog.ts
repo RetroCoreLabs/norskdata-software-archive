@@ -259,9 +259,6 @@ function entryToYamlDoc(entry: CatalogEntry, rootDir: string): Record<string, un
   if (entry.storage?.internetArchive) {
     doc.internetArchive = entry.storage.internetArchive;
   }
-  if (entry.storage?.legacyAzure) {
-    doc.legacyAzure = entry.storage.legacyAzure;
-  }
 
   return doc;
 }
@@ -352,7 +349,6 @@ function yamlDocToEntry(doc: Record<string, unknown>, yamlRelPath: string, rootD
         itemId: String(ia.itemId ?? ''),
         syncStatus: ia.syncStatus as any ?? 'pending',
       } : { itemId: `norskdata-floppy-${doc.id}`, syncStatus: 'pending' },
-      legacyAzure: doc.legacyAzure as string | null ?? null,
     },
     variants: null,
     fluxPreservation: null,
@@ -560,9 +556,8 @@ export async function loadCatalog(rootDir: string): Promise<Catalog> {
  * photos, IA status) and can persist a stale/partial catalog -- this was the
  * source of an entire class of "I edited it but it reverted" bugs.
  *
- * It survives ONLY for the one-off legacy migration scripts (migrate.ts,
- * merge-legacy.ts) which build the very first catalog from legacy input before
- * any per-floppy YAML exists. Nothing else may call it.
+ * The one-off legacy migration scripts that needed it have been removed.
+ * Nothing may call it.
  */
 export async function saveCatalog(rootDir: string, catalog: Catalog): Promise<void> {
   const filePath = join(rootDir, FLOPPIES_FILE);

@@ -1,5 +1,5 @@
 {
-  "name": "@hackercorplabs/norskdata-software-tools",
+  "name": "@retrocorelabs/norskdata-software-tools",
   "version": "0.1.0",
   "description": "Import, catalog, and sync tools for the Norsk Data Software Archive",
   "type": "module",

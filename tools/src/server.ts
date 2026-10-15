@@ -2906,7 +2906,7 @@ app.post('/api/catalog-entry/upload', upload.single('file'), async (req, res) =>
     const relPath = destPath.substring(ROOT_DIR.length + 1); // relative to ROOT_DIR
 
     if (!entry.storage) {
-      entry.storage = { git: null, internetArchive: null, legacyAzure: null };
+      entry.storage = { git: null, internetArchive: null };
     }
     if (!entry.storage.git) {
       entry.storage.git = { imagePath: '', yamlPath: '', diskPhotos: [], setPhotos: [], imagingLogs: [] };

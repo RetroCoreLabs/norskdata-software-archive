@@ -99,7 +99,6 @@ export interface StorageInfo {
     verified?: string | null;
     syncStatus?: IaSyncStatus;
   } | null;
-  legacyAzure: string | null;
 }
 
 /** Storage class for an entry */

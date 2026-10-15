@@ -30,7 +30,7 @@ If you have contributor access:
 
 ```bash
 # Clone and setup
-git clone https://github.com/HackerCorpLabs/norskdata-software-archive.git
+git clone https://github.com/RetroCoreLabs/norskdata-software-archive.git
 cd norskdata-software-archive
 
 # Start the web UI (primary import + product mapping) at http://localhost:3000
@@ -72,7 +72,7 @@ make import-file FILE=/path/to/disk.img CONTRIBUTOR="Your Name" SOURCE="descript
 When you run `make import`, the tool:
 
 1. Reads the image file and computes MD5 + SHA256 checksums
-2. Parses the NDFS filesystem using [norskdata-ndfs](https://github.com/HackerCorpLabs/norskdata-ndfs):
+2. Parses the NDFS filesystem using [norskdata-ndfs](https://github.com/RetroCoreLabs/norskdata-ndfs):
    - Extracts volume name, boot format, user listings, file listings
 3. Matches the volume name against known ND product number patterns
 4. Checks for duplicates against the existing catalog (1010+ entries)

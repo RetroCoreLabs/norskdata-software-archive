@@ -10,8 +10,6 @@ import { basename } from 'path';
 import { resolve } from 'path';
 import { printDepCheck } from './api/check-deps.js';
 import { loadCatalog, findByMd5, findByVolumeName, generateCatalogJson, loadProducts, saveProductYaml, saveFloppyYaml, consolidateGroupPhotos } from './api/catalog.js';
-import { runMigration } from './migrate.js';
-import { runMergeLegacy } from './merge-legacy.js';
 import { getUnsyncedEntries, getSyncStatusSummary, syncToIa, detectChanges } from './api/ia-sync.js';
 import { runImportFile, runImportFolder } from './api/import-runner.js';
 import { writeIndex } from './api/index-builder.js';
@@ -32,38 +30,6 @@ program
   .name('ndfloppy-cli')
   .description('Import, catalog, and sync tools for the Norsk Data Software Archive')
   .version('0.2.0');
-
-// --- migrate ---
-program
-  .command('migrate')
-  .description('Migrate legacy ndfloppy floppies.json to new catalog format')
-  .requiredOption('--source <path>', 'Path to legacy floppies.json')
-  .action(async (options: { source: string }) => {
-    const rootDir = getRepoRoot();
-    const sourcePath = resolve(options.source);
-    try {
-      await runMigration(sourcePath, rootDir);
-    } catch (err) {
-      console.error('Migration failed:', err);
-      process.exit(1);
-    }
-  });
-
-// --- merge-legacy ---
-program
-  .command('merge-legacy')
-  .description('Merge legacy ndfloppy entries into existing catalog (dedup by MD5)')
-  .requiredOption('--source <path>', 'Path to legacy floppies.json')
-  .action(async (options: { source: string }) => {
-    const rootDir = getRepoRoot();
-    const sourcePath = resolve(options.source);
-    try {
-      await runMergeLegacy(sourcePath, rootDir);
-    } catch (err) {
-      console.error('Merge failed:', err);
-      process.exit(1);
-    }
-  });
 
 // --- import ---
 program

@@ -266,11 +266,6 @@ server.tool(
       result.iaUrl = `https://archive.org/details/${itemId}`;
     }
 
-    // Legacy Azure URL as fallback
-    if (!result.localPath && !result.iaUrl && entry.storage?.legacyAzure) {
-      result.iaUrl = entry.storage.legacyAzure;
-    }
-
     return {
       content: [{
         type: 'text' as const,

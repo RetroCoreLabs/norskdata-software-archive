@@ -84,7 +84,7 @@ Detection runs at import and is re-runnable afterwards: `POST /api/detect-filesy
 - `api/product-matcher.ts` / `api/name-parser.ts` — ND volume-name → product/version/disk/language matching.
 - `api/ia-sync.ts` — Internet Archive sync (large artifacts go to IA; floppies ≤1.3 MB stay in git).
 - `mcp/server.ts` — read-only MCP server (stdio) exposing the catalog to LLMs; see below.
-- `migrate*.ts`, `extract-legacy.ts`, `merge-legacy.ts` — one-off data migration scripts; not part of normal flow.
+- `migrate*.ts`, `extract-legacy.ts` — one-off data migration scripts; not part of normal flow.
 - `api/filesystem-detect.ts` — what a raw image holds; `api/identify.ts` — the summary the `identify` CLI prints.
 - `lib/readgroups/` — groups the images of one physical floppy (`ND-disk-00426b` is the second attempt at 426) and grades each read; behind the importer's `#/reads` page, `/api/read-groups`, and the read list on both disk pages. Deleting reads is importer-only: `/api/catalog-entry` with `dryRun=1` first, and the public catalog never offers it.
 - `lib/dosfs/` — FAT12/16 reader; `lib/ndbackup/` — BACKUP-SYSTEM and WINCH-TO-FLOPP readers; `lib/backupsets/` — groups the volumes of a backup set; `lib/ndfsalign/` — pads an image up to a whole NDFS page before parsing; `lib/ndfsrecover/` — reads a floppy whose master block is damaged. All are dependency-free and browser-safe, so they can be bundled for the static site the way the NDFS parser is.

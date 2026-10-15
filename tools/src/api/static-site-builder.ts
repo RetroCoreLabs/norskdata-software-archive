@@ -339,7 +339,7 @@ ${getThemeCSS()}
 
 <footer class="nd-footer">
   Norsk Data Software Archive &mdash; read-only catalog &mdash;
-  <a href="https://github.com/HackerCorpLabs/norskdata-software-archive">GitHub</a>
+  <a href="https://github.com/RetroCoreLabs/norskdata-software-archive">GitHub</a>
 </footer>
 
 <div id="nd-modal" class="nd-modal-overlay" style="display:none">
@@ -456,7 +456,7 @@ code, pre { font-family: 'Consolas', 'Courier New', monospace; }
   letter-spacing: 0.02em;
 }
 
-/* ND's own logo, as used on ndlib.hackercorp.no. Black artwork on a
+/* ND's own logo. Black artwork on a
    transparent ground, so it is inverted on the dark theme. */
 .nd-logo-img {
   height: 26px;
@@ -1400,7 +1400,7 @@ function getAppJS(): string {
   return `(function() {
   'use strict';
 
-  var REPO_RAW_BASE = 'https://raw.githubusercontent.com/HackerCorpLabs/norskdata-software-archive/main/';
+  var REPO_RAW_BASE = 'https://raw.githubusercontent.com/RetroCoreLabs/norskdata-software-archive/main/';
 
   // ── Helpers ──────────────────────────────────────────────────
   function esc(s) {
@@ -2336,9 +2336,9 @@ function getAppJS(): string {
       '<div class="nd-card" style="margin-bottom:1rem">' +
         '<h3>Links</h3>' +
         '<ul style="line-height:2">' +
-          '<li><a href="https://github.com/HackerCorpLabs/norskdata-software-archive" target="_blank" rel="noopener">Source code on GitHub</a></li>' +
-          '<li><a href="https://github.com/HackerCorpLabs/norskdata-software-archive/issues" target="_blank" rel="noopener">Report issues or contribute</a></li>' +
-          '<li><a href="https://github.com/HackerCorpLabs" target="_blank" rel="noopener">HackerCorpLabs on GitHub</a></li>' +
+          '<li><a href="https://github.com/RetroCoreLabs/norskdata-software-archive" target="_blank" rel="noopener">Source code on GitHub</a></li>' +
+          '<li><a href="https://github.com/RetroCoreLabs/norskdata-software-archive/issues" target="_blank" rel="noopener">Report issues or contribute</a></li>' +
+          '<li><a href="https://github.com/RetroCoreLabs" target="_blank" rel="noopener">RetroCoreLabs on GitHub</a></li>' +
         '</ul>' +
       '</div>' +
 

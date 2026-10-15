@@ -663,7 +663,6 @@ export async function importImage(
         imagingLogs: gitImagingLogs,
       } : null,
       internetArchive: { itemId: `norskdata-floppy-${id}`, syncStatus: 'pending' },
-      legacyAzure: null,
     },
     variants: null,
     fluxPreservation: null,

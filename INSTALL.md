@@ -41,7 +41,7 @@ IA features (upload, download, verify) require internet access. The tools detect
 
 ```bash
 # Clone the repository
-git clone https://github.com/HackerCorpLabs/norskdata-software-archive.git
+git clone https://github.com/RetroCoreLabs/norskdata-software-archive.git
 cd norskdata-software-archive
 
 # Verify prerequisites
