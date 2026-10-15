@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/HackerCorpLabs/norskdata-software-archive/catalog/schema/floppy.schema.json",
+  "$id": "https://github.com/RetroCoreLabs/norskdata-software-archive/catalog/schema/floppy.schema.json",
   "title": "Norsk Data Floppy Catalog Entry",
   "description": "Schema v1.0 for entries in catalog/floppies.json",
   "type": "object",
@@ -363,12 +363,6 @@
               "description": "Sync status with Internet Archive"
             }
           }
-        },
-        "legacyAzure": {
-          "type": [
-            "string",
-            "null"
-          ]
         }
       }
     },

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/HackerCorpLabs/norskdata-software-archive/catalog/schema/product.schema.json",
+  "$id": "https://github.com/RetroCoreLabs/norskdata-software-archive/catalog/schema/product.schema.json",
   "title": "Norsk Data Product Entry",
   "description": "Schema for entries in catalog/products.json",
   "type": "object",

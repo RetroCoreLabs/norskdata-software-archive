@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/HackerCorpLabs/norskdata-software-archive/catalog/schema/release.schema.json",
+  "$id": "https://github.com/RetroCoreLabs/norskdata-software-archive/catalog/schema/release.schema.json",
   "title": "Norsk Data Release Catalog",
   "description": "Schema for catalog/releases.json -- cross-repo release links for ND Software Library 4-part packages",
   "type": "object",
