@@ -558,3 +558,7 @@ site/                       GitHub Pages static site (generated, gitignored)
 
 This is a historical preservation project. Original software is copyright Norsk Data A/S.
 Catalog metadata and tooling are provided for research and preservation purposes.
+
+Norsk Data no longer operates, and I do not know who holds the rights to its software today.
+The software is kept so it is not lost; this repository does not relicense it. If you hold the
+rights and want something removed, open an issue in this repository and it will be taken down.
