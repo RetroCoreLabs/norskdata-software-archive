@@ -330,6 +330,10 @@ ${getThemeCSS()}
       <span class="nd-nav-label">About</span>
     </a>
   </nav>
+  <div class="nd-ext-links">
+    <a class="nd-ext-link nd-ext-org" href="https://retrocorelabs.github.io/" title="RetroCore Labs" aria-label="RetroCore Labs"><img src="data:image/png;base64,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" alt="" width="26" height="26"></a>
+    <a class="nd-ext-link" href="https://github.com/RetroCoreLabs/norskdata-software-archive" title="GitHub" aria-label="GitHub"><svg viewBox="0 0 16 16" width="22" height="22" aria-hidden="true" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a>
+  </div>
   <button class="nd-theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme"></button>
 </header>
 
@@ -527,6 +531,25 @@ html[data-theme="light"] .nd-logo-img { filter: none; }
   color: var(--text);
   border-color: var(--text-muted);
 }
+
+/* Links to the RetroCore Labs front page (the organisation picture) and to this repository,
+   at the right of the header next to the theme switch. The picture is a dark square, so it gets
+   a light backing on the dark theme. */
+.nd-ext-links {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-shrink: 0;
+}
+.nd-ext-link {
+  display: flex;
+  align-items: center;
+  color: var(--text-muted);
+  line-height: 1;
+}
+.nd-ext-link:hover { color: var(--text); }
+.nd-ext-org img { display: block; border-radius: 4px; }
+:root:not([data-theme="light"]) .nd-ext-org img { background: #e7eaf0; padding: 2px; box-sizing: content-box; }
 
 .nd-main {
   flex: 1;
@@ -1375,6 +1398,9 @@ html[data-theme="light"] .nd-logo-img { filter: none; }
   .nd-table { font-size: 0.8rem; }
   .nd-table th, .nd-table td { padding: 0.3rem 0.4rem; }
   .nd-header { gap: 0.75rem; padding: 0 0.75rem; }
+  /* The header carries the two extra links now; below this width the ND logo alone stands for the title. */
+  .nd-logo span { display: none; }
+  .nd-ext-links { gap: 0.4rem; }
   .ndfs-viewer-layout { flex-direction: column; }
   .ndfs-user-panel { width: 100%; border-right: none; border-bottom: 1px solid var(--border); }
 }
