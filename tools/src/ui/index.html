@@ -4250,7 +4250,9 @@ tr.ndfs-file-selected,
             });
           }
 
+          var curRelated = (currentProd && currentProd.related) ? currentProd.related : [];
           editHtml += '</div>' +
+              '<input class="nd-input nd-prod-edit-related" value="' + esc(curRelated.join(', ')) + '" style="font-size:0.85rem" placeholder="Related product ids, comma separated (e.g. ND-211024, ND-211291)">' +
               '<div style="display:flex;gap:0.5rem;align-items:center">' +
                 '<button class="nd-btn nd-btn-primary nd-btn-sm nd-prod-save-btn">Save</button>' +
                 '<button class="nd-btn nd-btn-ghost nd-btn-sm nd-prod-cancel-btn">Cancel</button>' +
@@ -4274,14 +4276,15 @@ tr.ndfs-file-selected,
             row.querySelectorAll('.nd-prod-cat-cb:checked').forEach(function(cb) { newCats.push(cb.value); });
             var newPlatform = [];
             row.querySelectorAll('.nd-prod-plat-cb:checked').forEach(function(cb) { newPlatform.push(cb.value); });
+            var newRelated = row.querySelector('.nd-prod-edit-related').value.split(',').map(function(x) { return x.trim(); }).filter(Boolean);
             fetch('/api/products', {
               method: 'PATCH',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ id: pid, name: newName, description: newDesc || null, categories: newCats, platform: newPlatform })
+              body: JSON.stringify({ id: pid, name: newName, description: newDesc || null, categories: newCats, platform: newPlatform, related: newRelated })
             }).then(function(r) { return r.json(); }).then(function(data) {
               if (data.success) {
                 var p = productsCache.find(function(x) { return x.productId === pid; });
-                if (p) { p.name = newName; p.description = newDesc; p.categories = newCats; p.platform = newPlatform; }
+                if (p) { p.name = newName; p.description = newDesc; p.categories = newCats; p.platform = newPlatform; p.related = newRelated; }
                 renderProductsTable(productsCache, document.getElementById('prod-search').value.trim().toLowerCase());
               }
             });
@@ -4487,6 +4490,16 @@ tr.ndfs-file-selected,
         siblingInfo = '<span class="nd-text-muted" style="font-size:0.85rem">also <a href="#/products/' + esc(data.siblingId) + '"><code>' + esc(data.siblingId) + '</code></a></span>';
       }
 
+      var relatedInfo = '';
+      var relIds = [];
+      (data.related || []).concat(data.relatedBy || []).forEach(function(rid) { if (relIds.indexOf(rid) < 0 && rid !== data.productId) relIds.push(rid); });
+      if (relIds.length > 0) {
+        relatedInfo = '<span class="nd-text-muted" style="font-size:0.85rem">related: ' + relIds.sort().map(function(rid) {
+          var rn = (data.relatedNames && data.relatedNames[rid]) ? ' ' + esc(data.relatedNames[rid]) : '';
+          return '<a href="#/products/' + esc(rid) + '"><code>' + esc(rid) + '</code></a>' + rn;
+        }).join(', ') + '</span>';
+      }
+
       var catChips = '';
       if (data.categories && data.categories.length > 0) {
         data.categories.forEach(function(catId) {
@@ -4510,6 +4523,7 @@ tr.ndfs-file-selected,
         platBadges +
         catChips +
         siblingInfo +
+        relatedInfo +
       '</div>' +
       (data.description ? '<p class="nd-text-muted" style="margin-bottom:1rem">' + esc(data.description) + '</p>' : '') +
       '<div id="pd-edit-name" style="display:none;margin-bottom:1rem">' +

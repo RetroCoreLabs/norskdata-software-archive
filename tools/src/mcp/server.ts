@@ -11,6 +11,7 @@ import { z } from 'zod';
 import { readFile } from 'fs/promises';
 import { join, resolve } from 'path';
 import type { CatalogEntry } from '../types.js';
+import { loadProducts, reverseRelated, relatedBothWays } from '../api/catalog.js';
 import { loadDocIndex, readDocMarkdown, DOC_KIND_LABELS, type DocIndex } from '../api/nd-docs.js';
 
 // --- Data loading ---
@@ -203,16 +204,22 @@ server.tool(
       }
     }
 
-    const result = products.map(p => ({
+    // Related products come from products/*.yaml through the shared reader (both directions)
+    const yamlProducts = await loadProducts(getArchiveRoot());
+    const rev = reverseRelated(yamlProducts);
+    const relatedOf = new Map(yamlProducts.map(p => [p.id, relatedBothWays(p, rev)] as const));
+
+    const result: Array<{ productId: string; productName: string; imageCount: number; related: string[] }> = products.map(p => ({
       productId: p.Id,
       productName: p.Name,
       imageCount: countMap.get(p.Id) ?? 0,
+      related: relatedOf.get(p.Id) ?? [],
     }));
 
     // Also include products that appear in catalog but not in products.json
     for (const [pid, count] of countMap) {
       if (!products.find(p => p.Id === pid)) {
-        result.push({ productId: pid, productName: '(unknown)', imageCount: count });
+        result.push({ productId: pid, productName: '(unknown)', imageCount: count, related: [] });
       }
     }
 

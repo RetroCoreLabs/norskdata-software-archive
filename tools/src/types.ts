@@ -304,6 +304,8 @@ export interface Product {
   siblingId?: string | null;
   categories?: string[];
   platform?: string[];  // '100' | '500' | 'PC'
+  /** Ids of other products this one is used with (any number). Shown on both product pages. */
+  related?: string[];
   /**
    * ND documents describing this product, by document id (the file name in
    * docs/nd/<collection>/<id>.md, which is the ND document number).

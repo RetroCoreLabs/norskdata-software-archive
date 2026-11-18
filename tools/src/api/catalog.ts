@@ -20,6 +20,50 @@ const COLLECTIONS_DIR = 'collections';
 
 // ── Product YAML operations ──────────────────────────────────
 
+/** Read the related: list of a product YAML: strings only, no blanks, no repeats. */
+export function readRelated(v: unknown): string[] | undefined {
+  if (!Array.isArray(v)) return undefined;
+  const out = Array.from(new Set(v.filter((x): x is string => typeof x === 'string').map(x => x.trim()).filter(Boolean)));
+  return out.length > 0 ? out : undefined;
+}
+
+/**
+ * Reverse of related: for each product id, the ids of products that list it.
+ * One place computes this so the importer, the static site, the MCP server and
+ * the check all agree. A link is written on one side only and shows on both.
+ */
+export function reverseRelated(products: Array<{ id: string; related?: string[] }>): Map<string, string[]> {
+  const rev = new Map<string, string[]>();
+  for (const p of products) {
+    for (const target of p.related ?? []) {
+      if (target === p.id) continue;
+      const list = rev.get(target) ?? [];
+      if (!list.includes(p.id)) list.push(p.id);
+      rev.set(target, list);
+    }
+  }
+  for (const list of rev.values()) list.sort();
+  return rev;
+}
+
+/** Every related id, both directions, with repeats removed, for one product. */
+export function relatedBothWays(p: { id: string; related?: string[] }, rev: Map<string, string[]>): string[] {
+  return Array.from(new Set([...(p.related ?? []), ...(rev.get(p.id) ?? [])])).filter(x => x !== p.id).sort();
+}
+
+/** Problems with related: lists: a product that does not exist, or one pointing at itself. */
+export function relatedProblems(products: Array<{ id: string; related?: string[] }>): string[] {
+  const ids = new Set(products.map(p => p.id));
+  const out: string[] = [];
+  for (const p of products) {
+    for (const target of p.related ?? []) {
+      if (target === p.id) out.push(`Product ${p.id}: related lists itself`);
+      else if (!ids.has(target)) out.push(`Product ${p.id}: related ${target} has no product file`);
+    }
+  }
+  return out;
+}
+
 /** Read the docs: block of a product YAML, dropping anything malformed. */
 function readProductDocs(raw: unknown): ProductDocs | undefined {
   if (!raw || typeof raw !== 'object') return undefined;
@@ -57,6 +101,7 @@ export async function loadProducts(rootDir: string): Promise<Product[]> {
             siblingId: doc.siblingId ?? null,
             categories: Array.isArray(doc.categories) ? doc.categories : undefined,
             platform: Array.isArray(doc.platform) ? doc.platform : undefined,
+            related: readRelated(doc.related),
             docs: readProductDocs(doc.docs),
           });
         }
@@ -78,7 +123,7 @@ export async function loadProducts(rootDir: string): Promise<Product[]> {
 export async function saveProductYaml(
   rootDir: string,
   id: string,
-  updates: { name?: string; description?: string | null; siblingId?: string | null; categories?: string[]; platform?: string[] }
+  updates: { name?: string; description?: string | null; siblingId?: string | null; categories?: string[]; platform?: string[]; related?: string[] }
 ): Promise<void> {
   const productsDir = join(rootDir, PRODUCTS_DIR);
   await mkdir(productsDir, { recursive: true });
@@ -101,6 +146,8 @@ export async function saveProductYaml(
   else if (Array.isArray(existing.categories) && (existing.categories as string[]).length > 0) doc.categories = existing.categories;
   if (updates.platform !== undefined) { if (updates.platform.length > 0) doc.platform = updates.platform; }
   else if (Array.isArray(existing.platform) && (existing.platform as string[]).length > 0) doc.platform = existing.platform;
+  if (updates.related !== undefined) { const r = readRelated(updates.related); if (r) doc.related = r; }
+  else { const r = readRelated(existing.related); if (r) doc.related = r; }
   // docs: is never edited through this path, but it must survive it - otherwise a
   // product edit in the web UI drops the ND document references written by hand.
   if (existing.docs) doc.docs = existing.docs;

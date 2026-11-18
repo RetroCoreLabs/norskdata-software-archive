@@ -9,10 +9,9 @@ import { readFile, writeFile, mkdir, stat } from 'fs/promises';
 import { marked } from 'marked';
 import { join } from 'path';
 import { parse as yamlParse } from 'yaml';
-import { readdir } from 'fs/promises';
 import { createHash } from 'crypto';
 import type { CatalogEntry } from '../types.js';
-import { generateCatalogJson } from './catalog.js';
+import { generateCatalogJson, loadProducts, reverseRelated } from './catalog.js';
 import { DOC_DIRS, DOC_KIND_LABELS, docTitle } from './nd-docs.js';
 import type { DocKind } from './nd-docs.js';
 
@@ -22,6 +21,10 @@ interface ProductData {
   description?: string | null;
   categories?: string[];
   platform?: string[];
+  /** Ids of related products */
+  related?: string[];
+  /** Products that list this one in their related: (computed at build time) */
+  relatedBy?: string[];
   /** ND document ids; the files live in docs/nd/<collection>/<id>.md */
   docs?: { productInfo?: string[]; installationDescription?: string[] };
 }
@@ -36,7 +39,6 @@ interface CategoryData {
 export async function buildStaticSite(rootDir: string): Promise<void> {
   const catalogPath = join(rootDir, 'catalog/floppies.json');
   const categoriesPath = join(rootDir, 'categories/product-categories.yaml');
-  const productsDir = join(rootDir, 'products');
   const siteDir = join(rootDir, 'site');
 
   console.log('Regenerating catalog from YAML...');
@@ -49,29 +51,19 @@ export async function buildStaticSite(rootDir: string): Promise<void> {
   const categoriesRaw = yamlParse(await readFile(categoriesPath, 'utf-8')) as CategoryData[];
 
   console.log('Loading products...');
-  const products: ProductData[] = [];
-  const files = await readdir(productsDir);
-  for (const f of files) {
-    if (!f.endsWith('.yaml')) continue;
-    try {
-      const raw = await readFile(join(productsDir, f), 'utf-8');
-      const doc = yamlParse(raw);
-      if (doc && doc.id && doc.name) {
-        products.push({
-          id: doc.id,
-          name: doc.name,
-          description: doc.description ?? null,
-          categories: Array.isArray(doc.categories) ? doc.categories : undefined,
-          platform: Array.isArray(doc.platform) ? doc.platform : undefined,
-          docs: doc.docs && typeof doc.docs === 'object' ? {
-            productInfo: Array.isArray(doc.docs.productInfo) ? doc.docs.productInfo : undefined,
-            installationDescription: Array.isArray(doc.docs.installationDescription) ? doc.docs.installationDescription : undefined,
-          } : undefined,
-        });
-      }
-    } catch { /* skip malformed */ }
-  }
-  products.sort((a, b) => a.id.localeCompare(b.id));
+  // One reader for products/*.yaml, shared with the importer and the MCP server.
+  const loaded = await loadProducts(rootDir);
+  const rev = reverseRelated(loaded);
+  const products: ProductData[] = loaded.map(lp => ({
+    id: lp.id,
+    name: lp.name,
+    description: lp.description ?? null,
+    categories: lp.categories,
+    platform: lp.platform,
+    related: lp.related,
+    relatedBy: rev.get(lp.id),
+    docs: lp.docs,
+  }));
 
   // Load NDFS browser library bundle
   console.log('Loading NDFS browser library...');
@@ -2405,6 +2397,25 @@ function getAppJS(): string {
   // ND documentation attached to this product. The documents are pre-rendered
   // to site/docs/<id>.html at build time and linked, not inlined - together they
   // are ~4 MB and a reader opens one at a time.
+  // Related products: the list is written on one product and shown on both
+  // (relatedBy is computed at build time by reverseRelated in api/catalog.ts).
+  function renderRelatedProducts(product) {
+    var ids = [];
+    function add(list) {
+      for (var i = 0; list && i < list.length; i++) { if (ids.indexOf(list[i]) < 0 && list[i] !== product.id) ids.push(list[i]); }
+    }
+    add(product.related); add(product.relatedBy);
+    if (!ids.length) return '';
+    ids.sort();
+    var out = '<div style="margin-bottom:0.75rem">';
+    out += '<div style="color:var(--text-muted);font-size:0.85rem;margin-bottom:0.25rem">Related products</div>';
+    for (var r = 0; r < ids.length; r++) {
+      var rp = productMap[ids[r]];
+      out += '<div><a href="#/products/' + esc(ids[r]) + '"><code>' + esc(ids[r]) + '</code></a>' + (rp ? ' ' + esc(rp.name) : '') + '</div>';
+    }
+    return out + '</div>';
+  }
+
   function renderProductDocs(product) {
     if (!product.docs) return '';
     var groups = [
@@ -2453,6 +2464,7 @@ function getAppJS(): string {
       }
       if (meta) html += '<p style="margin-bottom:1rem">' + meta + '</p>';
       html += renderProductDocs(product);
+      html += renderRelatedProducts(product);
     }
 
     html += '<p><span class="nd-badge">' + entries.length + ' image' + (entries.length !== 1 ? 's' : '') + '</span></p>';

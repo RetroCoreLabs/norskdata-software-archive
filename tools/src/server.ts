@@ -15,7 +15,7 @@ import { dirname } from 'path';
 import { existsSync, mkdirSync } from 'fs';
 
 import { parse as yamlParse, stringify as yamlStringify } from 'yaml';
-import { loadCatalog, loadProducts, saveProducts, saveProductYaml, saveFloppyYaml, generateCatalogJson, persistCatalog, findByVolumeName, findByMd5 } from './api/catalog.js';
+import { loadCatalog, loadProducts, saveProducts, saveProductYaml, saveFloppyYaml, generateCatalogJson, persistCatalog, findByVolumeName, findByMd5, reverseRelated } from './api/catalog.js';
 import { importImage } from './api/import.js';
 import { importFolder, findImageFolders } from './api/import-folder.js';
 import { writeIndex } from './api/index-builder.js';
@@ -378,7 +378,10 @@ app.get('/api/products', async (_req, res) => {
     const categoryMap = new Map<string, string[]>();
     const platformMap = new Map<string, string[]>();
     const descriptionMap = new Map<string, string>();
+    const relRev = reverseRelated(rawProducts);
+    const relatedMap = new Map<string, string[]>();
     for (const rp of rawProducts) {
+      if (rp.related && rp.related.length > 0) relatedMap.set(rp.id, rp.related);
       if (rp.categories && rp.categories.length > 0) categoryMap.set(rp.id, rp.categories);
       if (rp.platform && rp.platform.length > 0) platformMap.set(rp.id, rp.platform);
       if (rp.description) descriptionMap.set(rp.id, rp.description);
@@ -386,18 +389,18 @@ app.get('/api/products', async (_req, res) => {
 
     // Start with all known products (even those with 0 images)
     const seen = new Set<string>();
-    const result: Array<{ productId: string; name: string; description: string | null; imageCount: number; categories: string[]; platform: string[] }> = [];
+    const result: Array<{ productId: string; name: string; description: string | null; imageCount: number; categories: string[]; platform: string[]; related: string[]; relatedBy: string[] }> = [];
 
     // Products from catalog (have images)
     for (const [id, count] of countMap) {
       seen.add(id);
-      result.push({ productId: id, name: resolveName(id), description: descriptionMap.get(id) ?? null, imageCount: count, categories: categoryMap.get(id) ?? [], platform: platformMap.get(id) ?? [] });
+      result.push({ productId: id, name: resolveName(id), description: descriptionMap.get(id) ?? null, imageCount: count, categories: categoryMap.get(id) ?? [], platform: platformMap.get(id) ?? [], related: relatedMap.get(id) ?? [], relatedBy: relRev.get(id) ?? [] });
     }
 
     // Products from YAML (may have 0 images)
     for (const p of products) {
       if (!seen.has(p.Id)) {
-        result.push({ productId: p.Id, name: resolveName(p.Id), description: descriptionMap.get(p.Id) ?? null, imageCount: 0, categories: categoryMap.get(p.Id) ?? [], platform: platformMap.get(p.Id) ?? [] });
+        result.push({ productId: p.Id, name: resolveName(p.Id), description: descriptionMap.get(p.Id) ?? null, imageCount: 0, categories: categoryMap.get(p.Id) ?? [], platform: platformMap.get(p.Id) ?? [], related: relatedMap.get(p.Id) ?? [], relatedBy: relRev.get(p.Id) ?? [] });
       }
     }
 
@@ -506,7 +509,11 @@ app.get('/api/product-detail', async (req: express.Request, res: express.Respons
 
     const description = rawProduct?.description ?? null;
     const platform = rawProduct?.platform ?? [];
-    res.json({ productId, productName, description, platform, siblingId, siblingName, totalImages: floppies.length, categories, versions });
+    const related = rawProduct?.related ?? [];
+    const relatedBy = reverseRelated(rawProducts).get(productId) ?? [];
+    const relatedNames: Record<string, string> = {};
+    for (const rid of [...related, ...relatedBy]) relatedNames[rid] = rawProducts.find(p => p.id === rid)?.name ?? rid;
+    res.json({ productId, productName, description, platform, related, relatedBy, relatedNames, siblingId, siblingName, totalImages: floppies.length, categories, versions });
   } catch (err) {
     res.status(500).json({ error: String(err) });
   }
@@ -1097,7 +1104,7 @@ app.post('/api/products', async (req, res) => {
 // Rename/update a product
 app.patch('/api/products', async (req, res) => {
   try {
-    const { id, name, description, categories, platform } = req.body as { id: string; name?: string; description?: string; categories?: string[]; platform?: string[] };
+    const { id, name, description, categories, platform, related } = req.body as { id: string; name?: string; description?: string; categories?: string[]; platform?: string[]; related?: string[] };
     if (!id) {
       res.status(400).json({ error: 'id is required' });
       return;
@@ -1105,7 +1112,7 @@ app.patch('/api/products', async (req, res) => {
     const existingProducts = await loadProducts(ROOT_DIR);
     const existing = existingProducts.find(p => p.id === id);
     const finalName = name || existing?.name || id;
-    await saveProductYaml(ROOT_DIR, id, { name: finalName, description, categories, platform });
+    await saveProductYaml(ROOT_DIR, id, { name: finalName, description, categories, platform, related });
     // Also update the JSON for backward compat
     const products = await loadProducts(ROOT_DIR);
     const asLegacy = products.map(p => ({ Id: p.id, Name: p.name }));
@@ -1126,6 +1133,12 @@ app.delete('/api/products', async (req, res) => {
     const filePath = join(ROOT_DIR, 'products', `${id}.yaml`);
     try { await unlink(filePath); } catch { /* may not exist */ }
     const products = await loadProducts(ROOT_DIR);
+    // Drop the deleted id from every other product's related: list, so no link is left pointing at nothing
+    for (const p of products) {
+      if (p.id !== id && p.related?.includes(id)) {
+        await saveProductYaml(ROOT_DIR, p.id, { related: p.related.filter(r => r !== id) });
+      }
+    }
     const asLegacy = products.filter(p => p.id !== id).map(p => ({ Id: p.id, Name: p.name }));
     await saveProducts(ROOT_DIR, asLegacy);
     productsCache = null;
@@ -1191,8 +1204,16 @@ app.post('/api/products/rename-id', async (req, res) => {
         siblingId: oldProduct.siblingId ?? null,
         categories: oldProduct.categories ?? [],
         platform: oldProduct.platform ?? [],
+        related: oldProduct.related ?? [],
       });
       await unlink(join(ROOT_DIR, 'products', `${oldId}.yaml`)).catch(() => { /* may not exist */ });
+    }
+
+    // 2a. Repoint related: references held by other products
+    for (const p of products) {
+      if (p.id !== oldId && p.related?.includes(oldId)) {
+        await saveProductYaml(ROOT_DIR, p.id, { related: p.related.map(r => (r === oldId ? newId : r)) });
+      }
     }
 
     // 2. Repoint any sibling references

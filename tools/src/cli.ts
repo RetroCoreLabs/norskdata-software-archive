@@ -9,7 +9,7 @@ import { Command } from 'commander';
 import { basename } from 'path';
 import { resolve } from 'path';
 import { printDepCheck } from './api/check-deps.js';
-import { loadCatalog, findByMd5, findByVolumeName, generateCatalogJson, loadProducts, saveProductYaml, saveFloppyYaml, consolidateGroupPhotos } from './api/catalog.js';
+import { loadCatalog, findByMd5, findByVolumeName, generateCatalogJson, loadProducts, relatedProblems, saveProductYaml, saveFloppyYaml, consolidateGroupPhotos } from './api/catalog.js';
 import { getUnsyncedEntries, getSyncStatusSummary, syncToIa, detectChanges } from './api/ia-sync.js';
 import { runImportFile, runImportFolder } from './api/import-runner.js';
 import { writeIndex } from './api/index-builder.js';
@@ -196,6 +196,12 @@ program
           console.error(`  ERROR: Entry ${entry.id}: invalid MD5 format "${entry.md5}"`);
           errors++;
         }
+      }
+
+      // related: lists in products/*.yaml must point at products that exist
+      for (const problem of relatedProblems(await loadProducts(rootDir))) {
+        console.error(`  ERROR: ${problem}`);
+        errors++;
       }
 
       if (errors === 0) {
