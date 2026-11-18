@@ -1,0 +1,198 @@
+id: nd-210190-k01-d1-1ed0b2ce
+volumeName: 210190K01-XX-01D
+md5: 1ed0b2ce30266521e46c674ccc155e37
+product:
+  id: ND-210190
+  version: K01
+  diskNumber: 1
+  language: XX
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 415
+  files:
+    - name: DESCRIPTION-FILE:DESC
+      type: DESC
+      pages: 11
+      bytes: 22528
+      userName: FLOPPY-USER
+      dateCreated: 2512035515
+      lastDateRead: 2559127943
+      lastDateWritten: 2519373651
+      dateCreatedStr: 1987-06-29 09:58:59
+      lastDateReadStr: 1988-02-04 19:06:07
+      lastDateWrittenStr: 1987-08-21 09:29:19
+      bpunValid: null
+    - name: SCRATCH-SEG-01:LINK
+      type: LINK
+      pages: 0
+      bytes: 0
+      userName: FLOPPY-USER
+      dateCreated: 2512035531
+      lastDateRead: 2512035533
+      lastDateWritten: 2512035533
+      dateCreatedStr: 1987-06-29 09:59:11
+      lastDateReadStr: 1987-06-29 09:59:13
+      lastDateWrittenStr: 1987-06-29 09:59:13
+      bpunValid: null
+    - name: SCRATCH-SEG-01:DSEG
+      type: DSEG
+      pages: 1
+      bytes: 1029
+      userName: FLOPPY-USER
+      dateCreated: 2512035534
+      lastDateRead: 2512035553
+      lastDateWritten: 2512035535
+      dateCreatedStr: 1987-06-29 09:59:14
+      lastDateReadStr: 1987-06-29 09:59:33
+      lastDateWrittenStr: 1987-06-29 09:59:15
+      bpunValid: null
+    - name: SCRATCH-SEG-01:PSEG
+      type: PSEG
+      pages: 1
+      bytes: 5
+      userName: FLOPPY-USER
+      dateCreated: 2512035536
+      lastDateRead: 2512035537
+      lastDateWritten: 2512035537
+      dateCreatedStr: 1987-06-29 09:59:16
+      lastDateReadStr: 1987-06-29 09:59:17
+      lastDateWrittenStr: 1987-06-29 09:59:17
+      bpunValid: null
+    - name: FORTRAN-500-K01:LINK
+      type: LINK
+      pages: 10
+      bytes: 18561
+      userName: FLOPPY-USER
+      dateCreated: 2519373447
+      lastDateRead: 2559127947
+      lastDateWritten: 2519373448
+      dateCreatedStr: 1987-08-21 09:26:07
+      lastDateReadStr: 1988-02-04 19:06:11
+      lastDateWrittenStr: 1987-08-21 09:26:08
+      bpunValid: null
+    - name: FORTRAN-500-K01:DSEG
+      type: DSEG
+      pages: 46
+      bytes: 547885
+      userName: FLOPPY-USER
+      dateCreated: 2519373449
+      lastDateRead: 2559127947
+      lastDateWritten: 2519373450
+      dateCreatedStr: 1987-08-21 09:26:09
+      lastDateReadStr: 1988-02-04 19:06:11
+      lastDateWrittenStr: 1987-08-21 09:26:10
+      bpunValid: null
+    - name: FORTRAN-500-K01:PSEG
+      type: PSEG
+      pages: 147
+      bytes: 300939
+      userName: FLOPPY-USER
+      dateCreated: 2519373451
+      lastDateRead: 2559127946
+      lastDateWritten: 2519373452
+      dateCreatedStr: 1987-08-21 09:26:11
+      lastDateReadStr: 1988-02-04 19:06:10
+      lastDateWrittenStr: 1987-08-21 09:26:12
+      bpunValid: null
+    - name: FORTRAN-LIB-K01:NRF
+      type: NRF
+      pages: 50
+      bytes: 100261
+      userName: FLOPPY-USER
+      dateCreated: 2516373997
+      lastDateRead: 2559127907
+      lastDateWritten: 2516373998
+      dateCreatedStr: 1987-07-30 13:07:45
+      lastDateReadStr: 1988-02-04 19:05:35
+      lastDateWrittenStr: 1987-07-30 13:07:46
+      bpunValid: null
+    - name: FORTRAN-TPS-K01:NRF
+      type: NRF
+      pages: 52
+      bytes: 103649
+      userName: FLOPPY-USER
+      dateCreated: 2516497903
+      lastDateRead: null
+      lastDateWritten: 2516497904
+      dateCreatedStr: 1987-07-31 11:23:47
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-07-31 11:23:48
+      bpunValid: null
+    - name: IN-FORT-XX-K01:PROG
+      type: PROG
+      pages: 64
+      bytes: 189084
+      userName: FLOPPY-USER
+      dateCreated: 2516390407
+      lastDateRead: 2559127639
+      lastDateWritten: 2522562604
+      dateCreatedStr: 1987-07-30 17:08:07
+      lastDateReadStr: 1988-02-04 19:01:23
+      lastDateWrittenStr: 1987-09-13 20:00:44
+      bpunValid: null
+    - name: IN-FORT-XX-K01:INIT
+      type: INIT
+      pages: 8
+      bytes: 16095
+      userName: FLOPPY-USER
+      dateCreated: 2516390488
+      lastDateRead: 2559127716
+      lastDateWritten: 2559127135
+      dateCreatedStr: 1987-07-30 17:09:24
+      lastDateReadStr: 1988-02-04 19:02:36
+      lastDateWrittenStr: 1988-02-04 18:57:31
+      bpunValid: null
+    - name: IN-FORT-XX-K01:RSRC
+      type: RSRC
+      pages: 11
+      bytes: 21389
+      userName: FLOPPY-USER
+      dateCreated: 2516390520
+      lastDateRead: 2559127668
+      lastDateWritten: 2517567495
+      dateCreatedStr: 1987-07-30 17:09:56
+      lastDateReadStr: 1988-02-04 19:01:52
+      lastDateWrittenStr: 1987-08-07 16:32:07
+      bpunValid: null
+    - name: IN-FORT-XX-K01:INST
+      type: INST
+      pages: 1
+      bytes: 406
+      userName: FLOPPY-USER
+      dateCreated: 2559128256
+      lastDateRead: 2559128307
+      lastDateWritten: 2559128257
+      dateCreatedStr: 1988-02-04 19:11:00
+      lastDateReadStr: 1988-02-04 19:11:51
+      lastDateWrittenStr: 1988-02-04 19:11:01
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/ND-210190K01-XX-01D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.447Z
+  notes: "NDWiki says: this FluxEngine image is most likely broken. It was captured with a FluxEngine version that could not read ND format 17b (double-sided) floppies properly. It needs to be read again with an updated FluxEngine."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210190K
+      title: NDWiki - ND-210190K
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210190-k01-d1-1ed0b2ce
+  syncStatus: pending

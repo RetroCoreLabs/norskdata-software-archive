@@ -1,0 +1,125 @@
+id: nd-10526-m07-d2-878311c8
+volumeName: 10526M07-NO-2D
+md5: 878311c89d5ecc6a26f646e243882cfb
+product:
+  id: ND-10526
+  version: M07
+  diskNumber: 2
+  language: NO
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 417
+  files:
+    - name: DESCRIPTION-FILE:DESC
+      type: DESC
+      pages: 8
+      bytes: 22528
+      userName: FLOPPY-USER
+      dateCreated: 2501801713
+      lastDateRead: 2528166980
+      lastDateWritten: 2501802178
+      dateCreatedStr: 1987-04-15 07:27:49
+      lastDateReadStr: 1987-10-24 12:17:04
+      lastDateWrittenStr: 1987-04-15 07:35:02
+      bpunValid: null
+    - name: SCRATCH-SEG-01:LINK
+      type: LINK
+      pages: 0
+      bytes: 0
+      userName: FLOPPY-USER
+      dateCreated: 2501801722
+      lastDateRead: 2501801723
+      lastDateWritten: 2501801723
+      dateCreatedStr: 1987-04-15 07:27:58
+      lastDateReadStr: 1987-04-15 07:27:59
+      lastDateWrittenStr: 1987-04-15 07:27:59
+      bpunValid: null
+    - name: SCRATCH-SEG-01:DSEG
+      type: DSEG
+      pages: 1
+      bytes: 1029
+      userName: FLOPPY-USER
+      dateCreated: 2501801728
+      lastDateRead: 2501801741
+      lastDateWritten: 2501801729
+      dateCreatedStr: 1987-04-15 07:28:00
+      lastDateReadStr: 1987-04-15 07:28:13
+      lastDateWrittenStr: 1987-04-15 07:28:01
+      bpunValid: null
+    - name: SCRATCH-SEG-01:PSEG
+      type: PSEG
+      pages: 1
+      bytes: 5
+      userName: FLOPPY-USER
+      dateCreated: 2501801730
+      lastDateRead: 2501801731
+      lastDateWritten: 2501801731
+      dateCreatedStr: 1987-04-15 07:28:02
+      lastDateReadStr: 1987-04-15 07:28:03
+      lastDateWrittenStr: 1987-04-15 07:28:03
+      bpunValid: null
+    - name: NOTIS-WP-NO-M07:LINK
+      type: LINK
+      pages: 37
+      bytes: 74337
+      userName: FLOPPY-USER
+      dateCreated: 2501801748
+      lastDateRead: 2528166986
+      lastDateWritten: 2501801749
+      dateCreatedStr: 1987-04-15 07:28:20
+      lastDateReadStr: 1987-10-24 12:17:10
+      lastDateWrittenStr: 1987-04-15 07:28:21
+      bpunValid: null
+    - name: NOTIS-WP-NO-M07:DSEG
+      type: DSEG
+      pages: 84
+      bytes: 191563
+      userName: FLOPPY-USER
+      dateCreated: 2501801750
+      lastDateRead: 2528166986
+      lastDateWritten: 2501801751
+      dateCreatedStr: 1987-04-15 07:28:22
+      lastDateReadStr: 1987-10-24 12:17:10
+      lastDateWrittenStr: 1987-04-15 07:28:23
+      bpunValid: null
+    - name: NOTIS-WP-NO-M07:PSEG
+      type: PSEG
+      pages: 279
+      bytes: 570263
+      userName: FLOPPY-USER
+      dateCreated: 2501801752
+      lastDateRead: 2528166985
+      lastDateWritten: 2501801753
+      dateCreatedStr: 1987-04-15 07:28:24
+      lastDateReadStr: 1987-10-24 12:17:09
+      lastDateWrittenStr: 1987-04-15 07:28:25
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/10526M07-NO-2D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:01.997Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10526M
+      title: NDWiki - ND-10526M
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10526-m07-d2-878311c8
+  syncStatus: pending

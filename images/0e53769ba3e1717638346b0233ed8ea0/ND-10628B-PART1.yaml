@@ -1,0 +1,113 @@
+id: nd-10628-b-d1-0e53769b
+volumeName: ND-10628B-PART1
+md5: 0e53769ba3e1717638346b0233ed8ea0
+product:
+  id: ND-10628
+  version: B
+  diskNumber: 1
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: bpun
+  bootProgram: flomon
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 111
+  files:
+    - name: COP-VERIFY-2035F:BPUN
+      type: BPUN
+      pages: 11
+      bytes: 22324
+      userName: FLOPPY-USER
+      dateCreated: 2299187816
+      lastDateRead: 2305104216
+      lastDateWritten: 2299187816
+      dateCreatedStr: 1984-04-05 13:09:40
+      lastDateReadStr: 1984-05-18 17:37:24
+      lastDateWrittenStr: 1984-04-05 13:09:40
+      bpunValid: true
+    - name: FILSYS-INV-2135L:BPUN
+      type: BPUN
+      pages: 22
+      bytes: 43390
+      userName: FLOPPY-USER
+      dateCreated: 2298932564
+      lastDateRead: 2305465318
+      lastDateWritten: 2303782510
+      dateCreatedStr: 1984-04-03 14:53:20
+      lastDateReadStr: 1984-05-21 09:47:38
+      lastDateWrittenStr: 1984-05-08 14:57:46
+      bpunValid: true
+    - name: FLOPPY-MON-2010G:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 4314
+      userName: FLOPPY-USER
+      dateCreated: 2169437832
+      lastDateRead: 2305104327
+      lastDateWritten: 2288427744
+      dateCreatedStr: 1982-05-07 15:58:08
+      lastDateReadStr: 1984-05-18 17:39:07
+      lastDateWrittenStr: 1984-01-19 10:11:32
+      bpunValid: true
+    - name: FLOPP-TO-WINCH-B:BPUN
+      type: BPUN
+      pages: 23
+      bytes: 47104
+      userName: FLOPPY-USER
+      dateCreated: 2288560497
+      lastDateRead: 2305104300
+      lastDateWritten: 2288560498
+      dateCreatedStr: 1984-01-20 10:37:49
+      lastDateReadStr: 1984-05-18 17:38:44
+      lastDateWrittenStr: 1984-01-20 10:37:50
+      bpunValid: true
+    - name: MCOPY-TANB-1649M:BPUN
+      type: BPUN
+      pages: 23
+      bytes: 32770
+      userName: FLOPPY-USER
+      dateCreated: 2298803146
+      lastDateRead: 2305104336
+      lastDateWritten: 2298803146
+      dateCreatedStr: 1984-04-02 15:15:10
+      lastDateReadStr: 1984-05-18 17:39:16
+      lastDateWrittenStr: 1984-04-02 15:15:10
+      bpunValid: true
+    - name: WINCH-TO-FLOPP-B:BPUN
+      type: BPUN
+      pages: 22
+      bytes: 43246
+      userName: FLOPPY-USER
+      dateCreated: 2288560288
+      lastDateRead: 2305104360
+      lastDateWritten: 2288561245
+      dateCreatedStr: 1984-01-20 10:34:32
+      lastDateReadStr: 1984-05-18 17:39:40
+      lastDateWrittenStr: 1984-01-20 10:49:29
+      bpunValid: true
+provenance:
+  contributor: ndwiki
+  originalPath: import/ND-10628B-PART1.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.384Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10628B
+      title: NDWiki - ND-10628B
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10628-b-d1-0e53769b
+  syncStatus: pending

@@ -1,0 +1,162 @@
+id: nd-210691-c02-d1-48467fe8
+volumeName: 210691C02-EN-01D
+md5: 48467fe878b19d95004863c642b13d10
+product:
+  id: ND-210691
+  version: C02
+  diskNumber: 1
+  language: EN
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: bpun
+  bootProgram: flomon
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 558
+  files:
+    - name: DS-XCOM-A05:PROG
+      type: PROG
+      pages: 45
+      bytes: 151552
+      userName: FLOPPY-USER
+      dateCreated: 2521989337
+      lastDateRead: null
+      lastDateWritten: 2521989342
+      dateCreatedStr: 1987-09-09 08:03:25
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:03:30
+      bpunValid: null
+    - name: DS-INSTALL-C:XCOM
+      type: XCOM
+      pages: 42
+      bytes: 82948
+      userName: FLOPPY-USER
+      dateCreated: 2521989366
+      lastDateRead: null
+      lastDateWritten: 2522022613
+      dateCreatedStr: 1987-09-09 08:03:54
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 16:11:21
+      bpunValid: null
+    - name: INSTALL-DS-C:PROG
+      type: PROG
+      pages: 4
+      bytes: 135168
+      userName: FLOPPY-USER
+      dateCreated: 2521989399
+      lastDateRead: null
+      lastDateWritten: 2521989400
+      dateCreatedStr: 1987-09-09 08:04:23
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:04:24
+      bpunValid: null
+    - name: UE-RENAME-A01:PROG
+      type: PROG
+      pages: 19
+      bytes: 38912
+      userName: FLOPPY-USER
+      dateCreated: 2521989405
+      lastDateRead: null
+      lastDateWritten: 2521989407
+      dateCreatedStr: 1987-09-09 08:04:29
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:04:31
+      bpunValid: null
+    - name: DDBTABLES-G02:VTM
+      type: VTM
+      pages: 34
+      bytes: 68696
+      userName: FLOPPY-USER
+      dateCreated: 2521989524
+      lastDateRead: null
+      lastDateWritten: 2521989525
+      dateCreatedStr: 1987-09-09 08:06:20
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:06:21
+      bpunValid: null
+    - name: NOTIS-DSM-EN-C02:PROG
+      type: PROG
+      pages: 130
+      bytes: 401408
+      userName: FLOPPY-USER
+      dateCreated: 2521989559
+      lastDateRead: null
+      lastDateWritten: 2521989560
+      dateCreatedStr: 1987-09-09 08:06:55
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:06:56
+      bpunValid: null
+    - name: DS-LISTM-EN-C02:PROG
+      type: PROG
+      pages: 77
+      bytes: 411648
+      userName: FLOPPY-USER
+      dateCreated: 2521989729
+      lastDateRead: null
+      lastDateWritten: 2521989730
+      dateCreatedStr: 1987-09-09 08:09:33
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:09:34
+      bpunValid: null
+    - name: DS-UTILM-EN-C02:PROG
+      type: PROG
+      pages: 54
+      bytes: 399360
+      userName: FLOPPY-USER
+      dateCreated: 2521989852
+      lastDateRead: null
+      lastDateWritten: 2521989853
+      dateCreatedStr: 1987-09-09 08:11:28
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:11:29
+      bpunValid: null
+    - name: NOTIS-DSM-EN-C02:NDPF
+      type: NDPF
+      pages: 24
+      bytes: 49152
+      userName: FLOPPY-USER
+      dateCreated: 2521989931
+      lastDateRead: null
+      lastDateWritten: 2521989933
+      dateCreatedStr: 1987-09-09 08:12:43
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:12:45
+      bpunValid: null
+    - name: UE-ERMSG-EN-C06:ERR
+      type: ERR
+      pages: 118
+      bytes: 241664
+      userName: FLOPPY-USER
+      dateCreated: 2521999153
+      lastDateRead: null
+      lastDateWritten: 2521999363
+      dateCreatedStr: 1987-09-09 10:28:49
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 10:32:03
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/210691C02-EN-01D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.238Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210691C
+      title: NDWiki - ND-210691C
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210691-c02-d1-48467fe8
+  syncStatus: pending

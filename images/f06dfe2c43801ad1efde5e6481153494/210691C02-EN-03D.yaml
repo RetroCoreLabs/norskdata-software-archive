@@ -1,0 +1,101 @@
+id: nd-210691-c02-d3-f06dfe2c
+volumeName: 210691C02-EN-03D
+md5: f06dfe2c43801ad1efde5e6481153494
+product:
+  id: ND-210691
+  version: C02
+  diskNumber: 3
+  language: EN
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 403
+  files:
+    - name: NOTIS-DSN-EN-C02:PROG
+      type: PROG
+      pages: 128
+      bytes: 403456
+      userName: FLOPPY-USER
+      dateCreated: 2521891191
+      lastDateRead: null
+      lastDateWritten: 2521891195
+      dateCreatedStr: 1987-09-08 16:05:55
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-08 16:05:59
+      bpunValid: null
+    - name: DS-LISTN-EN-C02:PROG
+      type: PROG
+      pages: 78
+      bytes: 411648
+      userName: FLOPPY-USER
+      dateCreated: 2521891280
+      lastDateRead: null
+      lastDateWritten: 2521891281
+      dateCreatedStr: 1987-09-08 16:07:16
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-08 16:07:17
+      bpunValid: null
+    - name: DS-UTILN-EN-C02:PROG
+      type: PROG
+      pages: 60
+      bytes: 399360
+      userName: FLOPPY-USER
+      dateCreated: 2521891352
+      lastDateRead: null
+      lastDateWritten: 2521891353
+      dateCreatedStr: 1987-09-08 16:08:24
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-08 16:08:25
+      bpunValid: null
+    - name: NOTIS-DSN-EN-C02:NDPF
+      type: NDPF
+      pages: 24
+      bytes: 49152
+      userName: FLOPPY-USER
+      dateCreated: 2521891419
+      lastDateRead: null
+      lastDateWritten: 2521891421
+      dateCreatedStr: 1987-09-08 16:09:27
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-08 16:09:29
+      bpunValid: null
+    - name: DS-SUPPORT-C02:PROG
+      type: PROG
+      pages: 107
+      bytes: 260096
+      userName: FLOPPY-USER
+      dateCreated: 2521891451
+      lastDateRead: null
+      lastDateWritten: 2521891456
+      dateCreatedStr: 1987-09-08 16:09:59
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-08 16:10:00
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/210691C02-EN-03D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.297Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210691C
+      title: NDWiki - ND-210691C
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210691-c02-d3-f06dfe2c
+  syncStatus: pending

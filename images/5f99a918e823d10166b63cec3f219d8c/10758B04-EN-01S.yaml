@@ -1,0 +1,162 @@
+id: nd-10758-b04-d1-5f99a918
+volumeName: 10758B04-EN-01S
+md5: 5f99a918e823d10166b63cec3f219d8c
+product:
+  id: ND-10758
+  version: B04
+  diskNumber: 1
+  language: EN
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 147
+  files:
+    - name: BG-PART1-EN-B04:BRF
+      type: BRF
+      pages: 55
+      bytes: 110622
+      userName: FLOPPY-USER
+      dateCreated: 2423178156
+      lastDateRead: 2534600938
+      lastDateWritten: 2453178449
+      dateCreatedStr: 1986-01-23 12:14:44
+      lastDateReadStr: 1987-12-09 15:03:42
+      lastDateWrittenStr: 1986-08-28 08:33:17
+      bpunValid: null
+    - name: INST-BG132-B04:PROG
+      type: PROG
+      pages: 3
+      bytes: 6144
+      userName: FLOPPY-USER
+      dateCreated: 2423178222
+      lastDateRead: 2534600246
+      lastDateWritten: 2423178224
+      dateCreatedStr: 1986-01-23 12:15:46
+      lastDateReadStr: 1987-12-09 14:56:54
+      lastDateWrittenStr: 1986-01-23 12:15:48
+      bpunValid: null
+    - name: BG-EX01-EN-B04:PLOT
+      type: PLOT
+      pages: 1
+      bytes: 415
+      userName: FLOPPY-USER
+      dateCreated: 2423178234
+      lastDateRead: 2534600854
+      lastDateWritten: 2423178235
+      dateCreatedStr: 1986-01-23 12:15:58
+      lastDateReadStr: 1987-12-09 15:02:22
+      lastDateWrittenStr: 1986-01-23 12:15:59
+      bpunValid: null
+    - name: BG-EX02-EN-B04:PLOT
+      type: PLOT
+      pages: 1
+      bytes: 328
+      userName: FLOPPY-USER
+      dateCreated: 2423178245
+      lastDateRead: 2534600867
+      lastDateWritten: 2423178246
+      dateCreatedStr: 1986-01-23 12:16:05
+      lastDateReadStr: 1987-12-09 15:02:35
+      lastDateWrittenStr: 1986-01-23 12:16:06
+      bpunValid: null
+    - name: BG-EX03-EN-B04:PLOT
+      type: PLOT
+      pages: 1
+      bytes: 311
+      userName: FLOPPY-USER
+      dateCreated: 2423178254
+      lastDateRead: 2534600880
+      lastDateWritten: 2423178256
+      dateCreatedStr: 1986-01-23 12:16:14
+      lastDateReadStr: 1987-12-09 15:02:48
+      lastDateWrittenStr: 1986-01-23 12:16:16
+      bpunValid: null
+    - name: BG-EX04-EN-B04:PLOT
+      type: PLOT
+      pages: 1
+      bytes: 425
+      userName: FLOPPY-USER
+      dateCreated: 2423178265
+      lastDateRead: 2534600898
+      lastDateWritten: 2423178274
+      dateCreatedStr: 1986-01-23 12:16:25
+      lastDateReadStr: 1987-12-09 15:03:02
+      lastDateWrittenStr: 1986-01-23 12:16:34
+      bpunValid: null
+    - name: BG-EX05-EN-B04:PLOT
+      type: PLOT
+      pages: 1
+      bytes: 284
+      userName: FLOPPY-USER
+      dateCreated: 2423178285
+      lastDateRead: 2534600911
+      lastDateWritten: 2423178287
+      dateCreatedStr: 1986-01-23 12:16:45
+      lastDateReadStr: 1987-12-09 15:03:15
+      lastDateWrittenStr: 1986-01-23 12:16:47
+      bpunValid: null
+    - name: BG-EX06-EN-B04:PLOT
+      type: PLOT
+      pages: 1
+      bytes: 593
+      userName: FLOPPY-USER
+      dateCreated: 2423178293
+      lastDateRead: 2534600924
+      lastDateWritten: 2423178294
+      dateCreatedStr: 1986-01-23 12:16:53
+      lastDateReadStr: 1987-12-09 15:03:28
+      lastDateWrittenStr: 1986-01-23 12:16:54
+      bpunValid: null
+    - name: INST-BG132-B04:COM
+      type: COM
+      pages: 13
+      bytes: 25807
+      userName: FLOPPY-USER
+      dateCreated: 2423178305
+      lastDateRead: 2534600273
+      lastDateWritten: 2451109983
+      dateCreatedStr: 1986-01-23 12:17:01
+      lastDateReadStr: 1987-12-09 14:57:17
+      lastDateWrittenStr: 1986-08-12 15:33:31
+      bpunValid: null
+    - name: XCOM:PROG
+      type: PROG
+      pages: 59
+      bytes: 182272
+      userName: FLOPPY-USER
+      dateCreated: 2423178336
+      lastDateRead: 2534600249
+      lastDateWritten: 2423178337
+      dateCreatedStr: 1986-01-23 12:17:32
+      lastDateReadStr: 1987-12-09 14:56:57
+      lastDateWrittenStr: 1986-01-23 12:17:33
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/10758B04-EN-01S.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.041Z
+  notes: "NDWiki says: the floppies are single sided, which is why they could not be read at first. How to read single sided ND formats is on the NDWiki ND floppy disks page."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10758B
+      title: NDWiki - ND-10758B
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10758-b04-d1-5f99a918
+  syncStatus: pending

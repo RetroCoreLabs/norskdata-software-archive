@@ -1,0 +1,330 @@
+id: nd-210855-c12-d1-59d0cac0
+volumeName: 210855C12-XX-01D
+md5: 59d0cac0f73ea73699bc4c2c5d9617dd
+product:
+  id: ND-210855
+  version: C12
+  diskNumber: 1
+  language: XX
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 379
+  files:
+    - name: DIM-INSTALL-C12:PROG
+      type: PROG
+      pages: 55
+      bytes: 172230
+      userName: FLOPPY-USER
+      dateCreated: 2498801399
+      lastDateRead: 2520045826
+      lastDateWritten: 2498801401
+      dateCreatedStr: 1987-03-24 10:59:55
+      lastDateReadStr: 1987-08-26 13:36:02
+      lastDateWrittenStr: 1987-03-24 10:59:57
+      bpunValid: null
+    - name: DIMIR-MANAG-C12:PROG
+      type: PROG
+      pages: 63
+      bytes: 129024
+      userName: FLOPPY-USER
+      dateCreated: 2498801690
+      lastDateRead: 2520045889
+      lastDateWritten: 2498801691
+      dateCreatedStr: 1987-03-24 11:00:26
+      lastDateReadStr: 1987-08-26 13:37:01
+      lastDateWrittenStr: 1987-03-24 11:00:27
+      bpunValid: null
+    - name: DIM-REVIVE-C12:PROG
+      type: PROG
+      pages: 47
+      bytes: 96256
+      userName: FLOPPY-USER
+      dateCreated: 2498801736
+      lastDateRead: 2520045873
+      lastDateWritten: 2498801737
+      dateCreatedStr: 1987-03-24 11:01:08
+      lastDateReadStr: 1987-08-26 13:36:49
+      lastDateWrittenStr: 1987-03-24 11:01:09
+      bpunValid: null
+    - name: DIM-INST-KX-C12:MODE
+      type: MODE
+      pages: 6
+      bytes: 10573
+      userName: FLOPPY-USER
+      dateCreated: 2498801774
+      lastDateRead: 2520045848
+      lastDateWritten: 2498801775
+      dateCreatedStr: 1987-03-24 11:01:46
+      lastDateReadStr: 1987-08-26 13:36:24
+      lastDateWrittenStr: 1987-03-24 11:01:47
+      bpunValid: null
+    - name: DIM-DEFS-KX-C12:MAC
+      type: MAC
+      pages: 13
+      bytes: 25948
+      userName: FLOPPY-USER
+      dateCreated: 2498801782
+      lastDateRead: 2520045842
+      lastDateWritten: 2498801783
+      dateCreatedStr: 1987-03-24 11:01:54
+      lastDateReadStr: 1987-08-26 13:36:18
+      lastDateWrittenStr: 1987-03-24 11:01:55
+      bpunValid: null
+    - name: DIM-DATA-KX-C12:MAC
+      type: MAC
+      pages: 2
+      bytes: 3950
+      userName: FLOPPY-USER
+      dateCreated: 2498801801
+      lastDateRead: 2520045839
+      lastDateWritten: 2498801802
+      dateCreatedStr: 1987-03-24 11:02:09
+      lastDateReadStr: 1987-08-26 13:36:15
+      lastDateWrittenStr: 1987-03-24 11:02:10
+      bpunValid: null
+    - name: DIM-PON-KX-C12:MAC
+      type: MAC
+      pages: 10
+      bytes: 18577
+      userName: FLOPPY-USER
+      dateCreated: 2498801807
+      lastDateRead: 2520045864
+      lastDateWritten: 2498801808
+      dateCreatedStr: 1987-03-24 11:02:15
+      lastDateReadStr: 1987-08-26 13:36:40
+      lastDateWrittenStr: 1987-03-24 11:02:16
+      bpunValid: null
+    - name: DIM-POF-KX-C12:MAC
+      type: MAC
+      pages: 16
+      bytes: 31036
+      userName: FLOPPY-USER
+      dateCreated: 2498801819
+      lastDateRead: 2520045857
+      lastDateWritten: 2498801820
+      dateCreatedStr: 1987-03-24 11:02:27
+      lastDateReadStr: 1987-08-26 13:36:33
+      lastDateWrittenStr: 1987-03-24 11:02:28
+      bpunValid: null
+    - name: DIM-MSYSU-KX-C12:MAC
+      type: MAC
+      pages: 14
+      bytes: 26774
+      userName: FLOPPY-USER
+      dateCreated: 2498801837
+      lastDateRead: 2520045852
+      lastDateWritten: 2498801838
+      dateCreatedStr: 1987-03-24 11:02:45
+      lastDateReadStr: 1987-08-26 13:36:28
+      lastDateWrittenStr: 1987-03-24 11:02:46
+      bpunValid: null
+    - name: DIM-WD-KX-C12:MAC
+      type: MAC
+      pages: 8
+      bytes: 14551
+      userName: FLOPPY-USER
+      dateCreated: 2498801857
+      lastDateRead: 2520045869
+      lastDateWritten: 2498801858
+      dateCreatedStr: 1987-03-24 11:03:01
+      lastDateReadStr: 1987-08-26 13:36:45
+      lastDateWrittenStr: 1987-03-24 11:03:02
+      bpunValid: null
+    - name: DIM-INST-KE-C12:MODE
+      type: MODE
+      pages: 4
+      bytes: 7634
+      userName: FLOPPY-USER
+      dateCreated: 2498801868
+      lastDateRead: null
+      lastDateWritten: 2498801869
+      dateCreatedStr: 1987-03-24 11:03:12
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:03:13
+      bpunValid: null
+    - name: DIM-DATA-KE-C12:MAC
+      type: MAC
+      pages: 2
+      bytes: 3961
+      userName: FLOPPY-USER
+      dateCreated: 2498801876
+      lastDateRead: null
+      lastDateWritten: 2498801878
+      dateCreatedStr: 1987-03-24 11:03:20
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:03:22
+      bpunValid: null
+    - name: DIM-PON-KE-C12:MAC
+      type: MAC
+      pages: 10
+      bytes: 19566
+      userName: FLOPPY-USER
+      dateCreated: 2498801882
+      lastDateRead: null
+      lastDateWritten: 2498801884
+      dateCreatedStr: 1987-03-24 11:03:26
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:03:28
+      bpunValid: null
+    - name: DIM-POF-KE-C12:MAC
+      type: MAC
+      pages: 16
+      bytes: 30996
+      userName: FLOPPY-USER
+      dateCreated: 2498801896
+      lastDateRead: null
+      lastDateWritten: 2498801898
+      dateCreatedStr: 1987-03-24 11:03:40
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:03:42
+      bpunValid: null
+    - name: DIM-MSYSU-KE-C12:MAC
+      type: MAC
+      pages: 13
+      bytes: 26201
+      userName: FLOPPY-USER
+      dateCreated: 2498801920
+      lastDateRead: null
+      lastDateWritten: 2498801921
+      dateCreatedStr: 1987-03-24 11:04:00
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:04:01
+      bpunValid: null
+    - name: DIM-WD-KE-C12:MAC
+      type: MAC
+      pages: 8
+      bytes: 14788
+      userName: FLOPPY-USER
+      dateCreated: 2498801938
+      lastDateRead: null
+      lastDateWritten: 2498801939
+      dateCreatedStr: 1987-03-24 11:04:18
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:04:19
+      bpunValid: null
+    - name: DIM-DEFS-KE-C12:MAC
+      type: MAC
+      pages: 9
+      bytes: 17639
+      userName: FLOPPY-USER
+      dateCreated: 2498801951
+      lastDateRead: null
+      lastDateWritten: 2498801952
+      dateCreatedStr: 1987-03-24 11:04:31
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:04:32
+      bpunValid: null
+    - name: DIM-INST-JX-C12:MODE
+      type: MODE
+      pages: 4
+      bytes: 6907
+      userName: FLOPPY-USER
+      dateCreated: 2498801965
+      lastDateRead: null
+      lastDateWritten: 2498801967
+      dateCreatedStr: 1987-03-24 11:04:45
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:04:47
+      bpunValid: null
+    - name: DIM-DATA-JX-C12:MAC
+      type: MAC
+      pages: 2
+      bytes: 3961
+      userName: FLOPPY-USER
+      dateCreated: 2498801974
+      lastDateRead: null
+      lastDateWritten: 2498801975
+      dateCreatedStr: 1987-03-24 11:04:54
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:04:55
+      bpunValid: null
+    - name: DIM-PON-JX-C12:MAC
+      type: MAC
+      pages: 8
+      bytes: 14785
+      userName: FLOPPY-USER
+      dateCreated: 2498801985
+      lastDateRead: null
+      lastDateWritten: 2498801986
+      dateCreatedStr: 1987-03-24 11:05:01
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:05:02
+      bpunValid: null
+    - name: DIM-POF-JX-C12:MAC
+      type: MAC
+      pages: 14
+      bytes: 28225
+      userName: FLOPPY-USER
+      dateCreated: 2498801998
+      lastDateRead: null
+      lastDateWritten: 2498801999
+      dateCreatedStr: 1987-03-24 11:05:14
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:05:15
+      bpunValid: null
+    - name: DIM-MSYSU-JX-C12:MAC
+      type: MAC
+      pages: 13
+      bytes: 26578
+      userName: FLOPPY-USER
+      dateCreated: 2498802019
+      lastDateRead: null
+      lastDateWritten: 2498802020
+      dateCreatedStr: 1987-03-24 11:05:35
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:05:36
+      bpunValid: null
+    - name: DIM-WD-JX-C12:MAC
+      type: MAC
+      pages: 8
+      bytes: 14788
+      userName: FLOPPY-USER
+      dateCreated: 2498802039
+      lastDateRead: null
+      lastDateWritten: 2498802041
+      dateCreatedStr: 1987-03-24 11:05:55
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:05:57
+      bpunValid: null
+    - name: DIM-DEFS-JX-C12:MAC
+      type: MAC
+      pages: 9
+      bytes: 16785
+      userName: FLOPPY-USER
+      dateCreated: 2498802058
+      lastDateRead: null
+      lastDateWritten: 2498802059
+      dateCreatedStr: 1987-03-24 11:06:10
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-03-24 11:06:11
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/ND-210855C12-XX-01D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.636Z
+  notes: "NDWiki says: this FluxEngine image is most likely broken. It was captured with a FluxEngine version that could not read ND format 17b (double-sided) floppies properly. It needs to be read again with an updated FluxEngine."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210855C
+      title: NDWiki - ND-210855C
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210855-c12-d1-59d0cac0
+  syncStatus: pending

@@ -1,0 +1,138 @@
+id: nd-210310-h00-d1-43b6e5ef
+volumeName: 210310H00-XX-01D
+md5: 43b6e5ef9f6f5b85c9cac14833ce69c4
+product:
+  id: ND-210310
+  version: H00
+  diskNumber: 1
+  language: XX
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 174
+  files:
+    - name: DESCRIPTION-FILE:DESC
+      type: DESC
+      pages: 11
+      bytes: 22528
+      userName: FLOPPY-USER
+      dateCreated: 2510480640
+      lastDateRead: 2525936495
+      lastDateWritten: 2511532199
+      dateCreatedStr: 1987-06-17 14:20:00
+      lastDateReadStr: 1987-10-07 11:45:47
+      lastDateWrittenStr: 1987-06-25 15:02:39
+      bpunValid: null
+    - name: SCRATCH-SEG-01:LINK
+      type: LINK
+      pages: 0
+      bytes: 0
+      userName: FLOPPY-USER
+      dateCreated: 2510480650
+      lastDateRead: 2510480652
+      lastDateWritten: 2510480652
+      dateCreatedStr: 1987-06-17 14:20:10
+      lastDateReadStr: 1987-06-17 14:20:12
+      lastDateWrittenStr: 1987-06-17 14:20:12
+      bpunValid: null
+    - name: SCRATCH-SEG-01:DSEG
+      type: DSEG
+      pages: 1
+      bytes: 1029
+      userName: FLOPPY-USER
+      dateCreated: 2510480653
+      lastDateRead: 2510480667
+      lastDateWritten: 2510480654
+      dateCreatedStr: 1987-06-17 14:20:13
+      lastDateReadStr: 1987-06-17 14:20:27
+      lastDateWrittenStr: 1987-06-17 14:20:14
+      bpunValid: null
+    - name: SCRATCH-SEG-01:PSEG
+      type: PSEG
+      pages: 1
+      bytes: 5
+      userName: FLOPPY-USER
+      dateCreated: 2510480655
+      lastDateRead: 2510480656
+      lastDateWritten: 2510480656
+      dateCreatedStr: 1987-06-17 14:20:15
+      lastDateReadStr: 1987-06-17 14:20:16
+      lastDateWrittenStr: 1987-06-17 14:20:16
+      bpunValid: null
+    - name: PLANC-500-H00:LINK
+      type: LINK
+      pages: 8
+      bytes: 14945
+      userName: FLOPPY-USER
+      dateCreated: 2511531740
+      lastDateRead: 2525936499
+      lastDateWritten: 2511532192
+      dateCreatedStr: 1987-06-25 14:59:28
+      lastDateReadStr: 1987-10-07 11:45:51
+      lastDateWrittenStr: 1987-06-25 15:02:32
+      bpunValid: null
+    - name: PLANC-500-H00:DSEG
+      type: DSEG
+      pages: 54
+      bytes: 893419
+      userName: FLOPPY-USER
+      dateCreated: 2511531742
+      lastDateRead: 2525936499
+      lastDateWritten: 2511532191
+      dateCreatedStr: 1987-06-25 14:59:30
+      lastDateReadStr: 1987-10-07 11:45:51
+      lastDateWrittenStr: 1987-06-25 15:02:31
+      bpunValid: null
+    - name: PLANC-500-H00:PSEG
+      type: PSEG
+      pages: 82
+      bytes: 166530
+      userName: FLOPPY-USER
+      dateCreated: 2511531744
+      lastDateRead: 2525936498
+      lastDateWritten: 2511532191
+      dateCreatedStr: 1987-06-25 14:59:32
+      lastDateReadStr: 1987-10-07 11:45:50
+      lastDateWrittenStr: 1987-06-25 15:02:31
+      bpunValid: null
+    - name: PLANC-LIB-H00:NRF
+      type: NRF
+      pages: 9
+      bytes: 17363
+      userName: FLOPPY-USER
+      dateCreated: 2510481125
+      lastDateRead: 2525941862
+      lastDateWritten: 2510481126
+      dateCreatedStr: 1987-06-17 14:27:37
+      lastDateReadStr: 1987-10-07 13:01:38
+      lastDateWrittenStr: 1987-06-17 14:27:38
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/ND-210310H00-XX-01D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.529Z
+  notes: "NDWiki says: this FluxEngine image is most likely broken. It was captured with a FluxEngine version that could not read ND format 17b (double-sided) floppies properly. It needs to be read again with an updated FluxEngine."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210310H
+      title: NDWiki - ND-210310H
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210310-h00-d1-43b6e5ef
+  syncStatus: pending

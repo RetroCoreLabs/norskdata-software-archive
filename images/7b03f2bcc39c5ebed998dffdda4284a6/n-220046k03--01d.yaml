@@ -1,6 +1,10 @@
 id: img-7b03f2bcc39c
 volumeName: N-220046K03--01D
 md5: 7b03f2bcc39c5ebed998dffdda4284a6
+product:
+  id: ND-220046
+  version: K03
+  diskNumber: 1
 image:
   sizeBytes: 1261568
   format: raw

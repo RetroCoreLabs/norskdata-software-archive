@@ -1,0 +1,102 @@
+id: nd-10628-d01-d1-c49c80a6
+volumeName: 10628D01-XX-01S
+md5: c49c80a64953dcf33dc1f07fbc687b22
+product:
+  id: ND-10628
+  version: D01
+  diskNumber: 1
+  language: XX
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: bpun
+  bootProgram: flomon
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 117
+  files:
+    - name: COP-VERIFY-H00:BPUN
+      type: BPUN
+      pages: 12
+      bytes: 22726
+      userName: FLOPPY-USER
+      dateCreated: 2393041360
+      lastDateRead: null
+      lastDateWritten: 2393041365
+      dateCreatedStr: 1985-10-17 14:39:16
+      lastDateReadStr: null
+      lastDateWrittenStr: 1985-10-17 14:39:21
+      bpunValid: true
+    - name: DIR-BACKUP-C01:BPUN
+      type: BPUN
+      pages: 57
+      bytes: 115972
+      userName: FLOPPY-USER
+      dateCreated: 2393041363
+      lastDateRead: null
+      lastDateWritten: 2393041399
+      dateCreatedStr: 1985-10-17 14:39:19
+      lastDateReadStr: null
+      lastDateWrittenStr: 1985-10-17 14:39:55
+      bpunValid: true
+    - name: FILSYS-INV-O00:BPUN
+      type: BPUN
+      pages: 22
+      bytes: 43056
+      userName: FLOPPY-USER
+      dateCreated: 2393041363
+      lastDateRead: null
+      lastDateWritten: 2393041613
+      dateCreatedStr: 1985-10-17 14:39:19
+      lastDateReadStr: null
+      lastDateWrittenStr: 1985-10-17 14:43:13
+      bpunValid: true
+    - name: FLOPPY-MON-2010G:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 4314
+      userName: FLOPPY-USER
+      dateCreated: 2393041364
+      lastDateRead: null
+      lastDateWritten: 2393042316
+      dateCreatedStr: 1985-10-17 14:39:20
+      lastDateReadStr: null
+      lastDateWrittenStr: 1985-10-17 14:54:12
+      bpunValid: true
+    - name: MCOPY-TANB-O00:BPUN
+      type: BPUN
+      pages: 17
+      bytes: 33660
+      userName: FLOPPY-USER
+      dateCreated: 2393041364
+      lastDateRead: null
+      lastDateWritten: 2393041684
+      dateCreatedStr: 1985-10-17 14:39:20
+      lastDateReadStr: null
+      lastDateWrittenStr: 1985-10-17 14:44:20
+      bpunValid: true
+provenance:
+  contributor: ndwiki
+  originalPath: import/10628D01-XX-01S.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.025Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10628D
+      title: NDWiki - ND-10628D
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10628-d01-d1-c49c80a6
+  syncStatus: pending

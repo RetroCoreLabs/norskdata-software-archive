@@ -1,0 +1,90 @@
+id: nd-211054-a00-d1-6de2989d
+volumeName: 211054A00-NO-01D
+md5: 6de2989db4beef7ec3bfe1f2bd89eb0e
+product:
+  id: ND-211054
+  version: A00
+  diskNumber: 1
+  language: NO
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 176
+  files:
+    - name: DESCRIPTION-FILE:DESC
+      type: DESC
+      pages: 8
+      bytes: 22528
+      userName: FLOPPY-USER
+      dateCreated: 2490021577
+      lastDateRead: 2511668817
+      lastDateWritten: 2492637833
+      dateCreatedStr: 1987-01-21 11:27:09
+      lastDateReadStr: 1987-06-26 16:25:17
+      lastDateWrittenStr: 1987-02-09 10:10:09
+      bpunValid: null
+    - name: NOTIS-PM-NO-A00:LINK
+      type: LINK
+      pages: 38
+      bytes: 76801
+      userName: FLOPPY-USER
+      dateCreated: 2490021585
+      lastDateRead: 2511668822
+      lastDateWritten: 2490021799
+      dateCreatedStr: 1987-01-21 11:27:17
+      lastDateReadStr: 1987-06-26 16:25:22
+      lastDateWrittenStr: 1987-01-21 11:30:39
+      bpunValid: null
+    - name: NOTIS-PM-NO-A00:DSEG
+      type: DSEG
+      pages: 64
+      bytes: 129265
+      userName: FLOPPY-USER
+      dateCreated: 2490021585
+      lastDateRead: 2511668822
+      lastDateWritten: 2490021799
+      dateCreatedStr: 1987-01-21 11:27:17
+      lastDateReadStr: 1987-06-26 16:25:22
+      lastDateWrittenStr: 1987-01-21 11:30:39
+      bpunValid: null
+    - name: NOTIS-PM-NO-A00:PSEG
+      type: PSEG
+      pages: 61
+      bytes: 123702
+      userName: FLOPPY-USER
+      dateCreated: 2490021586
+      lastDateRead: 2511668821
+      lastDateWritten: 2490021799
+      dateCreatedStr: 1987-01-21 11:27:18
+      lastDateReadStr: 1987-06-26 16:25:21
+      lastDateWrittenStr: 1987-01-21 11:30:39
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/ND-211054A00-NO-01D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.680Z
+  notes: "NDWiki says: this FluxEngine image is most likely broken. It was captured with a FluxEngine version that could not read ND format 17b (double-sided) floppies properly. It needs to be read again with an updated FluxEngine."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-211054A
+      title: NDWiki - ND-211054A
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-211054-a00-d1-6de2989d
+  syncStatus: pending

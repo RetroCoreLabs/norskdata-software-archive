@@ -1,0 +1,292 @@
+id: nd-10324-b-d1-e6798db0
+volumeName: ND-10324B
+md5: e6798db02c1701bd3a99616a7fec63f4
+product:
+  id: ND-10324
+  version: B
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: bpun
+  bootProgram: flomon
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 126
+  files:
+    - name: BIG-RAND-1876C:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 4869
+      userName: FLOPPY-USER
+      dateCreated: 2116470446
+      lastDateRead: 2116471603
+      lastDateWritten: 2116470542
+      dateCreatedStr: 1981-08-19 12:26:46
+      lastDateReadStr: 1981-08-19 12:44:51
+      lastDateWrittenStr: 1981-08-19 12:28:14
+      bpunValid: true
+    - name: BIGFUNC-1824I:BPUN
+      type: BPUN
+      pages: 8
+      bytes: 16174
+      userName: FLOPPY-USER
+      dateCreated: 2116470454
+      lastDateRead: 2116471608
+      lastDateWritten: 2116470546
+      dateCreatedStr: 1981-08-19 12:26:54
+      lastDateReadStr: 1981-08-19 12:44:56
+      lastDateWrittenStr: 1981-08-19 12:28:18
+      bpunValid: true
+    - name: BIMS-1871C:BPUN
+      type: BPUN
+      pages: 6
+      bytes: 11661
+      userName: FLOPPY-USER
+      dateCreated: 2116470458
+      lastDateRead: 2116471618
+      lastDateWritten: 2116470551
+      dateCreatedStr: 1981-08-19 12:26:58
+      lastDateReadStr: 1981-08-19 12:45:02
+      lastDateWrittenStr: 1981-08-19 12:28:23
+      bpunValid: true
+    - name: CONFI-INV-1672M:BPUN
+      type: BPUN
+      pages: 13
+      bytes: 25000
+      userName: FLOPPY-USER
+      dateCreated: 2116470466
+      lastDateRead: 2116471623
+      lastDateWritten: 2116470555
+      dateCreatedStr: 1981-08-19 12:27:02
+      lastDateReadStr: 1981-08-19 12:45:07
+      lastDateWrittenStr: 1981-08-19 12:28:27
+      bpunValid: true
+    - name: DIMS-1453F:BPUN
+      type: BPUN
+      pages: 9
+      bytes: 17004
+      userName: FLOPPY-USER
+      dateCreated: 2116470470
+      lastDateRead: 2116471632
+      lastDateWritten: 2116470561
+      dateCreatedStr: 1981-08-19 12:27:06
+      lastDateReadStr: 1981-08-19 12:45:16
+      lastDateWrittenStr: 1981-08-19 12:28:33
+      bpunValid: true
+    - name: DISC-TEMA-A:BPUN
+      type: BPUN
+      pages: 15
+      bytes: 29236
+      userName: FLOPPY-USER
+      dateCreated: 2116470474
+      lastDateRead: 2116471638
+      lastDateWritten: 2116470567
+      dateCreatedStr: 1981-08-19 12:27:10
+      lastDateReadStr: 1981-08-19 12:45:22
+      lastDateWrittenStr: 1981-08-19 12:28:39
+      bpunValid: true
+    - name: EXTEN-ONE-1519B:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 4993
+      userName: FLOPPY-USER
+      dateCreated: 2116470478
+      lastDateRead: 2116471647
+      lastDateWritten: 2116470574
+      dateCreatedStr: 1981-08-19 12:27:14
+      lastDateReadStr: 1981-08-19 12:45:31
+      lastDateWrittenStr: 1981-08-19 12:28:46
+      bpunValid: true
+    - name: FLOPP-FORM-1990A:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 3043
+      userName: FLOPPY-USER
+      dateCreated: 2116470482
+      lastDateRead: 2116471652
+      lastDateWritten: 2116470578
+      dateCreatedStr: 1981-08-19 12:27:18
+      lastDateReadStr: 1981-08-19 12:45:36
+      lastDateWrittenStr: 1981-08-19 12:28:50
+      bpunValid: true
+    - name: FLOPPY-FU-1986F:BPUN
+      type: BPUN
+      pages: 4
+      bytes: 6908
+      userName: FLOPPY-USER
+      dateCreated: 2116470486
+      lastDateRead: 2116471657
+      lastDateWritten: 2116470581
+      dateCreatedStr: 1981-08-19 12:27:22
+      lastDateReadStr: 1981-08-19 12:45:41
+      lastDateWrittenStr: 1981-08-19 12:28:53
+      bpunValid: true
+    - name: FLOPPY-RAN-1988A:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 5777
+      userName: FLOPPY-USER
+      dateCreated: 2116470490
+      lastDateRead: 2116471662
+      lastDateWritten: 2116470586
+      dateCreatedStr: 1981-08-19 12:27:26
+      lastDateReadStr: 1981-08-19 12:45:46
+      lastDateWrittenStr: 1981-08-19 12:28:58
+      bpunValid: true
+    - name: GREMS-2231G:BPUN
+      type: BPUN
+      pages: 8
+      bytes: 15274
+      userName: FLOPPY-USER
+      dateCreated: 2116470494
+      lastDateRead: 2116471667
+      lastDateWritten: 2116470594
+      dateCreatedStr: 1981-08-19 12:27:30
+      lastDateReadStr: 1981-08-19 12:45:51
+      lastDateWrittenStr: 1981-08-19 12:29:02
+      bpunValid: true
+    - name: HDLC-2-2370A:BPUN
+      type: BPUN
+      pages: 9
+      bytes: 16494
+      userName: FLOPPY-USER
+      dateCreated: 2116470498
+      lastDateRead: 2116471674
+      lastDateWritten: 2116470599
+      dateCreatedStr: 1981-08-19 12:27:34
+      lastDateReadStr: 1981-08-19 12:45:58
+      lastDateWrittenStr: 1981-08-19 12:29:07
+      bpunValid: true
+    - name: LP-TEST-1878B:BPUN
+      type: BPUN
+      pages: 8
+      bytes: 16256
+      userName: FLOPPY-USER
+      dateCreated: 2116470502
+      lastDateRead: 2116471685
+      lastDateWritten: 2116470605
+      dateCreatedStr: 1981-08-19 12:27:38
+      lastDateReadStr: 1981-08-19 12:46:05
+      lastDateWrittenStr: 1981-08-19 12:29:13
+      bpunValid: true
+    - name: MOVER-1863C:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 3543
+      userName: FLOPPY-USER
+      dateCreated: 2116470506
+      lastDateRead: 2133632553
+      lastDateWritten: 2116470610
+      dateCreatedStr: 1981-08-19 12:27:42
+      lastDateReadStr: 1981-12-22 10:24:41
+      lastDateWrittenStr: 1981-08-19 12:29:18
+      bpunValid: true
+    - name: MPM-MAINT-2177B:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 4404
+      userName: FLOPPY-USER
+      dateCreated: 2116470510
+      lastDateRead: 2116471697
+      lastDateWritten: 2116470614
+      dateCreatedStr: 1981-08-19 12:27:46
+      lastDateReadStr: 1981-08-19 12:46:17
+      lastDateWrittenStr: 1981-08-19 12:29:22
+      bpunValid: true
+    - name: MULTI-1820M:BPUN
+      type: BPUN
+      pages: 8
+      bytes: 15826
+      userName: FLOPPY-USER
+      dateCreated: 2116470514
+      lastDateRead: 2116471702
+      lastDateWritten: 2116470618
+      dateCreatedStr: 1981-08-19 12:27:50
+      lastDateReadStr: 1981-08-19 12:46:22
+      lastDateWrittenStr: 1981-08-19 12:29:26
+      bpunValid: true
+    - name: PFAIL-1355F:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 3106
+      userName: FLOPPY-USER
+      dateCreated: 2116470519
+      lastDateRead: 2116471709
+      lastDateWritten: 2116470623
+      dateCreatedStr: 1981-08-19 12:27:55
+      lastDateReadStr: 1981-08-19 12:46:29
+      lastDateWrittenStr: 1981-08-19 12:29:31
+      bpunValid: true
+    - name: SUPER-RAND-2222C:BPUN
+      type: BPUN
+      pages: 6
+      bytes: 12210
+      userName: FLOPPY-USER
+      dateCreated: 2116470523
+      lastDateRead: 2116471715
+      lastDateWritten: 2116470627
+      dateCreatedStr: 1981-08-19 12:27:59
+      lastDateReadStr: 1981-08-19 12:46:35
+      lastDateWrittenStr: 1981-08-19 12:29:35
+      bpunValid: true
+    - name: T32KMOS-2178D:BPUN
+      type: BPUN
+      pages: 6
+      bytes: 10424
+      userName: FLOPPY-USER
+      dateCreated: 2116470531
+      lastDateRead: 2116471721
+      lastDateWritten: 2116470632
+      dateCreatedStr: 1981-08-19 12:28:03
+      lastDateReadStr: 1981-08-19 12:46:41
+      lastDateWrittenStr: 1981-08-19 12:29:40
+      bpunValid: true
+    - name: TANB-MAG-1559F:BPUN
+      type: BPUN
+      pages: 5
+      bytes: 8460
+      userName: FLOPPY-USER
+      dateCreated: 2116470535
+      lastDateRead: 2116471728
+      lastDateWritten: 2116470637
+      dateCreatedStr: 1981-08-19 12:28:07
+      lastDateReadStr: 1981-08-19 12:46:48
+      lastDateWrittenStr: 1981-08-19 12:29:45
+      bpunValid: true
+    - name: TTEST-1206A:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 3038
+      userName: FLOPPY-USER
+      dateCreated: 2116470539
+      lastDateRead: 2116471734
+      lastDateWritten: 2116470642
+      dateCreatedStr: 1981-08-19 12:28:11
+      lastDateReadStr: 1981-08-19 12:46:54
+      lastDateWrittenStr: 1981-08-19 12:29:50
+      bpunValid: true
+provenance:
+  contributor: ndwiki
+  originalPath: import/ND-10324B.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.351Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10324B
+      title: NDWiki - ND-10324B
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10324-b-d1-e6798db0
+  syncStatus: pending
