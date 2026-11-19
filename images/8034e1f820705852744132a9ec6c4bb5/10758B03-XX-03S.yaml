@@ -1,0 +1,90 @@
+id: nd-10758-b03-d3-8034e1f8
+volumeName: 10758B03-XX-03S
+md5: 8034e1f820705852744132a9ec6c4bb5
+product:
+  id: ND-10758
+  version: B03
+  diskNumber: 3
+  language: XX
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 122
+  files:
+    - name: BG-PART3-B03:BRF
+      type: BRF
+      pages: 55
+      bytes: 111796
+      userName: FLOPPY-USER
+      dateCreated: 2434181588
+      lastDateRead: null
+      lastDateWritten: 2434181594
+      dateCreatedStr: 1986-04-11 10:39:20
+      lastDateReadStr: null
+      lastDateWrittenStr: 1986-04-11 10:39:26
+      bpunValid: null
+    - name: BG-PART4-B03:BRF
+      type: BRF
+      pages: 23
+      bytes: 46718
+      userName: FLOPPY-USER
+      dateCreated: 2434181650
+      lastDateRead: null
+      lastDateWritten: 2434181651
+      dateCreatedStr: 1986-04-11 10:40:18
+      lastDateReadStr: null
+      lastDateWrittenStr: 1986-04-11 10:40:19
+      bpunValid: null
+    - name: BG-PART5-B03:BRF
+      type: BRF
+      pages: 21
+      bytes: 41293
+      userName: FLOPPY-USER
+      dateCreated: 2434181684
+      lastDateRead: null
+      lastDateWritten: 2434181686
+      dateCreatedStr: 1986-04-11 10:40:52
+      lastDateReadStr: null
+      lastDateWrittenStr: 1986-04-11 10:40:54
+      bpunValid: null
+    - name: BG-PART6-B03:BRF
+      type: BRF
+      pages: 18
+      bytes: 35569
+      userName: FLOPPY-USER
+      dateCreated: 2434181729
+      lastDateRead: null
+      lastDateWritten: 2434181730
+      dateCreatedStr: 1986-04-11 10:41:33
+      lastDateReadStr: null
+      lastDateWrittenStr: 1986-04-11 10:41:34
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import2/10758B03-XX-03S.img
+  dateImaged: 2026-11-19
+  importedAt: 2026-11-19T09:33:57.081Z
+  notes: "NDWiki read of the same disk as nd-10724-b03-d3-d9e0b34c (10724B03-XX-03D), kept as an extra version. Compared 2026-11-19 with the existing read: 315156 bytes differ (pages 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 ... (154 pages total)). BPUN checksum, files ok/bad: this read 0/0, existing read 0/0. There are no BPUN files to check, so the checksum cannot say which read is better. The existing read is longer (archive read has 946176 extra bytes (not all zero))."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10758B
+      title: NDWiki - ND-10758B
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10758-b03-d3-8034e1f8
+  syncStatus: pending

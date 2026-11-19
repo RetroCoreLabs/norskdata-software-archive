@@ -1,0 +1,221 @@
+id: nd-10324-f-d1-a61e044b
+volumeName: ND-10324F
+md5: a61e044b34d80510134a3b993b64c63c
+product:
+  id: ND-10324
+  version: F
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: bpun
+  bootProgram: flomon
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 146
+  files:
+    - name: BIG-RAND-1876C:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 4662
+      userName: FLOPPY-USER
+      dateCreated: 2223433507
+      lastDateRead: null
+      lastDateWritten: 2223433558
+      dateCreatedStr: 1983-02-03 14:28:35
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:29:22
+      bpunValid: true
+    - name: CONFI-INV-1672N:BPUN
+      type: BPUN
+      pages: 17
+      bytes: 34100
+      userName: FLOPPY-USER
+      dateCreated: 2223433513
+      lastDateRead: null
+      lastDateWritten: 2223433561
+      dateCreatedStr: 1983-02-03 14:28:41
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:29:25
+      bpunValid: true
+    - name: DIMS-1453F:BPUN
+      type: BPUN
+      pages: 9
+      bytes: 17004
+      userName: FLOPPY-USER
+      dateCreated: 2223433515
+      lastDateRead: null
+      lastDateWritten: 2223433571
+      dateCreatedStr: 1983-02-03 14:28:43
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:29:35
+      bpunValid: true
+    - name: DISC-TEMA-E:BPUN
+      type: BPUN
+      pages: 24
+      bytes: 48366
+      userName: FLOPPY-USER
+      dateCreated: 2223433518
+      lastDateRead: null
+      lastDateWritten: 2223433576
+      dateCreatedStr: 1983-02-03 14:28:46
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:29:40
+      bpunValid: true
+    - name: EXTEN-ONE-1519B:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 4768
+      userName: FLOPPY-USER
+      dateCreated: 2223433520
+      lastDateRead: null
+      lastDateWritten: 2223433587
+      dateCreatedStr: 1983-02-03 14:28:48
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:29:51
+      bpunValid: true
+    - name: FLOPP-FORM-1990B:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 5754
+      userName: FLOPPY-USER
+      dateCreated: 2223433522
+      lastDateRead: null
+      lastDateWritten: 2223433590
+      dateCreatedStr: 1983-02-03 14:28:50
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:29:54
+      bpunValid: true
+    - name: FLOPPY-RAN-1988B:BPUN
+      type: BPUN
+      pages: 5
+      bytes: 9526
+      userName: FLOPPY-USER
+      dateCreated: 2223433525
+      lastDateRead: null
+      lastDateWritten: 2223433594
+      dateCreatedStr: 1983-02-03 14:28:53
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:29:58
+      bpunValid: true
+    - name: HDLC-MEGALINK-B:BPUN
+      type: BPUN
+      pages: 14
+      bytes: 28350
+      userName: FLOPPY-USER
+      dateCreated: 2223433528
+      lastDateRead: null
+      lastDateWritten: 2223433603
+      dateCreatedStr: 1983-02-03 14:28:56
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:30:03
+      bpunValid: true
+    - name: LP-TEST-1878C:BPUN
+      type: BPUN
+      pages: 9
+      bytes: 18392
+      userName: FLOPPY-USER
+      dateCreated: 2223433537
+      lastDateRead: null
+      lastDateWritten: 2223433612
+      dateCreatedStr: 1983-02-03 14:29:01
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:30:12
+      bpunValid: true
+    - name: MEMORY-C:BPUN
+      type: BPUN
+      pages: 18
+      bytes: 35872
+      userName: FLOPPY-USER
+      dateCreated: 2223433540
+      lastDateRead: null
+      lastDateWritten: 2223433620
+      dateCreatedStr: 1983-02-03 14:29:04
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:30:20
+      bpunValid: true
+    - name: MOVER-1863C:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 3572
+      userName: FLOPPY-USER
+      dateCreated: 2223433543
+      lastDateRead: null
+      lastDateWritten: 2223433630
+      dateCreatedStr: 1983-02-03 14:29:07
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:30:30
+      bpunValid: true
+    - name: MULTI-1820P:BPUN
+      type: BPUN
+      pages: 12
+      bytes: 22908
+      userName: FLOPPY-USER
+      dateCreated: 2223433545
+      lastDateRead: null
+      lastDateWritten: 2223433634
+      dateCreatedStr: 1983-02-03 14:29:09
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:30:34
+      bpunValid: true
+    - name: SUPER-RAND-2222C:BPUN
+      type: BPUN
+      pages: 6
+      bytes: 12210
+      userName: FLOPPY-USER
+      dateCreated: 2223433547
+      lastDateRead: null
+      lastDateWritten: 2223433641
+      dateCreatedStr: 1983-02-03 14:29:11
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:30:41
+      bpunValid: true
+    - name: TANB-MAG-1559H:BPUN
+      type: BPUN
+      pages: 5
+      bytes: 8484
+      userName: FLOPPY-USER
+      dateCreated: 2223433550
+      lastDateRead: null
+      lastDateWritten: 2223433646
+      dateCreatedStr: 1983-02-03 14:29:14
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:30:46
+      bpunValid: true
+    - name: TERMINAL-ASYNC-C:BPUN
+      type: BPUN
+      pages: 15
+      bytes: 29756
+      userName: FLOPPY-USER
+      dateCreated: 2223433554
+      lastDateRead: null
+      lastDateWritten: 2223433651
+      dateCreatedStr: 1983-02-03 14:29:18
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-02-03 14:30:51
+      bpunValid: true
+provenance:
+  contributor: ndwiki
+  originalPath: import2/ND-10324F.img
+  dateImaged: 2026-11-19
+  importedAt: 2026-11-19T09:33:57.282Z
+  notes: "NDWiki read of the same disk as nd-10324-f-d1-631189ec (ND-10324F), kept as an extra version. Compared 2026-11-19 with the existing read: 27 bytes differ (pages 77,151). BPUN checksum, files ok/bad: this read 15/0, existing read 15/0. Both reads pass every BPUN check, so the checksum cannot say which read is better."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10324F
+      title: NDWiki - ND-10324F
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10324-f-d1-a61e044b
+  syncStatus: pending

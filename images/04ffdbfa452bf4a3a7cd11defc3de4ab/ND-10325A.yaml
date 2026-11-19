@@ -1,0 +1,365 @@
+id: nd-10325-a-d1-04ffdbfa
+volumeName: ND-10325A
+md5: 04ffdbfa452bf4a3a7cd11defc3de4ab
+product:
+  id: ND-10325
+  version: A
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: bpun
+  bootProgram: flomon
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 147
+  files:
+    - name: 100-ERRCOR-2339B:BPUN
+      type: BPUN
+      pages: 10
+      bytes: 18444
+      userName: FLOPPY-USER
+      dateCreated: 2105735447
+      lastDateRead: 2105735449
+      lastDateWritten: 2105735449
+      dateCreatedStr: 1981-06-01 15:36:23
+      lastDateReadStr: 1981-06-01 15:36:25
+      lastDateWrittenStr: 1981-06-01 15:36:25
+      bpunValid: true
+    - name: CACHE-2063D:BPUN
+      type: BPUN
+      pages: 20
+      bytes: 39314
+      userName: FLOPPY-USER
+      dateCreated: 2105735461
+      lastDateRead: 2105735462
+      lastDateWritten: 2105735462
+      dateCreatedStr: 1981-06-01 15:36:37
+      lastDateReadStr: 1981-06-01 15:36:38
+      lastDateWrittenStr: 1981-06-01 15:36:38
+      bpunValid: true
+    - name: CARDR-1642A:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 3558
+      userName: FLOPPY-USER
+      dateCreated: 2105735489
+      lastDateRead: 2105735489
+      lastDateWritten: 2105735489
+      dateCreatedStr: 1981-06-01 15:37:01
+      lastDateReadStr: 1981-06-01 15:37:01
+      lastDateWrittenStr: 1981-06-01 15:37:01
+      bpunValid: true
+    - name: CHATA-1832A:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 2114
+      userName: FLOPPY-USER
+      dateCreated: 2105735498
+      lastDateRead: 2105735498
+      lastDateWritten: 2105735498
+      dateCreatedStr: 1981-06-01 15:37:10
+      lastDateReadStr: 1981-06-01 15:37:10
+      lastDateWrittenStr: 1981-06-01 15:37:10
+      bpunValid: true
+    - name: DS1172-2282B:BPUN
+      type: BPUN
+      pages: 8
+      bytes: 15120
+      userName: FLOPPY-USER
+      dateCreated: 2105735505
+      lastDateRead: 2105735505
+      lastDateWritten: 2105735505
+      dateCreatedStr: 1981-06-01 15:37:17
+      lastDateReadStr: 1981-06-01 15:37:17
+      lastDateWrittenStr: 1981-06-01 15:37:17
+      bpunValid: true
+    - name: DSERV-1395A:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 3316
+      userName: FLOPPY-USER
+      dateCreated: 2105735517
+      lastDateRead: 2105735518
+      lastDateWritten: 2105735518
+      dateCreatedStr: 1981-06-01 15:37:29
+      lastDateReadStr: 1981-06-01 15:37:30
+      lastDateWrittenStr: 1981-06-01 15:37:30
+      bpunValid: true
+    - name: ECCTEST-2224B:BPUN
+      type: BPUN
+      pages: 8
+      bytes: 14398
+      userName: FLOPPY-USER
+      dateCreated: 2105735527
+      lastDateRead: 2105735528
+      lastDateWritten: 2105735528
+      dateCreatedStr: 1981-06-01 15:37:39
+      lastDateReadStr: 1981-06-01 15:37:40
+      lastDateWrittenStr: 1981-06-01 15:37:40
+      bpunValid: true
+    - name: ERRCOR-2112A:BPUN
+      type: BPUN
+      pages: 4
+      bytes: 6882
+      userName: FLOPPY-USER
+      dateCreated: 2105735552
+      lastDateRead: 2105735552
+      lastDateWritten: 2105735552
+      dateCreatedStr: 1981-06-01 15:38:00
+      lastDateReadStr: 1981-06-01 15:38:00
+      lastDateWrittenStr: 1981-06-01 15:38:00
+      bpunValid: true
+    - name: FLOATING-1529D:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 4270
+      userName: FLOPPY-USER
+      dateCreated: 2105735563
+      lastDateRead: 2105735563
+      lastDateWritten: 2105735563
+      dateCreatedStr: 1981-06-01 15:38:11
+      lastDateReadStr: 1981-06-01 15:38:11
+      lastDateWrittenStr: 1981-06-01 15:38:11
+      bpunValid: true
+    - name: FOUR-CH-1418E:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 2976
+      userName: FLOPPY-USER
+      dateCreated: 2105735578
+      lastDateRead: 2105735578
+      lastDateWritten: 2105735578
+      dateCreatedStr: 1981-06-01 15:38:26
+      lastDateReadStr: 1981-06-01 15:38:26
+      lastDateWrittenStr: 1981-06-01 15:38:26
+      bpunValid: true
+    - name: ONE-CHECK-1192A:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 4505
+      userName: FLOPPY-USER
+      dateCreated: 2105735585
+      lastDateRead: 2105735585
+      lastDateWritten: 2105735585
+      dateCreatedStr: 1981-06-01 15:38:33
+      lastDateReadStr: 1981-06-01 15:38:33
+      lastDateWrittenStr: 1981-06-01 15:38:33
+      bpunValid: true
+    - name: PAGING-A:BPUN
+      type: BPUN
+      pages: 12
+      bytes: 24564
+      userName: FLOPPY-USER
+      dateCreated: 2105735594
+      lastDateRead: 2105735594
+      lastDateWritten: 2105735594
+      dateCreatedStr: 1981-06-01 15:38:42
+      lastDateReadStr: 1981-06-01 15:38:42
+      lastDateWrittenStr: 1981-06-01 15:38:42
+      bpunValid: true
+    - name: PARAL-BYTE-1942C:BPUN
+      type: BPUN
+      pages: 4
+      bytes: 6226
+      userName: FLOPPY-USER
+      dateCreated: 2105735618
+      lastDateRead: 2105735619
+      lastDateWritten: 2105735619
+      dateCreatedStr: 1981-06-01 15:39:02
+      lastDateReadStr: 1981-06-01 15:39:03
+      lastDateWrittenStr: 1981-06-01 15:39:03
+      bpunValid: true
+    - name: PFAIL-12-1940B:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 2365
+      userName: FLOPPY-USER
+      dateCreated: 2105735629
+      lastDateRead: 2105735629
+      lastDateWritten: 2105735629
+      dateCreatedStr: 1981-06-01 15:39:13
+      lastDateReadStr: 1981-06-01 15:39:13
+      lastDateWrittenStr: 1981-06-01 15:39:13
+      bpunValid: true
+    - name: PROCES-PAN-1865A:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 5101
+      userName: FLOPPY-USER
+      dateCreated: 2105735636
+      lastDateRead: 2105735637
+      lastDateWritten: 2105735637
+      dateCreatedStr: 1981-06-01 15:39:20
+      lastDateReadStr: 1981-06-01 15:39:21
+      lastDateWrittenStr: 1981-06-01 15:39:21
+      bpunValid: true
+    - name: RGCHK-1543C:BPUN
+      type: BPUN
+      pages: 1
+      bytes: 1840
+      userName: FLOPPY-USER
+      dateCreated: 2105735646
+      lastDateRead: 2105735646
+      lastDateWritten: 2105735646
+      dateCreatedStr: 1981-06-01 15:39:30
+      lastDateReadStr: 1981-06-01 15:39:30
+      lastDateWrittenStr: 1981-06-01 15:39:30
+      bpunValid: true
+    - name: RTC-12-1902B:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 2340
+      userName: FLOPPY-USER
+      dateCreated: 2105735652
+      lastDateRead: 2105735652
+      lastDateWritten: 2105735652
+      dateCreatedStr: 1981-06-01 15:39:36
+      lastDateReadStr: 1981-06-01 15:39:36
+      lastDateWrittenStr: 1981-06-01 15:39:36
+      bpunValid: true
+    - name: SMALL-RAND-2448A:BPUN
+      type: BPUN
+      pages: 9
+      bytes: 16848
+      userName: FLOPPY-USER
+      dateCreated: 2105735660
+      lastDateRead: 2105735660
+      lastDateWritten: 2105735660
+      dateCreatedStr: 1981-06-01 15:39:44
+      lastDateReadStr: 1981-06-01 15:39:44
+      lastDateWrittenStr: 1981-06-01 15:39:44
+      bpunValid: true
+    - name: T-32B-FLOA-1860B:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 3862
+      userName: FLOPPY-USER
+      dateCreated: 2105735683
+      lastDateRead: 2105735684
+      lastDateWritten: 2105735684
+      dateCreatedStr: 1981-06-01 15:40:03
+      lastDateReadStr: 1981-06-01 15:40:04
+      lastDateWrittenStr: 1981-06-01 15:40:04
+      bpunValid: true
+    - name: T4KMOS-12-1867B:BPUN
+      type: BPUN
+      pages: 4
+      bytes: 6488
+      userName: FLOPPY-USER
+      dateCreated: 2105735692
+      lastDateRead: 2105735692
+      lastDateWritten: 2105735692
+      dateCreatedStr: 1981-06-01 15:40:12
+      lastDateReadStr: 1981-06-01 15:40:12
+      lastDateWrittenStr: 1981-06-01 15:40:12
+      bpunValid: true
+    - name: T8KMOS-1821C:BPUN
+      type: BPUN
+      pages: 4
+      bytes: 7290
+      userName: FLOPPY-USER
+      dateCreated: 2105735703
+      lastDateRead: 2105735703
+      lastDateWritten: 2105735703
+      dateCreatedStr: 1981-06-01 15:40:23
+      lastDateReadStr: 1981-06-01 15:40:23
+      lastDateWrittenStr: 1981-06-01 15:40:23
+      bpunValid: true
+    - name: TECOD-1451E:BPUN
+      type: BPUN
+      pages: 4
+      bytes: 7198
+      userName: FLOPPY-USER
+      dateCreated: 2105735715
+      lastDateRead: 2105735715
+      lastDateWritten: 2105735715
+      dateCreatedStr: 1981-06-01 15:40:35
+      lastDateReadStr: 1981-06-01 15:40:35
+      lastDateWrittenStr: 1981-06-01 15:40:35
+      bpunValid: true
+    - name: TERMBUF-1751A:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 3221
+      userName: FLOPPY-USER
+      dateCreated: 2105735726
+      lastDateRead: 2105735727
+      lastDateWritten: 2105735727
+      dateCreatedStr: 1981-06-01 15:40:46
+      lastDateReadStr: 1981-06-01 15:40:47
+      lastDateWrittenStr: 1981-06-01 15:40:47
+      bpunValid: true
+    - name: THREE-CH-1528D:BPUN
+      type: BPUN
+      pages: 1
+      bytes: 1176
+      userName: FLOPPY-USER
+      dateCreated: 2105735735
+      lastDateRead: 2105735735
+      lastDateWritten: 2105735735
+      dateCreatedStr: 1981-06-01 15:40:55
+      lastDateReadStr: 1981-06-01 15:40:55
+      lastDateWrittenStr: 1981-06-01 15:40:55
+      bpunValid: true
+    - name: TLINE-1541B:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 2287
+      userName: FLOPPY-USER
+      dateCreated: 2105735746
+      lastDateRead: 2105735746
+      lastDateWritten: 2105735746
+      dateCreatedStr: 1981-06-01 15:41:02
+      lastDateReadStr: 1981-06-01 15:41:02
+      lastDateWrittenStr: 1981-06-01 15:41:02
+      bpunValid: true
+    - name: TREPU-1269C:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 2566
+      userName: FLOPPY-USER
+      dateCreated: 2105735754
+      lastDateRead: 2105735755
+      lastDateWritten: 2105735755
+      dateCreatedStr: 1981-06-01 15:41:10
+      lastDateReadStr: 1981-06-01 15:41:11
+      lastDateWrittenStr: 1981-06-01 15:41:11
+      bpunValid: true
+    - name: TWO-CHECK-1190A:BPUN
+      type: BPUN
+      pages: 1
+      bytes: 1394
+      userName: FLOPPY-USER
+      dateCreated: 2105735763
+      lastDateRead: 2105735763
+      lastDateWritten: 2105735763
+      dateCreatedStr: 1981-06-01 15:41:19
+      lastDateReadStr: 1981-06-01 15:41:19
+      lastDateWrittenStr: 1981-06-01 15:41:19
+      bpunValid: true
+provenance:
+  contributor: ndwiki
+  originalPath: import2/ND-10325A.img
+  dateImaged: 2026-11-19
+  importedAt: 2026-11-19T09:33:57.299Z
+  notes: "NDWiki read of the same disk as nd-10325-a-d1-1ed60693 (ND-10325A), kept as an extra version. Compared 2026-11-19 with the existing read: 7 bytes differ (pages 153). BPUN checksum, files ok/bad: this read 27/0, existing read 27/0. Both reads pass every BPUN check, so the checksum cannot say which read is better."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10325A
+      title: NDWiki - ND-10325A
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10325-a-d1-04ffdbfa
+  syncStatus: pending

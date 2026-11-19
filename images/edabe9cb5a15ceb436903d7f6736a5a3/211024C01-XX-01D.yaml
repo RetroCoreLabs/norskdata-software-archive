@@ -1,0 +1,78 @@
+id: nd-211024-c01-d1-edabe9cb
+volumeName: 211024C01-XX-01D
+md5: edabe9cb5a15ceb436903d7f6736a5a3
+product:
+  id: ND-211024
+  version: C01
+  diskNumber: 1
+  language: XX
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 160
+  files:
+    - name: S3-CONFIG-C00:PROG
+      type: PROG
+      pages: 89
+      bytes: 184320
+      userName: FLOPPY-USER
+      dateCreated: 2523579080
+      lastDateRead: 2596457433
+      lastDateWritten: 2523579722
+      dateCreatedStr: 1987-09-21 12:11:08
+      lastDateReadStr: 1988-11-01 12:47:25
+      lastDateWrittenStr: 1987-09-21 12:21:10
+      bpunValid: null
+    - name: DDBTABLES-E07:VTM
+      type: VTM
+      pages: 16
+      bytes: 32448
+      userName: FLOPPY-USER
+      dateCreated: 2505490123
+      lastDateRead: 2596457457
+      lastDateWritten: 2506394059
+      dateCreatedStr: 1987-05-11 11:59:11
+      lastDateReadStr: 1988-11-01 12:47:49
+      lastDateWrittenStr: 1987-05-18 08:39:11
+      bpunValid: null
+    - name: NOTS-SERVICE-C00:PROG
+      type: PROG
+      pages: 51
+      bytes: 86016
+      userName: FLOPPY-USER
+      dateCreated: 2523579084
+      lastDateRead: null
+      lastDateWritten: 2523579739
+      dateCreatedStr: 1987-09-21 12:11:12
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-21 12:21:27
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import2/211024C01-XX-01D.img
+  dateImaged: 2026-11-19
+  importedAt: 2026-11-19T09:33:57.188Z
+  notes: "NDWiki read of the same disk as nd-211024-c01-d1-16cba2c6 (211024C01-XX-01D), kept as an extra version. Compared 2026-11-19 with the existing read: 10 bytes differ (pages 509). BPUN checksum, files ok/bad: this read 0/0, existing read 0/0. There are no BPUN files to check, so the checksum cannot say which read is better."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-211024C
+      title: NDWiki - ND-211024C
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-211024-c01-d1-edabe9cb
+  syncStatus: pending

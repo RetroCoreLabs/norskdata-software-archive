@@ -1,0 +1,52 @@
+id: nd-10337-b-d1-2c67ca17
+volumeName: ND-10337B
+md5: 2c67ca17b61b453ea09dcb588117630d
+product:
+  id: ND-10337
+  version: B
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 73
+  files:
+    - name: BACKUP-SYSTEM-B:BPUN
+      type: BPUN
+      pages: 71
+      bytes: 131096
+      userName: FLOPPY-USER
+      dateCreated: 2117128205
+      lastDateRead: 2133629519
+      lastDateWritten: 2128661114
+      dateCreatedStr: 1981-08-24 13:00:13
+      lastDateReadStr: 1981-12-22 09:41:15
+      lastDateWrittenStr: 1981-11-16 12:41:58
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import2/ND-10337B.img
+  dateImaged: 2026-11-19
+  importedAt: 2026-11-19T09:33:57.310Z
+  notes: "NDWiki read of the same disk as nd-10337-b-d1-8689184f (ND-10337B), kept as an extra version. Compared 2026-11-19 with the existing read: 8282 bytes differ (pages 2,3,52,69,74,79,85,91,98,139,151). BPUN checksum, files ok/bad: this read 0/0, existing read 0/0. There are no BPUN files to check, so the checksum cannot say which read is better."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10337B
+      title: NDWiki - ND-10337B
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10337-b-d1-2c67ca17
+  syncStatus: pending

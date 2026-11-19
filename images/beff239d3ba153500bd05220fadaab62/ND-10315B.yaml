@@ -1,0 +1,64 @@
+id: nd-10315-b-d1-beff239d
+volumeName: ND-10315B
+md5: beff239d3ba153500bd05220fadaab62
+product:
+  id: ND-10315
+  version: B
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 51
+  files:
+    - name: ACC-SERV-PR-B:BPUN
+      type: BPUN
+      pages: 39
+      bytes: 78710
+      userName: FLOPPY-USER
+      dateCreated: 2119644236
+      lastDateRead: 2133630558
+      lastDateWritten: 2119644243
+      dateCreatedStr: 1981-09-11 19:17:12
+      lastDateReadStr: 1981-12-22 09:57:30
+      lastDateWrittenStr: 1981-09-11 19:17:19
+      bpunValid: true
+    - name: ACCRT-B:BPUN
+      type: BPUN
+      pages: 9
+      bytes: 16948
+      userName: FLOPPY-USER
+      dateCreated: 2119644294
+      lastDateRead: 2133630578
+      lastDateWritten: 2119644295
+      dateCreatedStr: 1981-09-11 19:18:06
+      lastDateReadStr: 1981-12-22 09:57:50
+      lastDateWrittenStr: 1981-09-11 19:18:07
+      bpunValid: true
+provenance:
+  contributor: ndwiki
+  originalPath: import2/ND-10315B.img
+  dateImaged: 2026-11-19
+  importedAt: 2026-11-19T09:33:57.267Z
+  notes: "NDWiki read of the same disk as nd-10315-b-d1-43c0f074 (ND-10315B), kept as an extra version. Compared 2026-11-19 with the existing read: 2064 bytes differ (pages 30,59,88,151). BPUN checksum, files ok/bad: this read 2/0, existing read 2/0. Both reads pass every BPUN check, so the checksum cannot say which read is better."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10315B
+      title: NDWiki - ND-10315B
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10315-b-d1-beff239d
+  syncStatus: pending

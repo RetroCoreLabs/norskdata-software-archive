@@ -1,0 +1,112 @@
+id: nd-10080-j-d1-52b47e3c
+volumeName: ND-10080J
+md5: 52b47e3c6e66cc07afbc1a173e5133eb
+product:
+  id: ND-10080
+  version: J
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 137
+  files:
+    - name: PED-ENG-J:BPUN
+      type: BPUN
+      pages: 65
+      bytes: 131114
+      userName: FLOPPY-USER
+      dateCreated: 2245721322
+      lastDateRead: null
+      lastDateWritten: 2245822106
+      dateCreatedStr: 1983-07-13 15:51:42
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-07-14 08:26:26
+      bpunValid: true
+    - name: PED-ENG-J:HELP
+      type: HELP
+      pages: 47
+      bytes: 96256
+      userName: FLOPPY-USER
+      dateCreated: 2245822173
+      lastDateRead: null
+      lastDateWritten: 2245822174
+      dateCreatedStr: 1983-07-14 08:27:29
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-07-14 08:27:30
+      bpunValid: null
+    - name: PED-J-PATCH-I:MODE
+      type: MODE
+      pages: 1
+      bytes: 358
+      userName: FLOPPY-USER
+      dateCreated: 2245822423
+      lastDateRead: 2245822424
+      lastDateWritten: 2245822424
+      dateCreatedStr: 1983-07-14 08:31:23
+      lastDateReadStr: 1983-07-14 08:31:24
+      lastDateWrittenStr: 1983-07-14 08:31:24
+      bpunValid: null
+    - name: UE-ERRORS-ENG-A:ERR
+      type: ERR
+      pages: 11
+      bytes: 21248
+      userName: FLOPPY-USER
+      dateCreated: 2245822818
+      lastDateRead: 2526746843
+      lastDateWritten: 2245822819
+      dateCreatedStr: 1983-07-14 08:37:34
+      lastDateReadStr: 1987-10-13 17:35:27
+      lastDateWrittenStr: 1983-07-14 08:37:35
+      bpunValid: null
+    - name: DDBTABLES-C-B:VTM
+      type: VTM
+      pages: 4
+      bytes: 7858
+      userName: FLOPPY-USER
+      dateCreated: 2245822858
+      lastDateRead: null
+      lastDateWritten: 2245822859
+      dateCreatedStr: 1983-07-14 08:38:10
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-07-14 08:38:11
+      bpunValid: null
+    - name: DITAP:PROG
+      type: PROG
+      pages: 2
+      bytes: 2088
+      userName: FLOPPY-USER
+      dateCreated: 2245823093
+      lastDateRead: null
+      lastDateWritten: 2245823094
+      dateCreatedStr: 1983-07-14 08:41:53
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-07-14 08:41:54
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import2/ND-210080J00-XX-01S.img
+  dateImaged: 2026-11-19
+  importedAt: 2026-11-19T09:33:57.323Z
+  notes: "NDWiki read of the same disk as nd-10080-j-d1-7b2cb3fe (ND-10080J), kept as an extra version. Compared 2026-11-19 with the existing read: 29 bytes differ (pages 151). BPUN checksum, files ok/bad: this read 1/0, existing read 1/0. Both reads pass every BPUN check, so the checksum cannot say which read is better."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210080J
+      title: NDWiki - ND-210080J
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10080-j-d1-52b47e3c
+  syncStatus: pending
