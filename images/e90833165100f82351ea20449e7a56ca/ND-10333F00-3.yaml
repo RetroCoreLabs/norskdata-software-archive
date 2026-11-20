@@ -1,0 +1,64 @@
+id: nd-10333-f00-d3-e9083316
+volumeName: 10333F00-3
+md5: e90833165100f82351ea20449e7a56ca
+product:
+  id: ND-10333
+  version: F00
+  diskNumber: 3
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 146
+  files:
+    - name: SWAPPER-F00:PSEG
+      type: PSEG
+      pages: 9
+      bytes: 17607
+      userName: FLOPPY-USER
+      dateCreated: 2331557482
+      lastDateRead: 2333140627
+      lastDateWritten: 2331557487
+      dateCreatedStr: 1984-11-28 11:57:42
+      lastDateReadStr: 1984-12-08 14:26:19
+      lastDateWrittenStr: 1984-11-28 11:57:47
+      bpunValid: null
+    - name: SWAPPER-F00:DSEG
+      type: DSEG
+      pages: 134
+      bytes: 274405
+      userName: FLOPPY-USER
+      dateCreated: 2331557526
+      lastDateRead: 2333140637
+      lastDateWritten: 2331557527
+      dateCreatedStr: 1984-11-28 11:58:22
+      lastDateReadStr: 1984-12-08 14:26:29
+      lastDateWrittenStr: 1984-11-28 11:58:23
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/ND-10333F00-3.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.373Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10333F
+      title: NDWiki - ND-10333F
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10333-f00-d3-e9083316
+  syncStatus: pending

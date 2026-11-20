@@ -1,0 +1,185 @@
+id: nd-210193-c02-d1-fb0926f2
+volumeName: 210193C02-EN-01D
+md5: fb0926f28ca49c21912ee56838d2a552
+product:
+  id: ND-210193
+  version: C02
+  diskNumber: 1
+  language: EN
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 491
+  files:
+    - name: INST-RG-100-C02:PROG
+      type: PROG
+      pages: 64
+      bytes: 187292
+      userName: FLOPPY-USER
+      dateCreated: 2463943347
+      lastDateRead: 2561991172
+      lastDateWritten: 2464340201
+      dateCreatedStr: 1986-11-14 12:42:51
+      lastDateReadStr: 1988-02-26 14:08:04
+      lastDateWrittenStr: 1986-11-17 13:35:41
+      bpunValid: null
+    - name: RG-SETUP-C02:XCOM
+      type: XCOM
+      pages: 4
+      bytes: 8010
+      userName: FLOPPY-USER
+      dateCreated: 2463943392
+      lastDateRead: 2561991193
+      lastDateWritten: 2463943393
+      dateCreatedStr: 1986-11-14 12:43:32
+      lastDateReadStr: 1988-02-26 14:08:25
+      lastDateWrittenStr: 1986-11-14 12:43:33
+      bpunValid: null
+    - name: NOTIS-RG1-EN-C02:PROG
+      type: PROG
+      pages: 72
+      bytes: 403456
+      userName: FLOPPY-USER
+      dateCreated: 2463943399
+      lastDateRead: 2561991410
+      lastDateWritten: 2463943400
+      dateCreatedStr: 1986-11-14 12:43:39
+      lastDateReadStr: 1988-02-26 14:11:50
+      lastDateWrittenStr: 1986-11-14 12:43:40
+      bpunValid: null
+    - name: NOTIS-RP1-EN-C02:PROG
+      type: PROG
+      pages: 71
+      bytes: 399360
+      userName: FLOPPY-USER
+      dateCreated: 2463943458
+      lastDateRead: 2561991460
+      lastDateWritten: 2463943459
+      dateCreatedStr: 1986-11-14 12:44:34
+      lastDateReadStr: 1988-02-26 14:12:36
+      lastDateWrittenStr: 1986-11-14 12:44:35
+      bpunValid: null
+    - name: UE-ERMSG-EN-B03:ERR
+      type: ERR
+      pages: 45
+      bytes: 90880
+      userName: FLOPPY-USER
+      dateCreated: 2463943528
+      lastDateRead: 2561991443
+      lastDateWritten: 2463943529
+      dateCreatedStr: 1986-11-14 12:45:40
+      lastDateReadStr: 1988-02-26 14:12:19
+      lastDateWrittenStr: 1986-11-14 12:45:41
+      bpunValid: null
+    - name: NOTIS-RG0-EN-C02:PROG
+      type: PROG
+      pages: 97
+      bytes: 401408
+      userName: FLOPPY-USER
+      dateCreated: 2463943578
+      lastDateRead: 2561991488
+      lastDateWritten: 2463943579
+      dateCreatedStr: 1986-11-14 12:46:26
+      lastDateReadStr: 1988-02-26 14:13:00
+      lastDateWrittenStr: 1986-11-14 12:46:27
+      bpunValid: null
+    - name: RG-FORMS-EN-C02:NDPF
+      type: NDPF
+      pages: 20
+      bytes: 40960
+      userName: FLOPPY-USER
+      dateCreated: 2463943711
+      lastDateRead: 2561991516
+      lastDateWritten: 2463943712
+      dateCreatedStr: 1986-11-14 12:48:31
+      lastDateReadStr: 1988-02-26 14:13:28
+      lastDateWrittenStr: 1986-11-14 12:48:32
+      bpunValid: null
+    - name: NOTIS-RP0-EN-C02:PROG
+      type: PROG
+      pages: 79
+      bytes: 397312
+      userName: FLOPPY-USER
+      dateCreated: 2463943750
+      lastDateRead: 2561991528
+      lastDateWritten: 2463943751
+      dateCreatedStr: 1986-11-14 12:49:06
+      lastDateReadStr: 1988-02-26 14:13:40
+      lastDateWrittenStr: 1986-11-14 12:49:07
+      bpunValid: null
+    - name: DDBTABLES-E-E04:VTM
+      type: VTM
+      pages: 12
+      bytes: 23274
+      userName: FLOPPY-USER
+      dateCreated: 2463943890
+      lastDateRead: 2561991564
+      lastDateWritten: 2463943891
+      dateCreatedStr: 1986-11-14 12:51:18
+      lastDateReadStr: 1988-02-26 14:14:12
+      lastDateWrittenStr: 1986-11-14 12:51:19
+      bpunValid: null
+    - name: RG-EXLIB-EN-C00:RPRT
+      type: RPRT
+      pages: 10
+      bytes: 20480
+      userName: FLOPPY-USER
+      dateCreated: 2429212713
+      lastDateRead: 2463943006
+      lastDateWritten: 2429216698
+      dateCreatedStr: 1986-03-05 13:32:41
+      lastDateReadStr: 1986-11-14 12:37:30
+      lastDateWrittenStr: 1986-03-05 14:30:58
+      bpunValid: null
+    - name: RG-PRIV-EN-C00:TEXT
+      type: TEXT
+      pages: 1
+      bytes: 699
+      userName: FLOPPY-USER
+      dateCreated: 2429071717
+      lastDateRead: 2463943025
+      lastDateWritten: 2429071717
+      dateCreatedStr: 1986-03-04 11:05:37
+      lastDateReadStr: 1986-11-14 12:37:49
+      lastDateWrittenStr: 1986-03-04 11:05:37
+      bpunValid: null
+    - name: RG-PERSON-EN-C00:TEXT
+      type: TEXT
+      pages: 4
+      bytes: 6221
+      userName: FLOPPY-USER
+      dateCreated: 2429071754
+      lastDateRead: 2463943030
+      lastDateWritten: 2429094864
+      dateCreatedStr: 1986-03-04 11:06:10
+      lastDateReadStr: 1986-11-14 12:37:54
+      lastDateWrittenStr: 1986-03-04 16:47:16
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/210193C02-EN-01D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.155Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210193C
+      title: NDWiki - ND-210193C
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210193-c02-d1-fb0926f2
+  syncStatus: pending

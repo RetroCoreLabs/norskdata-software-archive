@@ -1,0 +1,210 @@
+id: nd-210190-k02-d1-f6dc51b1
+volumeName: 210190K02-XX-01D
+md5: f6dc51b14ab849a88bf3eca129ded1c1
+product:
+  id: ND-210190
+  version: K02
+  diskNumber: 1
+  language: XX
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 426
+  files:
+    - name: DESCRIPTION-FILE:DESC
+      type: DESC
+      pages: 11
+      bytes: 22528
+      userName: FLOPPY-USER
+      dateCreated: 2534445931
+      lastDateRead: 2714035661
+      lastDateWritten: 2561714753
+      dateCreatedStr: 1987-12-08 09:13:43
+      lastDateReadStr: 1990-07-02 14:23:13
+      lastDateWrittenStr: 1988-02-24 10:41:01
+      bpunValid: null
+    - name: SCRATCH-SEG-01:LINK
+      type: LINK
+      pages: 0
+      bytes: 0
+      userName: FLOPPY-USER
+      dateCreated: 2534445942
+      lastDateRead: 2534445943
+      lastDateWritten: 2534445943
+      dateCreatedStr: 1987-12-08 09:13:54
+      lastDateReadStr: 1987-12-08 09:13:55
+      lastDateWrittenStr: 1987-12-08 09:13:55
+      bpunValid: null
+    - name: SCRATCH-SEG-01:DSEG
+      type: DSEG
+      pages: 1
+      bytes: 1029
+      userName: FLOPPY-USER
+      dateCreated: 2534445944
+      lastDateRead: 2714035666
+      lastDateWritten: 2534445945
+      dateCreatedStr: 1987-12-08 09:13:56
+      lastDateReadStr: 1990-07-02 14:23:18
+      lastDateWrittenStr: 1987-12-08 09:13:57
+      bpunValid: null
+    - name: SCRATCH-SEG-01:PSEG
+      type: PSEG
+      pages: 1
+      bytes: 5
+      userName: FLOPPY-USER
+      dateCreated: 2534445946
+      lastDateRead: 2714035667
+      lastDateWritten: 2534445947
+      dateCreatedStr: 1987-12-08 09:13:58
+      lastDateReadStr: 1990-07-02 14:23:19
+      lastDateWrittenStr: 1987-12-08 09:13:59
+      bpunValid: null
+    - name: FORTRAN-500-K02:LINK
+      type: LINK
+      pages: 10
+      bytes: 18561
+      userName: FLOPPY-USER
+      dateCreated: 2535000690
+      lastDateRead: 2714035668
+      lastDateWritten: 2536411608
+      dateCreatedStr: 1987-12-12 16:41:50
+      lastDateReadStr: 1990-07-02 14:23:20
+      lastDateWrittenStr: 1987-12-23 09:07:24
+      bpunValid: null
+    - name: FORTRAN-500-K02:DSEG
+      type: DSEG
+      pages: 47
+      bytes: 548865
+      userName: FLOPPY-USER
+      dateCreated: 2535000693
+      lastDateRead: 2714035670
+      lastDateWritten: 2536411609
+      dateCreatedStr: 1987-12-12 16:41:53
+      lastDateReadStr: 1990-07-02 14:23:22
+      lastDateWrittenStr: 1987-12-23 09:07:25
+      bpunValid: null
+    - name: FORTRAN-500-K02:PSEG
+      type: PSEG
+      pages: 152
+      bytes: 309413
+      userName: FLOPPY-USER
+      dateCreated: 2535000695
+      lastDateRead: 2714035677
+      lastDateWritten: 2561714754
+      dateCreatedStr: 1987-12-12 16:41:55
+      lastDateReadStr: 1990-07-02 14:23:29
+      lastDateWrittenStr: 1988-02-24 10:41:02
+      bpunValid: null
+    - name: FORTRAN-LIB-K02:NRF
+      type: NRF
+      pages: 51
+      bytes: 104134
+      userName: FLOPPY-USER
+      dateCreated: 2534446248
+      lastDateRead: 2714035705
+      lastDateWritten: 2559763622
+      dateCreatedStr: 1987-12-08 09:18:40
+      lastDateReadStr: 1990-07-02 14:23:57
+      lastDateWrittenStr: 1988-02-09 14:18:38
+      bpunValid: null
+    - name: FORTRAN-TPS-K02:NRF
+      type: NRF
+      pages: 53
+      bytes: 107463
+      userName: FLOPPY-USER
+      dateCreated: 2534446372
+      lastDateRead: 2714035719
+      lastDateWritten: 2555847140
+      dateCreatedStr: 1987-12-08 09:20:36
+      lastDateReadStr: 1990-07-02 14:24:07
+      lastDateWrittenStr: 1988-01-11 18:07:36
+      bpunValid: null
+    - name: IN-FORT-XX-K02:PROG
+      type: PROG
+      pages: 66
+      bytes: 193658
+      userName: FLOPPY-USER
+      dateCreated: 2532367327
+      lastDateRead: 2714035730
+      lastDateWritten: 2570647841
+      dateCreatedStr: 1987-11-24 13:47:31
+      lastDateReadStr: 1990-07-02 14:24:18
+      lastDateWrittenStr: 1988-04-28 15:36:33
+      bpunValid: null
+    - name: IN-FORT-XX-K02:INIT
+      type: INIT
+      pages: 11
+      bytes: 20722
+      userName: FLOPPY-USER
+      dateCreated: 2516408358
+      lastDateRead: 2714035745
+      lastDateWritten: 2535508902
+      dateCreatedStr: 1987-07-30 21:32:38
+      lastDateReadStr: 1990-07-02 14:24:33
+      lastDateWrittenStr: 1987-12-16 12:46:38
+      bpunValid: null
+    - name: IN-FORT-XX-K02:RSRC
+      type: RSRC
+      pages: 11
+      bytes: 21910
+      userName: FLOPPY-USER
+      dateCreated: 2516408394
+      lastDateRead: 2714035749
+      lastDateWritten: 2535508915
+      dateCreatedStr: 1987-07-30 21:33:10
+      lastDateReadStr: 1990-07-02 14:24:37
+      lastDateWrittenStr: 1987-12-16 12:46:51
+      bpunValid: null
+    - name: FIL-1-K02:PSEG
+      type: PSEG
+      pages: 0
+      bytes: 0
+      userName: FLOPPY-USER
+      dateCreated: 2534991607
+      lastDateRead: null
+      lastDateWritten: null
+      dateCreatedStr: 1987-12-12 14:27:55
+      lastDateReadStr: null
+      lastDateWrittenStr: null
+      bpunValid: null
+    - name: FIL-2-K02:PSEG
+      type: PSEG
+      pages: 0
+      bytes: 0
+      userName: FLOPPY-USER
+      dateCreated: 2534991619
+      lastDateRead: null
+      lastDateWritten: null
+      dateCreatedStr: 1987-12-12 14:28:03
+      lastDateReadStr: null
+      lastDateWrittenStr: null
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import2/ND-210180K02-XX-01D.img
+  dateImaged: 2026-11-19
+  importedAt: 2026-11-19T09:33:57.380Z
+  notes: "NDWiki read of the same disk as nd-210190-k02-d1-7cde7e41 (210190K02-XX-01D), kept as an extra version. Compared 2026-11-19 with the existing read: 300262 bytes differ (pages 284,286,288,289,290,291,292,293,294,296,297,298,299,300,303,304,305,306,307,308,309,312,313,314,315,317,318,319,320,321 ... (178 pages total)). BPUN checksum, files ok/bad: this read 0/0, existing read 0/0. There are no BPUN files to check, so the checksum cannot say which read is better. The existing read is longer (archive read has 49152 extra bytes (not all zero))."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210180K
+      title: NDWiki - ND-210180K
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210190-k02-d1-f6dc51b1
+  syncStatus: pending

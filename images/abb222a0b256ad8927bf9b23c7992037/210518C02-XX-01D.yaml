@@ -1,0 +1,137 @@
+id: nd-210518-c02-d1-abb222a0
+volumeName: 210518C02-XX-01D
+md5: abb222a0b256ad8927bf9b23c7992037
+product:
+  id: ND-210518
+  version: C02
+  diskNumber: 1
+  language: XX
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 568
+  files:
+    - name: UE-PMAN-MAIN-C02:PROG
+      type: PROG
+      pages: 107
+      bytes: 399360
+      userName: FLOPPY-USER
+      dateCreated: 2511684651
+      lastDateRead: null
+      lastDateWritten: 2511684653
+      dateCreatedStr: 1987-06-26 20:16:43
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-06-26 20:16:45
+      bpunValid: null
+    - name: UE-PMAN-EXT-C02:PROG
+      type: PROG
+      pages: 52
+      bytes: 407552
+      userName: FLOPPY-USER
+      dateCreated: 2511684718
+      lastDateRead: null
+      lastDateWritten: 2511684719
+      dateCreatedStr: 1987-06-26 20:17:46
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-06-26 20:17:47
+      bpunValid: null
+    - name: UE-RUN-C02:PROG
+      type: PROG
+      pages: 125
+      bytes: 264192
+      userName: FLOPPY-USER
+      dateCreated: 2511684763
+      lastDateRead: null
+      lastDateWritten: 2511684765
+      dateCreatedStr: 1987-06-26 20:18:27
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-06-26 20:18:29
+      bpunValid: null
+    - name: UE-LOGIN-C02:PROG
+      type: PROG
+      pages: 68
+      bytes: 165888
+      userName: FLOPPY-USER
+      dateCreated: 2511684891
+      lastDateRead: null
+      lastDateWritten: 2511684892
+      dateCreatedStr: 1987-06-26 20:20:27
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-06-26 20:20:28
+      bpunValid: null
+    - name: UE-MENU-C00:PROG
+      type: PROG
+      pages: 1
+      bytes: 738
+      userName: FLOPPY-USER
+      dateCreated: 2511684979
+      lastDateRead: null
+      lastDateWritten: 2511684980
+      dateCreatedStr: 1987-06-26 20:21:51
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-06-26 20:21:52
+      bpunValid: null
+    - name: UE-MEUTIL-C02:PROG
+      type: PROG
+      pages: 78
+      bytes: 411648
+      userName: FLOPPY-USER
+      dateCreated: 2511684984
+      lastDateRead: null
+      lastDateWritten: 2511684985
+      dateCreatedStr: 1987-06-26 20:21:56
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-06-26 20:21:57
+      bpunValid: null
+    - name: UE-MEMAIN-C02:PROG
+      type: PROG
+      pages: 120
+      bytes: 401408
+      userName: FLOPPY-USER
+      dateCreated: 2511685100
+      lastDateRead: null
+      lastDateWritten: 2511685101
+      dateCreatedStr: 1987-06-26 20:23:44
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-06-26 20:23:45
+      bpunValid: null
+    - name: UE-ST-LAMU-C01:PROG
+      type: PROG
+      pages: 8
+      bytes: 137216
+      userName: FLOPPY-USER
+      dateCreated: 2511685256
+      lastDateRead: null
+      lastDateWritten: 2511685258
+      dateCreatedStr: 1987-06-26 20:26:08
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-06-26 20:26:10
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/210518C02-XX-01D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.193Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210518C
+      title: NDWiki - ND-210518C
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210518-c02-d1-abb222a0
+  syncStatus: pending

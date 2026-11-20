@@ -1,0 +1,162 @@
+id: nd-210716-e01-d1-31355fdf
+volumeName: 210716E01-NO-1D
+md5: 31355fdf98377e670d743984a7dbe24b
+product:
+  id: ND-210716
+  version: E01
+  diskNumber: 1
+  language: NO
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 453
+  files:
+    - name: DESCRIPTION-FILE:DESC
+      type: DESC
+      pages: 8
+      bytes: 22528
+      userName: FLOPPY-USER
+      dateCreated: 2533666975
+      lastDateRead: 2561604526
+      lastDateWritten: 2533667301
+      dateCreatedStr: 1987-12-02 11:02:31
+      lastDateReadStr: 1988-02-23 15:46:46
+      lastDateWrittenStr: 1987-12-02 11:07:37
+      bpunValid: null
+    - name: SCRATCH-SEG-01:LINK
+      type: LINK
+      pages: 0
+      bytes: 0
+      userName: FLOPPY-USER
+      dateCreated: 2533666987
+      lastDateRead: 2533666989
+      lastDateWritten: 2533666989
+      dateCreatedStr: 1987-12-02 11:02:43
+      lastDateReadStr: 1987-12-02 11:02:45
+      lastDateWrittenStr: 1987-12-02 11:02:45
+      bpunValid: null
+    - name: SCRATCH-SEG-01:DSEG
+      type: DSEG
+      pages: 1
+      bytes: 1029
+      userName: FLOPPY-USER
+      dateCreated: 2533666989
+      lastDateRead: 2533667002
+      lastDateWritten: 2533666990
+      dateCreatedStr: 1987-12-02 11:02:45
+      lastDateReadStr: 1987-12-02 11:02:58
+      lastDateWrittenStr: 1987-12-02 11:02:46
+      bpunValid: null
+    - name: SCRATCH-SEG-01:PSEG
+      type: PSEG
+      pages: 1
+      bytes: 5
+      userName: FLOPPY-USER
+      dateCreated: 2533666991
+      lastDateRead: 2533666992
+      lastDateWritten: 2533666992
+      dateCreatedStr: 1987-12-02 11:02:47
+      lastDateReadStr: 1987-12-02 11:02:48
+      lastDateWrittenStr: 1987-12-02 11:02:48
+      bpunValid: null
+    - name: NOTIS-CALC-NO-E:LINK
+      type: LINK
+      pages: 0
+      bytes: 0
+      userName: FLOPPY-USER
+      dateCreated: 2533667305
+      lastDateRead: 2561604531
+      lastDateWritten: null
+      dateCreatedStr: 1987-12-02 11:07:41
+      lastDateReadStr: 1988-02-23 15:46:51
+      lastDateWrittenStr: null
+      bpunValid: null
+    - name: NOTIS-CALC-NO-E:DSEG
+      type: DSEG
+      pages: 125
+      bytes: 254825
+      userName: FLOPPY-USER
+      dateCreated: 2533667014
+      lastDateRead: 2561604531
+      lastDateWritten: 2533667015
+      dateCreatedStr: 1987-12-02 11:03:06
+      lastDateReadStr: 1988-02-23 15:46:51
+      lastDateWrittenStr: 1987-12-02 11:03:07
+      bpunValid: null
+    - name: NOTIS-CALC-NO-E:PSEG
+      type: PSEG
+      pages: 160
+      bytes: 325633
+      userName: FLOPPY-USER
+      dateCreated: 2533667016
+      lastDateRead: 2561604531
+      lastDateWritten: 2533667017
+      dateCreatedStr: 1987-12-02 11:03:08
+      lastDateReadStr: 1988-02-23 15:46:51
+      lastDateWrittenStr: 1987-12-02 11:03:09
+      bpunValid: null
+    - name: DDBTABLES-E07:VTM
+      type: VTM
+      pages: 16
+      bytes: 32414
+      userName: FLOPPY-USER
+      dateCreated: 2533667306
+      lastDateRead: null
+      lastDateWritten: 2533667307
+      dateCreatedStr: 1987-12-02 11:07:42
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-12-02 11:07:43
+      bpunValid: null
+    - name: UE-ERMSG-NO-B06:ERR
+      type: ERR
+      pages: 74
+      bytes: 151296
+      userName: FLOPPY-USER
+      dateCreated: 2533667331
+      lastDateRead: null
+      lastDateWritten: 2533667332
+      dateCreatedStr: 1987-12-02 11:08:03
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-12-02 11:08:04
+      bpunValid: null
+    - name: INST-NC5-NO-E01:PROG
+      type: PROG
+      pages: 59
+      bytes: 178850
+      userName: FLOPPY-USER
+      dateCreated: 2533667430
+      lastDateRead: 2561604658
+      lastDateWritten: 2533667431
+      dateCreatedStr: 1987-12-02 11:09:38
+      lastDateReadStr: 1988-02-23 15:48:50
+      lastDateWrittenStr: 1987-12-02 11:09:39
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/ND-210716E01-XX-01D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.585Z
+  notes: "NDWiki says: this FluxEngine image is most likely broken. It was captured with a FluxEngine version that could not read ND format 17b (double-sided) floppies properly. It needs to be read again with an updated FluxEngine."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210716E
+      title: NDWiki - ND-210716E
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210716-e01-d1-31355fdf
+  syncStatus: pending

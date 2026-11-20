@@ -672,6 +672,10 @@
     "Name": "ND-BENCH Environment for ND-500"
   },
   {
+    "Id": "ND-10716",
+    "Name": "NOTIS-CALC for ND-500"
+  },
+  {
     "Id": "ND-10719",
     "Name": "PC-LINK for APPLE II"
   },
@@ -862,6 +866,10 @@
   {
     "Id": "ND-210191",
     "Name": "Fortran 77 for ND-100/NORD-10"
+  },
+  {
+    "Id": "ND-210192",
+    "Name": "NOTIS-ID for ND-100"
   },
   {
     "Id": "ND-210193",
@@ -2070,6 +2078,10 @@
   {
     "Id": "ND-220005",
     "Name": "SIBAS/R Softkey for Development Access"
+  },
+  {
+    "Id": "ND-220046",
+    "Name": "SINTRAN III/VSX-500 (standard system D)"
   },
   {
     "Id": "ND-230001",

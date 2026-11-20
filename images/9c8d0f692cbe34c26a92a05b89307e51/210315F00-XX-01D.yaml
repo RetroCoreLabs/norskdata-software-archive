@@ -1,0 +1,102 @@
+id: nd-210315-f00-d1-9c8d0f69
+volumeName: 210315F00-XX-01D
+md5: 9c8d0f692cbe34c26a92a05b89307e51
+product:
+  id: ND-210315
+  version: F00
+  diskNumber: 1
+  language: XX
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: binary
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 247
+  files:
+    - name: ACC-S-48-F00:PROG
+      type: PROG
+      pages: 117
+      bytes: 481280
+      userName: FLOPPY-USER
+      dateCreated: 2313329000
+      lastDateRead: 2506810122
+      lastDateWritten: 2313329005
+      dateCreatedStr: 1984-07-17 09:37:40
+      lastDateReadStr: 1987-05-21 14:12:10
+      lastDateWrittenStr: 1984-07-17 09:37:45
+      bpunValid: null
+    - name: ACC-S-32-F00:PROG
+      type: PROG
+      pages: 117
+      bytes: 481280
+      userName: FLOPPY-USER
+      dateCreated: 2461994485
+      lastDateRead: 2506810568
+      lastDateWritten: 2461994619
+      dateCreatedStr: 1986-10-31 16:55:53
+      lastDateReadStr: 1987-05-21 14:19:08
+      lastDateWrittenStr: 1986-10-31 16:57:59
+      bpunValid: null
+    - name: ACC-COPY-48-F00:MODE
+      type: MODE
+      pages: 1
+      bytes: 352
+      userName: FLOPPY-USER
+      dateCreated: 2313329171
+      lastDateRead: 2506810305
+      lastDateWritten: 2461994176
+      dateCreatedStr: 1984-07-17 09:40:19
+      lastDateReadStr: 1987-05-21 14:15:01
+      lastDateWrittenStr: 1986-10-31 16:51:00
+      bpunValid: null
+    - name: ACC-COPY-32-F00:MODE
+      type: MODE
+      pages: 1
+      bytes: 352
+      userName: FLOPPY-USER
+      dateCreated: 2461993898
+      lastDateRead: 2506810754
+      lastDateWritten: 2461993899
+      dateCreatedStr: 1986-10-31 16:46:42
+      lastDateReadStr: 1987-05-21 14:22:02
+      lastDateWrittenStr: 1986-10-31 16:46:43
+      bpunValid: null
+    - name: ACCRT-F00:BPUN
+      type: BPUN
+      pages: 5
+      bytes: 8756
+      userName: FLOPPY-USER
+      dateCreated: 2461995041
+      lastDateRead: 2506810760
+      lastDateWritten: 2461995042
+      dateCreatedStr: 1986-10-31 17:00:33
+      lastDateReadStr: 1987-05-21 14:22:08
+      lastDateWrittenStr: 1986-10-31 17:00:34
+      bpunValid: true
+provenance:
+  contributor: ndwiki
+  originalPath: import2/210315F00-XX-01D.img
+  dateImaged: 2026-11-19
+  importedAt: 2026-11-19T09:33:57.163Z
+  notes: "NDWiki read of the same disk as nd-210315-f00-d1-db680504 (210315F00-XX-01D), kept as an extra version. Compared 2026-11-19 with the existing read: 460504 bytes differ (pages 291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320 ... (225 pages total)). BPUN checksum, files ok/bad: this read 1/0, existing read 1/0. Both reads pass every BPUN check, so the checksum cannot say which read is better. The existing read is longer (archive read has 49152 extra bytes (not all zero))."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210315F
+      title: NDWiki - ND-210315F
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210315-f00-d1-9c8d0f69
+  syncStatus: pending

@@ -1,0 +1,161 @@
+id: nd-10022-t-d1-fb7cc0fe
+volumeName: ND-10022T
+md5: fb7cc0fe7f319ac5602a2e065b70f624
+product:
+  id: ND-10022
+  version: T
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: bpun
+  bootProgram: flomon
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 133
+  files:
+    - name: DMAC-1915E:BPUN
+      type: BPUN
+      pages: 18
+      bytes: 36805
+      userName: FLOPPY-USER
+      dateCreated: 2198263151
+      lastDateRead: 2198263255
+      lastDateWritten: 2198263153
+      dateCreatedStr: 1982-12-03 13:21:47
+      lastDateReadStr: 1982-12-03 13:23:23
+      lastDateWrittenStr: 1982-12-03 13:21:49
+      bpunValid: true
+    - name: FLOPPY-MON-2010G:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 4314
+      userName: FLOPPY-USER
+      dateCreated: 2169437832
+      lastDateRead: 2169808214
+      lastDateWritten: 2169437833
+      dateCreatedStr: 1982-05-07 15:58:08
+      lastDateReadStr: 1982-05-10 10:21:22
+      lastDateWrittenStr: 1982-05-07 15:58:09
+      bpunValid: true
+    - name: FILESYS-INV-J:BPUN
+      type: BPUN
+      pages: 31
+      bytes: 61678
+      userName: FLOPPY-USER
+      dateCreated: 2198902879
+      lastDateRead: 2198903001
+      lastDateWritten: 2198902881
+      dateCreatedStr: 1982-12-08 09:33:31
+      lastDateReadStr: 1982-12-08 09:35:25
+      lastDateWrittenStr: 1982-12-08 09:33:33
+      bpunValid: true
+    - name: MEMTOF:BPUN
+      type: BPUN
+      pages: 2
+      bytes: 2612
+      userName: FLOPPY-USER
+      dateCreated: 2198263397
+      lastDateRead: 2198263453
+      lastDateWritten: 2198263399
+      dateCreatedStr: 1982-12-03 13:25:37
+      lastDateReadStr: 1982-12-03 13:26:29
+      lastDateWrittenStr: 1982-12-03 13:25:39
+      bpunValid: true
+    - name: DUMPFL:BPUN
+      type: BPUN
+      pages: 9
+      bytes: 16829
+      userName: FLOPPY-USER
+      dateCreated: 2198263598
+      lastDateRead: 2198263664
+      lastDateWritten: 2198263599
+      dateCreatedStr: 1982-12-03 13:28:46
+      lastDateReadStr: 1982-12-03 13:29:48
+      lastDateWrittenStr: 1982-12-03 13:28:47
+      bpunValid: true
+    - name: MCOPY-TANB-1649K:BPUN
+      type: BPUN
+      pages: 15
+      bytes: 29596
+      userName: FLOPPY-USER
+      dateCreated: 2196832518
+      lastDateRead: 2196832654
+      lastDateWritten: 2196832519
+      dateCreatedStr: 1982-11-24 16:04:06
+      lastDateReadStr: 1982-11-24 16:06:14
+      lastDateWrittenStr: 1982-11-24 16:04:07
+      bpunValid: true
+    - name: WINCH-TO-FLOPP-A:BPUN
+      type: BPUN
+      pages: 20
+      bytes: 40916
+      userName: FLOPPY-USER
+      dateCreated: 2191326282
+      lastDateRead: 2191326392
+      lastDateWritten: 2191326283
+      dateCreatedStr: 1982-10-14 15:49:10
+      lastDateReadStr: 1982-10-14 15:50:56
+      lastDateWrittenStr: 1982-10-14 15:49:11
+      bpunValid: true
+    - name: FLOPP-TO-WINCH-A:BPUN
+      type: BPUN
+      pages: 21
+      bytes: 42756
+      userName: FLOPPY-USER
+      dateCreated: 2186322962
+      lastDateRead: 2186323125
+      lastDateWritten: 2186322963
+      dateCreatedStr: 1982-09-08 10:16:18
+      lastDateReadStr: 1982-09-08 10:18:53
+      lastDateWrittenStr: 1982-09-08 10:16:19
+      bpunValid: true
+    - name: DITAP-1880D:BPUN
+      type: BPUN
+      pages: 1
+      bytes: 1974
+      userName: FLOPPY-USER
+      dateCreated: 2107039474
+      lastDateRead: 2222488692
+      lastDateWritten: 2107039816
+      dateCreatedStr: 1981-06-11 13:59:50
+      lastDateReadStr: 1983-01-28 07:49:52
+      lastDateWrittenStr: 1981-06-11 14:01:08
+      bpunValid: true
+    - name: MCOPY-HP-1650G:BPUN
+      type: BPUN
+      pages: 4
+      bytes: 6716
+      userName: FLOPPY-USER
+      dateCreated: 2107040640
+      lastDateRead: null
+      lastDateWritten: 2107040709
+      dateCreatedStr: 1981-06-11 14:14:00
+      lastDateReadStr: null
+      lastDateWrittenStr: 1981-06-11 14:15:05
+      bpunValid: true
+provenance:
+  contributor: ndwiki
+  originalPath: import2/ND-10022T.img
+  dateImaged: 2026-11-19
+  importedAt: 2026-11-19T09:33:57.227Z
+  notes: "NDWiki read of the same disk as nd-10022-t-d1-78a2647e (ND-10022T), kept as an extra version. Compared 2026-11-19 with the existing read: 1951 bytes differ (pages 77,151). BPUN checksum, files ok/bad: this read 10/0, existing read 10/0. Both reads pass every BPUN check, so the checksum cannot say which read is better."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10022T
+      title: NDWiki - ND-10022T
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10022-t-d1-fb7cc0fe
+  syncStatus: pending

@@ -1,0 +1,101 @@
+id: img-ba95910b837c
+volumeName: ND-10628C-1
+md5: ba95910b837c956c883c06e083304490
+product:
+  id: ND-10628
+  version: C
+  diskNumber: 1
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: bpun
+  bootProgram: flomon
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 126
+  files:
+    - name: COP-VERIFY-G00:BPUN
+      type: BPUN
+      pages: 12
+      bytes: 22566
+      userName: FLOPPY-USER
+      dateCreated: 2334700569
+      lastDateRead: null
+      lastDateWritten: 2334700574
+      dateCreatedStr: 1984-12-20 11:16:25
+      lastDateReadStr: null
+      lastDateWrittenStr: 1984-12-20 11:16:30
+      bpunValid: true
+    - name: DIR-BACKUP-B00:BPUN
+      type: BPUN
+      pages: 60
+      bytes: 121754
+      userName: FLOPPY-USER
+      dateCreated: 2334700585
+      lastDateRead: null
+      lastDateWritten: 2334700586
+      dateCreatedStr: 1984-12-20 11:16:41
+      lastDateReadStr: null
+      lastDateWrittenStr: 1984-12-20 11:16:42
+      bpunValid: true
+    - name: FILSYS-INV-M00:BPUN
+      type: BPUN
+      pages: 22
+      bytes: 42144
+      userName: FLOPPY-USER
+      dateCreated: 2334700656
+      lastDateRead: null
+      lastDateWritten: 2334700658
+      dateCreatedStr: 1984-12-20 11:17:48
+      lastDateReadStr: null
+      lastDateWrittenStr: 1984-12-20 11:17:50
+      bpunValid: true
+    - name: FLOPPY-MON-G00:BPUN
+      type: BPUN
+      pages: 3
+      bytes: 4314
+      userName: FLOPPY-USER
+      dateCreated: 2334700701
+      lastDateRead: null
+      lastDateWritten: 2334700702
+      dateCreatedStr: 1984-12-20 11:18:29
+      lastDateReadStr: null
+      lastDateWrittenStr: 1984-12-20 11:18:30
+      bpunValid: true
+    - name: MCOPY-TANB-N00:BPUN
+      type: BPUN
+      pages: 23
+      bytes: 33032
+      userName: FLOPPY-USER
+      dateCreated: 2334700710
+      lastDateRead: null
+      lastDateWritten: 2334700711
+      dateCreatedStr: 1984-12-20 11:18:38
+      lastDateReadStr: null
+      lastDateWrittenStr: 1984-12-20 11:18:39
+      bpunValid: true
+provenance:
+  contributor: ndwiki
+  originalPath: import/ND-10628C-1.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.400Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10628C
+      title: NDWiki - ND-10628C
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-img-ba95910b837c
+  syncStatus: pending

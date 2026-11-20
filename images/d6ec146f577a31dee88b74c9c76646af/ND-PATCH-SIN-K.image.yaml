@@ -1,6 +1,8 @@
 id: patch-nd-patch-sin-k-d6ec146f
 volumeName: ND-PATCH-SIN-K
 md5: d6ec146f577a31dee88b74c9c76646af
+product:
+  id: ND-220046
 image:
   sizeBytes: 1261568
   format: raw

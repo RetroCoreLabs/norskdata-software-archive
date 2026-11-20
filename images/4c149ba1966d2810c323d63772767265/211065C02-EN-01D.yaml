@@ -1,0 +1,101 @@
+id: nd-211065-c02-d1-4c149ba1
+volumeName: 211065C02-EN-01D
+md5: 4c149ba1966d2810c323d63772767265
+product:
+  id: ND-211065
+  version: C02
+  diskNumber: 1
+  language: EN
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 262
+  files:
+    - name: INST-RP-100-C02:PROG
+      type: PROG
+      pages: 63
+      bytes: 184258
+      userName: FLOPPY-USER
+      dateCreated: 2463955861
+      lastDateRead: 2465654059
+      lastDateWritten: 2464332434
+      dateCreatedStr: 1986-11-14 15:46:21
+      lastDateReadStr: 1986-11-27 14:20:43
+      lastDateWrittenStr: 1986-11-17 11:42:18
+      bpunValid: null
+    - name: RP-SETUP-C02:XCOM
+      type: XCOM
+      pages: 5
+      bytes: 8222
+      userName: FLOPPY-USER
+      dateCreated: 2463955905
+      lastDateRead: 2465654080
+      lastDateWritten: 2463955906
+      dateCreatedStr: 1986-11-14 15:47:01
+      lastDateReadStr: 1986-11-27 14:21:00
+      lastDateWrittenStr: 1986-11-14 15:47:02
+      bpunValid: null
+    - name: NOTIS-RP0-EN-C02:PROG
+      type: PROG
+      pages: 72
+      bytes: 397312
+      userName: FLOPPY-USER
+      dateCreated: 2465789070
+      lastDateRead: null
+      lastDateWritten: 2465789073
+      dateCreatedStr: 1986-11-28 15:18:14
+      lastDateReadStr: null
+      lastDateWrittenStr: 1986-11-28 15:18:17
+      bpunValid: null
+    - name: NOTIS-RP1-EN-C02:PROG
+      type: PROG
+      pages: 71
+      bytes: 399360
+      userName: FLOPPY-USER
+      dateCreated: 2463955975
+      lastDateRead: 2465654250
+      lastDateWritten: 2463955976
+      dateCreatedStr: 1986-11-14 15:48:07
+      lastDateReadStr: 1986-11-27 14:23:42
+      lastDateWrittenStr: 1986-11-14 15:48:08
+      bpunValid: null
+    - name: UE-ERMSG-EN-B03:ERR
+      type: ERR
+      pages: 45
+      bytes: 90880
+      userName: FLOPPY-USER
+      dateCreated: 2463956047
+      lastDateRead: 2465654276
+      lastDateWritten: 2463956048
+      dateCreatedStr: 1986-11-14 15:49:15
+      lastDateReadStr: 1986-11-27 14:24:04
+      lastDateWrittenStr: 1986-11-14 15:49:16
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/211065C02-EN-01D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.322Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-211065C
+      title: NDWiki - ND-211065C
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-211065-c02-d1-4c149ba1
+  syncStatus: pending

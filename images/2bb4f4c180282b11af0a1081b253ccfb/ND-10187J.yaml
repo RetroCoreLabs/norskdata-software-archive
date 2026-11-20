@@ -1,0 +1,76 @@
+id: nd-10187-j-d1-2bb4f4c1
+volumeName: ND-10187J
+md5: 2bb4f4c180282b11af0a1081b253ccfb
+product:
+  id: ND-10187
+  version: J
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 117
+  files:
+    - name: PASCAL-COD-J:NRF
+      type: NRF
+      pages: 96
+      bytes: 194950
+      userName: FLOPPY-USER
+      dateCreated: 2265892851
+      lastDateRead: null
+      lastDateWritten: 2265892856
+      dateCreatedStr: 1983-12-07 12:31:51
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-12-07 12:31:56
+      bpunValid: null
+    - name: PASCAL-LIB-J:NRF
+      type: NRF
+      pages: 13
+      bytes: 25469
+      userName: FLOPPY-USER
+      dateCreated: 2265893007
+      lastDateRead: null
+      lastDateWritten: 2265893008
+      dateCreatedStr: 1983-12-07 12:34:15
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-12-07 12:34:16
+      bpunValid: null
+    - name: PASCAL-ERR-J:SYMB
+      type: SYMB
+      pages: 4
+      bytes: 7393
+      userName: FLOPPY-USER
+      dateCreated: 2265893058
+      lastDateRead: null
+      lastDateWritten: 2265893059
+      dateCreatedStr: 1983-12-07 12:35:02
+      lastDateReadStr: null
+      lastDateWrittenStr: 1983-12-07 12:35:03
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/ND-10187J.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.338Z
+  notes: "NDWiki says: this FluxEngine image is most likely broken. It was captured with a FluxEngine version that could not read ND format 17b (double-sided) floppies properly. It needs to be read again with an updated FluxEngine."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10187J
+      title: NDWiki - ND-10187J
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10187-j-d1-2bb4f4c1
+  syncStatus: pending

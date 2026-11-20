@@ -1,0 +1,88 @@
+id: nd-10023-k-d1-3ee862f4
+volumeName: ND-10023K
+md5: 3ee862f4e718bbcc69da70f06bc7a88a
+product:
+  id: ND-10023
+  version: K
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: binary
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 78
+  files:
+    - name: FTNLIBR-2091F:BRF
+      type: BRF
+      pages: 18
+      bytes: 35092
+      userName: FLOPPY-USER
+      dateCreated: 1977128645
+      lastDateRead: 2133629908
+      lastDateWritten: 2064183384
+      dateCreatedStr: 1979-07-12 09:27:05
+      lastDateReadStr: 1981-12-22 09:47:20
+      lastDateWrittenStr: 1980-12-04 15:01:24
+      bpunValid: null
+    - name: FTNRTLIBR-2092F:BRF
+      type: BRF
+      pages: 14
+      bytes: 26749
+      userName: FLOPPY-USER
+      dateCreated: 1977132258
+      lastDateRead: 2133629920
+      lastDateWritten: 2064183468
+      dateCreatedStr: 1979-07-12 10:19:34
+      lastDateReadStr: 1981-12-22 09:47:32
+      lastDateWrittenStr: 1980-12-04 15:02:44
+      bpunValid: null
+    - name: PRINT-FILE-2324B:BPUN
+      type: BPUN
+      pages: 9
+      bytes: 18337
+      userName: FLOPPY-USER
+      dateCreated: 1978983365
+      lastDateRead: 2133629930
+      lastDateWritten: 1983703888
+      dateCreatedStr: 1979-07-26 14:15:05
+      lastDateReadStr: 1981-12-22 09:47:42
+      lastDateWrittenStr: 1979-08-30 14:45:16
+      bpunValid: true
+    - name: FTN-2090I:BPUN
+      type: BPUN
+      pages: 32
+      bytes: 64550
+      userName: FLOPPY-USER
+      dateCreated: 1978983685
+      lastDateRead: 2133629938
+      lastDateWritten: 2121968373
+      dateCreatedStr: 1979-07-26 14:20:05
+      lastDateReadStr: 1981-12-22 09:47:50
+      lastDateWrittenStr: 1981-09-29 10:43:53
+      bpunValid: true
+provenance:
+  contributor: ndwiki
+  originalPath: import2/ND-10023K.img
+  dateImaged: 2026-11-19
+  importedAt: 2026-11-19T09:33:57.239Z
+  notes: "NDWiki read of the same disk as nd-10023-k-d1-a33597b5 (ND-10023K), kept as an extra version. Compared 2026-11-19 with the existing read: 2631 bytes differ (pages 2,3,99,151). BPUN checksum, files ok/bad: this read 2/0, existing read 1/1. This read passes every BPUN check and the existing read does not, so this is the better read."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10023K
+      title: NDWiki - ND-10023K
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10023-k-d1-3ee862f4
+  syncStatus: pending

@@ -1,0 +1,125 @@
+id: nd-210691-c02-d2-24eaeaae
+volumeName: 210691C02-EN-02D
+md5: 24eaeaaecfd97c603c0e359b9d5f3d31
+product:
+  id: ND-210691
+  version: C02
+  diskNumber: 2
+  language: EN
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 467
+  files:
+    - name: DS-DSSEG-C02:BPUN
+      type: BPUN
+      pages: 57
+      bytes: 115545
+      userName: FLOPPY-USER
+      dateCreated: 2521990116
+      lastDateRead: null
+      lastDateWritten: 2521990121
+      dateCreatedStr: 1987-09-09 08:15:36
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:15:41
+      bpunValid: true
+    - name: DS-DDSEG-C02:BPUN
+      type: BPUN
+      pages: 63
+      bytes: 128939
+      userName: FLOPPY-USER
+      dateCreated: 2521990154
+      lastDateRead: null
+      lastDateWritten: 2521990155
+      dateCreatedStr: 1987-09-09 08:16:10
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:16:11
+      bpunValid: true
+    - name: DS-TRANS-EN-C02:PROG
+      type: PROG
+      pages: 25
+      bytes: 264192
+      userName: FLOPPY-USER
+      dateCreated: 2521990196
+      lastDateRead: null
+      lastDateWritten: 2521990197
+      dateCreatedStr: 1987-09-09 08:16:52
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:16:53
+      bpunValid: null
+    - name: DS-BSSEG-C02:BPUN
+      type: BPUN
+      pages: 57
+      bytes: 114689
+      userName: FLOPPY-USER
+      dateCreated: 2521990221
+      lastDateRead: null
+      lastDateWritten: 2521990222
+      dateCreatedStr: 1987-09-09 08:17:13
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:17:14
+      bpunValid: true
+    - name: DS-BDSEG-C02:BPUN
+      type: BPUN
+      pages: 42
+      bytes: 85239
+      userName: FLOPPY-USER
+      dateCreated: 2521990274
+      lastDateRead: null
+      lastDateWritten: 2521990275
+      dateCreatedStr: 1987-09-09 08:18:02
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:18:03
+      bpunValid: true
+    - name: DS-SERVICE-C02:PROG
+      type: PROG
+      pages: 128
+      bytes: 262144
+      userName: FLOPPY-USER
+      dateCreated: 2521990315
+      lastDateRead: null
+      lastDateWritten: 2521990316
+      dateCreatedStr: 1987-09-09 08:18:43
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:18:44
+      bpunValid: null
+    - name: DS-BACKUP-EN-C02:PROG
+      type: PROG
+      pages: 87
+      bytes: 399360
+      userName: FLOPPY-USER
+      dateCreated: 2521990475
+      lastDateRead: null
+      lastDateWritten: 2521990477
+      dateCreatedStr: 1987-09-09 08:21:11
+      lastDateReadStr: null
+      lastDateWrittenStr: 1987-09-09 08:21:13
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/210691C02-EN-02D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.269Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210691C
+      title: NDWiki - ND-210691C
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210691-c02-d2-24eaeaae
+  syncStatus: pending

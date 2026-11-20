@@ -1,0 +1,8 @@
+id: ND-220046
+name: SINTRAN III/VSX-500 (standard system D)
+categories:
+  - os
+platform:
+  - "500"
+related:
+  - ND-211024

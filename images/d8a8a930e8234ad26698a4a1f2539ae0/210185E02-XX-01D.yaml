@@ -1,0 +1,197 @@
+id: nd-210185-e02-d1-d8a8a930
+volumeName: 210185E02-XX-01D
+md5: d8a8a930e8234ad26698a4a1f2539ae0
+product:
+  id: ND-210185
+  version: E02
+  diskNumber: 1
+  language: XX
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 595
+  files:
+    - name: INST-ACC-100-E02:PROG
+      type: PROG
+      pages: 65
+      bytes: 189940
+      userName: FLOPPY-USER
+      dateCreated: 2461450435
+      lastDateRead: 2467742597
+      lastDateWritten: 2467742597
+      dateCreatedStr: 1986-10-27 12:03:03
+      lastDateReadStr: 1986-12-11 12:14:05
+      lastDateWrittenStr: 1986-12-11 12:14:05
+      bpunValid: null
+    - name: DDBTABLES-E-E04:VTM
+      type: VTM
+      pages: 11
+      bytes: 20756
+      userName: FLOPPY-USER
+      dateCreated: 2461450478
+      lastDateRead: null
+      lastDateWritten: 2461450479
+      dateCreatedStr: 1986-10-27 12:03:46
+      lastDateReadStr: null
+      lastDateWrittenStr: 1986-10-27 12:03:47
+      bpunValid: null
+    - name: ACC-DDI-STOP-E02:PROG
+      type: PROG
+      pages: 4
+      bytes: 8192
+      userName: FLOPPY-USER
+      dateCreated: 2461450489
+      lastDateRead: 2467726146
+      lastDateWritten: 2461450490
+      dateCreatedStr: 1986-10-27 12:03:57
+      lastDateReadStr: 1986-12-11 08:13:02
+      lastDateWrittenStr: 1986-10-27 12:03:58
+      bpunValid: null
+    - name: ACC-SIB-PROH-100:MODE
+      type: MODE
+      pages: 1
+      bytes: 191
+      userName: FLOPPY-USER
+      dateCreated: 2461450500
+      lastDateRead: 2467726159
+      lastDateWritten: 2461450502
+      dateCreatedStr: 1986-10-27 12:04:04
+      lastDateReadStr: 1986-12-11 08:13:15
+      lastDateWrittenStr: 1986-10-27 12:04:06
+      bpunValid: null
+    - name: ACC-SIB-PERM-100:MODE
+      type: MODE
+      pages: 1
+      bytes: 184
+      userName: FLOPPY-USER
+      dateCreated: 2461450505
+      lastDateRead: 2467726153
+      lastDateWritten: 2461450506
+      dateCreatedStr: 1986-10-27 12:04:09
+      lastDateReadStr: 1986-12-11 08:13:09
+      lastDateWrittenStr: 1986-10-27 12:04:10
+      bpunValid: null
+    - name: ACCESS-0-E02:PROG
+      type: PROG
+      pages: 61
+      bytes: 151552
+      userName: FLOPPY-USER
+      dateCreated: 2461450513
+      lastDateRead: 2467726166
+      lastDateWritten: 2466949307
+      dateCreatedStr: 1986-10-27 12:04:17
+      lastDateReadStr: 1986-12-11 08:13:22
+      lastDateWrittenStr: 1986-12-05 10:34:59
+      bpunValid: null
+    - name: ACCESS-1-E02:PROG
+      type: PROG
+      pages: 71
+      bytes: 174080
+      userName: FLOPPY-USER
+      dateCreated: 2461450565
+      lastDateRead: 2467726184
+      lastDateWritten: 2466949173
+      dateCreatedStr: 1986-10-27 12:05:05
+      lastDateReadStr: 1986-12-11 08:13:40
+      lastDateWrittenStr: 1986-12-05 10:32:53
+      bpunValid: null
+    - name: ACCESS-2-E02:PROG
+      type: PROG
+      pages: 57
+      bytes: 149504
+      userName: FLOPPY-USER
+      dateCreated: 2461450633
+      lastDateRead: 2467726208
+      lastDateWritten: 2466949193
+      dateCreatedStr: 1986-10-27 12:06:09
+      lastDateReadStr: 1986-12-11 08:14:00
+      lastDateWrittenStr: 1986-12-05 10:33:09
+      bpunValid: null
+    - name: ACCESS-3-E02:PROG
+      type: PROG
+      pages: 68
+      bytes: 149504
+      userName: FLOPPY-USER
+      dateCreated: 2461450699
+      lastDateRead: 2467726226
+      lastDateWritten: 2466949207
+      dateCreatedStr: 1986-10-27 12:07:11
+      lastDateReadStr: 1986-12-11 08:14:18
+      lastDateWrittenStr: 1986-12-05 10:33:23
+      bpunValid: null
+    - name: ACCESS-4-E02:PROG
+      type: PROG
+      pages: 68
+      bytes: 178176
+      userName: FLOPPY-USER
+      dateCreated: 2461450786
+      lastDateRead: 2467726246
+      lastDateWritten: 2466949225
+      dateCreatedStr: 1986-10-27 12:08:34
+      lastDateReadStr: 1986-12-11 08:14:38
+      lastDateWrittenStr: 1986-12-05 10:33:41
+      bpunValid: null
+    - name: ACCESS-5-E02:PROG
+      type: PROG
+      pages: 51
+      bytes: 151552
+      userName: FLOPPY-USER
+      dateCreated: 2461450888
+      lastDateRead: 2467726266
+      lastDateWritten: 2466949260
+      dateCreatedStr: 1986-10-27 12:10:08
+      lastDateReadStr: 1986-12-11 08:14:58
+      lastDateWrittenStr: 1986-12-05 10:34:12
+      bpunValid: null
+    - name: ACCESS-DDI-E02:PROG
+      type: PROG
+      pages: 58
+      bytes: 118784
+      userName: FLOPPY-USER
+      dateCreated: 2461450974
+      lastDateRead: 2467726287
+      lastDateWritten: 2461450975
+      dateCreatedStr: 1986-10-27 12:11:30
+      lastDateReadStr: 1986-12-11 08:15:15
+      lastDateWrittenStr: 1986-10-27 12:11:31
+      bpunValid: null
+    - name: ISAM-SERVICE-I00:PROG
+      type: PROG
+      pages: 65
+      bytes: 133120
+      userName: FLOPPY-USER
+      dateCreated: 2461451060
+      lastDateRead: null
+      lastDateWritten: 2461451061
+      dateCreatedStr: 1986-10-27 12:12:52
+      lastDateReadStr: null
+      lastDateWrittenStr: 1986-10-27 12:12:53
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/210185E02-XX-01D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.113Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210185E
+      title: NDWiki - ND-210185E
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210185-e02-d1-d8a8a930
+  syncStatus: pending

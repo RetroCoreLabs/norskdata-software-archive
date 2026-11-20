@@ -1,0 +1,150 @@
+id: nd-210166-f02-d1-0e334415
+volumeName: 210166F02-XX-01D
+md5: 0e334415f81dc6b1121776bc4cbf55bb
+product:
+  id: ND-210166
+  version: F02
+  diskNumber: 1
+  language: XX
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 595
+  files:
+    - name: INST-SIB-100-F02:PROG
+      type: PROG
+      pages: 62
+      bytes: 184382
+      userName: FLOPPY-USER
+      dateCreated: 2445866067
+      lastDateRead: 2464716702
+      lastDateWritten: 2463687385
+      dateCreatedStr: 1986-07-04 15:17:19
+      lastDateReadStr: 1986-11-20 09:30:30
+      lastDateWrittenStr: 1986-11-12 14:11:25
+      bpunValid: null
+    - name: SIB2-PROG-F02:MODE
+      type: MODE
+      pages: 1
+      bytes: 414
+      userName: FLOPPY-USER
+      dateCreated: 2445866112
+      lastDateRead: 2464716872
+      lastDateWritten: 2464596786
+      dateCreatedStr: 1986-07-04 15:18:00
+      lastDateReadStr: 1986-11-20 09:33:08
+      lastDateWrittenStr: 1986-11-19 12:12:50
+      bpunValid: null
+    - name: SIB2-DATA-F02:MODE
+      type: MODE
+      pages: 14
+      bytes: 26724
+      userName: FLOPPY-USER
+      dateCreated: 2445866117
+      lastDateRead: 2464716886
+      lastDateWritten: 2463682873
+      dateCreatedStr: 1986-07-04 15:18:05
+      lastDateReadStr: 1986-11-20 09:33:22
+      lastDateWrittenStr: 1986-11-12 13:04:57
+      bpunValid: null
+    - name: SIB2-DML-100-F02:OUT
+      type: OUT
+      pages: 4
+      bytes: 7938
+      userName: FLOPPY-USER
+      dateCreated: 2445866130
+      lastDateRead: 2464716903
+      lastDateWritten: 2464596709
+      dateCreatedStr: 1986-07-04 15:18:18
+      lastDateReadStr: 1986-11-20 09:33:39
+      lastDateWrittenStr: 1986-11-19 12:11:37
+      bpunValid: null
+    - name: SIB2-PROG-F02:BPUN
+      type: BPUN
+      pages: 65
+      bytes: 130999
+      userName: FLOPPY-USER
+      dateCreated: 2445866138
+      lastDateRead: 2464716918
+      lastDateWritten: 2464596631
+      dateCreatedStr: 1986-07-04 15:18:26
+      lastDateReadStr: 1986-11-20 09:33:54
+      lastDateWrittenStr: 1986-11-19 12:10:23
+      bpunValid: true
+    - name: SIB2-DATA-F02:BPUN
+      type: BPUN
+      pages: 61
+      bytes: 115887
+      userName: FLOPPY-USER
+      dateCreated: 2445866192
+      lastDateRead: 2464716947
+      lastDateWritten: 2464596597
+      dateCreatedStr: 1986-07-04 15:19:16
+      lastDateReadStr: 1986-11-20 09:34:19
+      lastDateWrittenStr: 1986-11-19 12:09:53
+      bpunValid: true
+    - name: SIB2-DBM-100-F02:PROG
+      type: PROG
+      pages: 112
+      bytes: 264192
+      userName: FLOPPY-USER
+      dateCreated: 2445866254
+      lastDateRead: 2464716961
+      lastDateWritten: 2465255521
+      dateCreatedStr: 1986-07-04 15:20:14
+      lastDateReadStr: 1986-11-20 09:34:33
+      lastDateWrittenStr: 1986-11-24 13:01:33
+      bpunValid: null
+    - name: SIB2-DRL-100-F02:PROG
+      type: PROG
+      pages: 196
+      bytes: 729088
+      userName: FLOPPY-USER
+      dateCreated: 2464334195
+      lastDateRead: 2464716972
+      lastDateWritten: 2464334196
+      dateCreatedStr: 1986-11-17 12:05:51
+      lastDateReadStr: 1986-11-20 09:34:44
+      lastDateWrittenStr: 1986-11-17 12:05:52
+      bpunValid: null
+    - name: SIB2-LOOKLOG-F00:PROG
+      type: PROG
+      pages: 70
+      bytes: 92160
+      userName: FLOPPY-USER
+      dateCreated: 2445866694
+      lastDateRead: 2464716981
+      lastDateWritten: 2445866695
+      dateCreatedStr: 1986-07-04 15:27:06
+      lastDateReadStr: 1986-11-20 09:34:53
+      lastDateWrittenStr: 1986-07-04 15:27:07
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import2/210166F02-XX-01D.img
+  dateImaged: 2026-11-19
+  importedAt: 2026-11-19T09:33:57.129Z
+  notes: "NDWiki read of the same disk as nd-210166-f02-d1-83d470b4 (210166F02-XX-01D), kept as an extra version. Compared 2026-11-19 with the existing read: 32769 bytes differ (pages 509,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527). BPUN checksum, files ok/bad: this read 2/0, existing read 2/0. Both reads pass every BPUN check, so the checksum cannot say which read is better."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210166F
+      title: NDWiki - ND-210166F
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210166-f02-d1-0e334415
+  syncStatus: pending

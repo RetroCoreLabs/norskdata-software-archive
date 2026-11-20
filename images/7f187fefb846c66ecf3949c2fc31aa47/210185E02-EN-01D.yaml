@@ -1,0 +1,89 @@
+id: nd-210185-e02-d1-7f187fef
+volumeName: 210185E02-EN-01D
+md5: 7f187fefb846c66ecf3949c2fc31aa47
+product:
+  id: ND-210185
+  version: E02
+  diskNumber: 1
+  language: EN
+image:
+  sizeBytes: 1261568
+  format: raw
+  controller: floppy
+  totalPages: 616
+  pageSize: 2048
+  bootFormat: none
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 167
+  files:
+    - name: ACC-PATCHER-E02:PROG
+      type: PROG
+      pages: 7
+      bytes: 14336
+      userName: FLOPPY-USER
+      dateCreated: 2460556747
+      lastDateRead: null
+      lastDateWritten: 2460556752
+      dateCreatedStr: 1986-10-20 17:55:11
+      lastDateReadStr: null
+      lastDateWrittenStr: 1986-10-20 17:55:16
+      bpunValid: null
+    - name: ACCESS-EN-E02:HELP
+      type: HELP
+      pages: 67
+      bytes: 135536
+      userName: FLOPPY-USER
+      dateCreated: 2460556757
+      lastDateRead: 2464625269
+      lastDateWritten: 2460556758
+      dateCreatedStr: 1986-10-20 17:55:21
+      lastDateReadStr: 1986-11-19 19:09:53
+      lastDateWrittenStr: 1986-10-20 17:55:22
+      bpunValid: null
+    - name: DBA-EN-E02:HELP
+      type: HELP
+      pages: 23
+      bytes: 44724
+      userName: FLOPPY-USER
+      dateCreated: 2460556800
+      lastDateRead: 2464625290
+      lastDateWritten: 2460556801
+      dateCreatedStr: 1986-10-20 17:56:00
+      lastDateReadStr: 1986-11-19 19:10:10
+      lastDateWrittenStr: 1986-10-20 17:56:01
+      bpunValid: null
+    - name: UE-ERMSG-EN-B04:ERR
+      type: ERR
+      pages: 65
+      bytes: 131840
+      userName: FLOPPY-USER
+      dateCreated: 2460556817
+      lastDateRead: null
+      lastDateWritten: 2460556818
+      dateCreatedStr: 1986-10-20 17:56:17
+      lastDateReadStr: null
+      lastDateWrittenStr: 1986-10-20 17:56:18
+      bpunValid: null
+provenance:
+  contributor: ndwiki
+  originalPath: import/210185E02-EN-01D.img
+  dateImaged: 2026-11-17
+  importedAt: 2026-11-17T23:00:02.072Z
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-210185E
+      title: NDWiki - ND-210185E
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-210185-e02-d1-7f187fef
+  syncStatus: pending

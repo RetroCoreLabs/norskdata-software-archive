@@ -1,0 +1,137 @@
+id: nd-10044-q-d1-db393961
+volumeName: ND-10044Q
+md5: db393961d715767f06cd71f67afea594
+product:
+  id: ND-10044
+  version: Q
+image:
+  sizeBytes: 315392
+  format: raw
+  controller: floppy
+  totalPages: 154
+  pageSize: 2048
+  bootFormat: bpun
+  bootProgram: flomon
+filesystem: ndfs
+ndfs:
+  users:
+    - name: FLOPPY-USER
+      pagesUsed: 136
+  files:
+    - name: FMAC-1408C:BPUN
+      type: BPUN
+      pages: 15
+      bytes: 29102
+      userName: FLOPPY-USER
+      dateCreated: 1816584693
+      lastDateRead: 2133630401
+      lastDateWritten: 1903995278
+      dateCreatedStr: 1977-01-03 14:07:53
+      lastDateReadStr: 1981-12-22 09:55:01
+      lastDateWrittenStr: 1978-05-30 10:38:14
+      bpunValid: true
+    - name: MAC-1415C:BPUN
+      type: BPUN
+      pages: 14
+      bytes: 28389
+      userName: FLOPPY-USER
+      dateCreated: 1816586163
+      lastDateRead: 2133630411
+      lastDateWritten: 1903994989
+      dateCreatedStr: 1977-01-03 14:30:51
+      lastDateReadStr: 1981-12-22 09:55:11
+      lastDateWrittenStr: 1978-05-30 10:33:45
+      bpunValid: true
+    - name: QED-1644L:BPUN
+      type: BPUN
+      pages: 9
+      bytes: 17520
+      userName: FLOPPY-USER
+      dateCreated: 1849481556
+      lastDateRead: 2133630421
+      lastDateWritten: 2052234278
+      dateCreatedStr: 1977-08-30 13:37:20
+      lastDateReadStr: 1981-12-22 09:55:21
+      lastDateWrittenStr: 1980-09-09 09:48:38
+      bpunValid: true
+    - name: FIL-EXTR-2221B:BPUN
+      type: BPUN
+      pages: 19
+      bytes: 38029
+      userName: FLOPPY-USER
+      dateCreated: 1932062193
+      lastDateRead: 2133630429
+      lastDateWritten: 1932062194
+      dateCreatedStr: 1978-12-20 14:55:49
+      lastDateReadStr: 1981-12-22 09:55:29
+      lastDateWrittenStr: 1978-12-20 14:55:50
+      bpunValid: true
+    - name: BRF-EDITOR-1858E:BPUN
+      type: BPUN
+      pages: 9
+      bytes: 16746
+      userName: FLOPPY-USER
+      dateCreated: 2110187981
+      lastDateRead: 2133630442
+      lastDateWritten: 2110191608
+      dateCreatedStr: 1981-07-03 14:39:13
+      lastDateReadStr: 1981-12-22 09:55:42
+      lastDateWrittenStr: 1981-07-03 15:31:56
+      bpunValid: true
+    - name: LOOK-FILE-2244D:BPUN
+      type: BPUN
+      pages: 21
+      bytes: 41377
+      userName: FLOPPY-USER
+      dateCreated: 1932187642
+      lastDateRead: 2133630450
+      lastDateWritten: 2053160242
+      dateCreatedStr: 1978-12-21 13:31:58
+      lastDateReadStr: 1981-12-22 09:55:50
+      lastDateWrittenStr: 1980-09-16 11:52:50
+      bpunValid: true
+    - name: NPL-1896D:BPUN
+      type: BPUN
+      pages: 31
+      bytes: 62288
+      userName: FLOPPY-USER
+      dateCreated: 1788412195
+      lastDateRead: 2133630467
+      lastDateWritten: 2029582960
+      dateCreatedStr: 1976-10-12 16:04:35
+      lastDateReadStr: 1981-12-22 09:56:03
+      lastDateWrittenStr: 1980-03-28 15:41:48
+      bpunValid: true
+    - name: NRL-1935H:BPUN
+      type: BPUN
+      pages: 9
+      bytes: 17636
+      userName: FLOPPY-USER
+      dateCreated: 1793259119
+      lastDateRead: 2133630484
+      lastDateWritten: 2108484801
+      dateCreatedStr: 1976-11-17 15:25:47
+      lastDateReadStr: 1981-12-22 09:56:20
+      lastDateWrittenStr: 1981-06-22 14:51:01
+      bpunValid: true
+provenance:
+  contributor: ndwiki
+  originalPath: import2/ND-10044Q.img
+  dateImaged: 2026-11-19
+  importedAt: 2026-11-19T09:33:57.255Z
+  notes: "NDWiki read of the same disk as nd-10044-q-d1-ca13d33b (ND-10044Q), kept as an extra version. Compared 2026-11-19 with the existing read: 59 bytes differ (pages 151,153). BPUN checksum, files ok/bad: this read 8/0, existing read 8/0. Both reads pass every BPUN check, so the checksum cannot say which read is better."
+photos:
+  disk: []
+  set: []
+tags: []
+docs:
+  piDocId: null
+  pdDocId: null
+  relatedDocIds: []
+  externalUrls:
+    - url: https://www.ndwiki.org/wiki/ND-10044Q
+      title: NDWiki - ND-10044Q
+storageClass: floppy-in-git
+internetArchive:
+  itemId: norskdata-floppy-nd-10044-q-d1-db393961
+  syncStatus: pending
